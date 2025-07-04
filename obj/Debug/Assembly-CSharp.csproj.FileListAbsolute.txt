@@ -1,0 +1,2 @@
+C:\Users\vantan\Desktop\Unity\Mystery Dungeon\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\vantan\Desktop\Unity\Mystery Dungeon\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

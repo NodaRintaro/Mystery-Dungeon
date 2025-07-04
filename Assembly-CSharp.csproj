@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
+    <Compile Include="Assets\AssetStoreTools\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
-    <Compile Include="Assets\Script\MapCreate\MapManager.cs" />
+    <Compile Include="Assets\Script\Dungeon\DungeonManager.cs" />
     <Compile Include="Assets\Script\Editer\RoomDataEditer.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Script\Dungeon\MapGenerater.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Script\MapCreate\DungeonManager.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\WheelController.cs" />
     <Compile Include="Assets\Script\Editer\RoomMakingWindow.cs" />
     <Compile Include="Assets\Script\Editer\RoomData.cs" />
