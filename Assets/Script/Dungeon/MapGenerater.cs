@@ -144,6 +144,7 @@ public class MapGenerater
             {
                 //一番大きいエリアの分割
                 AreaDivide(widestArea);
+                
             }
             else
             {
