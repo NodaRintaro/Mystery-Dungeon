@@ -20,8 +20,9 @@ public class RoomMakingWindow : EditorWindow
     //Gridの表示サイズの最低値と最高値
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
-    
-	private string _saveFolderPath = "Assets/Data/RoomData";
+
+    private const string _mustSavePath = "Assets/Resources/RoomData/";
+	private string _saveFolderPath = "DefaultRooms";
     private string _roomName = "NewRoom";
     
     private bool _isInit = false;
@@ -133,9 +134,9 @@ public class RoomMakingWindow : EditorWindow
     /// <summary>部屋のデータを保存</summary>
     private void SaveRoomData()
     {
-        if (!Directory.Exists(_saveFolderPath))
+        if (!Directory.Exists(_mustSavePath + _saveFolderPath))
         {
-            Directory.CreateDirectory(_saveFolderPath);
+            Directory.CreateDirectory(_mustSavePath + _saveFolderPath);
         }
         RoomData newRoomData = ScriptableObject.CreateInstance<RoomData>();
         
@@ -146,7 +147,7 @@ public class RoomMakingWindow : EditorWindow
         newRoomData.InitRoomData(_gridRoomData);
         
         // 保存パスの指定
-        string assetPath = $"{_saveFolderPath}/RoomData_{_roomName + System.DateTime.Now.Ticks}.asset";
+        string assetPath = $"{_mustSavePath + _saveFolderPath}/RoomData_{_roomName + System.DateTime.Now.Ticks}.asset";
         
         AssetDatabase.CreateAsset(newRoomData, assetPath);
         AssetDatabase.SaveAssets();

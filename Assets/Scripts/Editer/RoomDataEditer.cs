@@ -4,10 +4,14 @@ using UnityEditor;
 [CustomEditor(typeof(RoomData))]
 public class RoomDataEditer : Editor
 {
+    //スクロールしている場所の位置
     private Vector2 scrollPos;
     private int _scrollHeight = 500;
     
+    //空白の大きさ
     private int _spaceSize = 10;
+    
+    //表示するグリッドの大きさ
     private int _displayGridSize = 25;
     
     //Gridの表示サイズの最低値と最高値
@@ -72,7 +76,7 @@ public class RoomDataEditer : Editor
         }
     }
     
-    /// <summary>clickされた際にTileTypeを変える機能</summary>
+    /// <summary>clickされた際にTileTypeを変える処理</summary>
     private TileType ChangeTileType(TileType type)
     {
         int next = ((int)type + 1) % System.Enum.GetValues(typeof(TileType)).Length;
