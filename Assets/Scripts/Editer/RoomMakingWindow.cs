@@ -1,7 +1,8 @@
-using UnityEditor;
-using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor;
+using UnityEditor.AddressableAssets;
+using UnityEngine;
 
 [System.Serializable]
 public class RoomMakingWindow : EditorWindow
@@ -21,7 +22,7 @@ public class RoomMakingWindow : EditorWindow
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
 
-    private const string _mustSavePath = "Assets/Resources/RoomData/";
+    private const string _mustSavePath = "Assets/Resources_moved/RoomData/";
 	private string _saveFolderPath = "DefaultRooms";
     private string _roomName = "NewRoom";
     
@@ -139,7 +140,7 @@ public class RoomMakingWindow : EditorWindow
             Directory.CreateDirectory(_mustSavePath + _saveFolderPath);
         }
         RoomData newRoomData = ScriptableObject.CreateInstance<RoomData>();
-        
+
         //Dataを保存
         newRoomData.name = _roomName;
         newRoomData.SetHeight(_height);

@@ -8,7 +8,7 @@ public class DungeonManager : MonoBehaviour
     [SerializeField,Header("生成するダンジョンの1マスの大きさ")] private int _gridSize = 2;
     
     /// <summary> 生成したマップデータのクラス変数 </summary>
-    [SerializeField,Header("生成したマップデータのクラス変数")] private MapData _mapData = null;
+    [SerializeField,Header("生成したマップデータのクラス変数")] private static MapData _mapData = null;
     
     [Header("ダンジョンの大きさ")]
     /// <summary> 生成するダンジョンの横の大きさ </summary>
@@ -28,10 +28,10 @@ public class DungeonManager : MonoBehaviour
     /// <summary> Tileの保存先のPath </summary>
     [SerializeField,Header("Tileの保存先のPath")] private string _dungeonTypePath = "MapTile/Default";
     
-    private MapGenerater _mapGenerater;
+    [SerializeField] private MapGenerater _mapGenerater;
     
     /// <summary> マップデータのプロパティ </summary>
-    public MapData MapData => _mapData;
+    public static MapData MapData => _mapData;
 
     private void Awake()
     {
@@ -43,35 +43,34 @@ public class DungeonManager : MonoBehaviour
         _mapObject = new GameObject("MapTiles");
         
         await DungeonGenerate();
-        
-        
     }
 
     public async UniTask DungeonGenerate()
     {
         _mapData = await _mapGenerater.InitMap(_dungeonLengthX, _dungeonLengthY, _divideNum, _generateRoomPath);
         
-        MapInstantiate(_mapData, _dungeonTypePath);
+        await MapInstantiate(_mapData, _dungeonTypePath);
     }
     
     /// <summary> マップのデータを元にダンジョンを生成する処理 </summary>
-    private void MapInstantiate(MapData mapData, string tilePath)
+    private async UniTask MapInstantiate(MapData mapData, string tilePath)
     {
-        TileType tile;
-        
+        GameObject walkableTile = await TileResourceLoad(tilePath + "/Walkable");
+        GameObject unWalkableTile = await TileResourceLoad(tilePath + "/UnWalkable");
+
         for (var tileCount = 0; tileCount < mapData.GridMapData.Length; tileCount++)
         {
-            tile = mapData.GridMapData[tileCount];
-            switch (tile)
+            switch (mapData.GridMapData[tileCount])
             {
                 case TileType.Walkable:
-                    TileInstantiate(tileCount, _dungeonLengthX, Resources.Load<GameObject>(tilePath + "/Walkable"));
+                    TileInstantiate(tileCount, _dungeonLengthX, walkableTile);
                     break;
                 case TileType.UnWalkable:
-                    TileInstantiate(tileCount, _dungeonLengthX, Resources.Load<GameObject>(tilePath + "/UnWalkable"));
+                    TileInstantiate(tileCount, _dungeonLengthX, unWalkableTile);
                     break;
                 default:
-                    Debug.Log("タイルが設定されていません");
+                    mapData.GridMapData[tileCount] = TileType.UnWalkable;
+                    //TileInstantiate(tileCount, _dungeonLengthX, unWalkableTile);
                     break;
             }
         }
@@ -93,5 +92,15 @@ public class DungeonManager : MonoBehaviour
         }
         GameObject tileObj = Instantiate(tile, new Vector3(xPos * _gridSize, 0, yPos * _gridSize), Quaternion.identity);
         tileObj.transform.SetParent(_mapObject.transform);
+    }
+
+    /// <summary>
+    /// Mapのオブジェクトをロードする
+    /// </summary>
+    /// <param name="filePath"></param>
+    /// <returns></returns>
+    private async UniTask<GameObject> TileResourceLoad(string filePath)
+    {
+        return Resources.Load<GameObject>(filePath);
     }
 }

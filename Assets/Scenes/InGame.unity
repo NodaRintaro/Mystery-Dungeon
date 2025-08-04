@@ -424,9 +424,13 @@ MonoBehaviour:
   _gridSize: 2
   _dungeonLengthX: 50
   _dungeonLengthY: 50
+  _mapObject: {fileID: 0}
   _divideNum: 6
-  _generateRoomPath: DefaultRooms
+  _generateRoomPath: defaultRoom
   _dungeonTypePath: MapTile/Default
+  _mapGenerater:
+    _maxRoomLinkLoadNum: 4
+    _areaDataList: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
