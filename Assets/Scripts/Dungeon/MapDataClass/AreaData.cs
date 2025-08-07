@@ -16,7 +16,9 @@ public class AreaData
     [SerializeField] private Vector2Int _roomRightBottomPos;
     
     [SerializeField, Header("生成された部屋のデータ")] 
-    private RoomData _roomData; 
+    private RoomData _roomData;
+    
+    private bool _isConnectOtherArea = false;
     
     public Vector2Int AreaTopLeftPos => _leftTopPos;
     public Vector2Int AreaBottomLeftPos => _leftBottomPos;
@@ -55,5 +57,10 @@ public class AreaData
         _roomRightTopPos = rightTopPos;
         _roomRightBottomPos = rightBottomPos;
         _roomData = roomData;
+    }
+
+    public void ConnectOtherArea()
+    {
+        _isConnectOtherArea = true;
     }
 }

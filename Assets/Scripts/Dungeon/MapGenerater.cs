@@ -69,10 +69,10 @@ public class MapGenerater
         _minAreaSizeY = _minRoomData.Height + _areaBorderSpace;
         
         //Mapの外側2マスをあけてエリアを分割していく
-        Vector2Int firstAreaTopLeftPos = new Vector2Int(_areaBorderSpace, _areaBorderSpace);
-        Vector2Int firstAreaTopRightPos = new Vector2Int(width - _areaBorderSpace, _areaBorderSpace);
-        Vector2Int firstAreaBottomLeftPos = new Vector2Int(_areaBorderSpace, height - _areaBorderSpace);
-        Vector2Int firstAreaBottomRightPos = new Vector2Int(width - _areaBorderSpace, height - _areaBorderSpace);
+        Vector2Int firstAreaTopLeftPos = new Vector2Int(_areaBorderSpace, height - _areaBorderSpace);
+        Vector2Int firstAreaTopRightPos = new Vector2Int(width - _areaBorderSpace, height - _areaBorderSpace);
+        Vector2Int firstAreaBottomLeftPos = new Vector2Int(_areaBorderSpace, _areaBorderSpace);
+        Vector2Int firstAreaBottomRightPos = new Vector2Int(width - _areaBorderSpace, _areaBorderSpace);
         
         _areaDataList.Add(firstArea);
         firstArea.SetAreaPos(firstAreaTopLeftPos, firstAreaTopRightPos, firstAreaBottomLeftPos, firstAreaBottomRightPos);
@@ -85,10 +85,6 @@ public class MapGenerater
             BuildRoom();
 
             ConnectArea();
-        }
-        else
-        {
-            BuildRoom();
         }
         
         return _newMapData;
@@ -127,61 +123,56 @@ public class MapGenerater
     /// <param name="divideArea">分割するエリア</param>
     private void AreaDivide(MapData mapData, AreaData divideArea)
     {
-        //エリアを保存する際に分割線から1マスずらす
+        //エリアを保存する際に新しく作った分割線から1マスずらす
         const int shiftDivideLineSpace = 1;
         int randomDividePos;
         AreaData newArea = new AreaData();
         
         //エリアの長さ
-        int areaLengthX = divideArea.AreaBottomRightPos.x - divideArea.AreaTopLeftPos.x;
-        int areaLengthY = divideArea.AreaBottomRightPos.y - divideArea.AreaTopLeftPos.y;
+        int areaLengthX = divideArea.AreaBottomRightPos.x - divideArea.AreaBottomLeftPos.x;
+        int areaLengthY = divideArea.AreaTopLeftPos.y - divideArea.AreaBottomLeftPos.y;
 
         //エリアが横に大きければ縦に分割
         if (areaLengthX >= areaLengthY)
         {
-            randomDividePos = 
-                UnityEngine.Random.Range(divideArea.AreaTopLeftPos.x + _minAreaSizeX,
-                    divideArea.AreaBottomRightPos.x - _minAreaSizeX);
-
-            //分割したエリアの左半分を保存
-            newArea.SetAreaPos(
-                divideArea.AreaTopLeftPos,
-                new Vector2Int(randomDividePos - shiftDivideLineSpace, divideArea.AreaTopLeftPos.y),
-                divideArea.AreaBottomLeftPos,
-                new Vector2Int(randomDividePos - shiftDivideLineSpace, divideArea.AreaBottomLeftPos.y)
-                );
-
-            //分割したエリアの右半分を保存
-            divideArea.SetAreaPos(
-                new Vector2Int(randomDividePos + shiftDivideLineSpace, divideArea.AreaTopRightPos.y),
-                divideArea.AreaTopRightPos,
-                new Vector2Int(randomDividePos + shiftDivideLineSpace, divideArea.AreaBottomRightPos.y),
-                divideArea.AreaBottomRightPos
-                );
+            int randomDivideMinPosX = divideArea.AreaBottomLeftPos.x + _minAreaSizeX;
+            int randomDivideMaxPosX = divideArea.AreaBottomRightPos.x - _minAreaSizeX;
+            randomDividePos = UnityEngine.Random.Range(randomDivideMinPosX, randomDivideMaxPosX);
             
-            SetMapTiles(TileType.UnWalkable, randomDividePos, randomDividePos, divideArea.AreaTopLeftPos.y, divideArea.AreaBottomRightPos.y);
+            int newTopPosX = randomDividePos - shiftDivideLineSpace;
+            int newBottomPosX = randomDividePos + shiftDivideLineSpace;
+            
+            //分割したエリアの左半分を保存
+            Vector2Int newAreaTopRightPos = new Vector2Int(newTopPosX, divideArea.AreaTopLeftPos.y);
+            Vector2Int newAreaBottomRightPos = new Vector2Int(newTopPosX, divideArea.AreaBottomRightPos.y);
+            newArea.SetAreaPos(divideArea.AreaTopLeftPos, divideArea.AreaBottomLeftPos, newAreaTopRightPos, newAreaBottomRightPos);
+            
+            //分割したエリアの右半分を保存
+            Vector2Int divideAreaTopLeftPos = new Vector2Int(newBottomPosX, divideArea.AreaTopRightPos.y);
+            Vector2Int divideAreaBottomLeftPos = new Vector2Int(newBottomPosX, divideArea.AreaBottomRightPos.y);
+            divideArea.SetAreaPos(divideAreaTopLeftPos, divideAreaBottomLeftPos, divideArea.AreaTopRightPos, divideArea.AreaBottomRightPos);
+            
+            SetMapTiles(TileType.UnWalkable, randomDividePos, randomDividePos, divideArea.AreaTopRightPos.y, divideArea.AreaBottomRightPos.y);
         }
         //エリアが縦に大きければ横に分割
         else
         {
-            randomDividePos = 
-                UnityEngine.Random.Range(divideArea.AreaTopLeftPos.y + _minAreaSizeY,
-                    divideArea.AreaBottomRightPos.y - _minAreaSizeY);
+            int randomDivideMinPosY = divideArea.AreaBottomLeftPos.y + _minAreaSizeY;
+            int randomDivideMaxPosY = divideArea.AreaTopLeftPos.y - _minAreaSizeY;
+            randomDividePos = UnityEngine.Random.Range(randomDivideMinPosY, randomDivideMaxPosY);
+            
+            int newTopPosY = randomDividePos - shiftDivideLineSpace;
+            int newBottomPosY = randomDividePos + shiftDivideLineSpace;
             
             //分割したエリアの下半分を保存
-            newArea.SetAreaPos(
-                new Vector2Int(divideArea.AreaTopLeftPos.x, randomDividePos - shiftDivideLineSpace),
-                new Vector2Int(divideArea.AreaTopRightPos.x, randomDividePos - shiftDivideLineSpace),
-                divideArea.AreaBottomLeftPos,
-                divideArea.AreaBottomRightPos);
+            Vector2Int newAreaTopLeftPos = new Vector2Int(divideArea.AreaTopLeftPos.x, randomDividePos - shiftDivideLineSpace);
+            Vector2Int newAreaTopRightPos = new Vector2Int(divideArea.AreaBottomRightPos.x, randomDividePos - shiftDivideLineSpace);
+            newArea.SetAreaPos(newAreaTopLeftPos, divideArea.AreaBottomLeftPos, newAreaTopRightPos, divideArea.AreaBottomRightPos);
             
             //分割したエリアの上半分を保存
-            divideArea.SetAreaPos(
-                divideArea.AreaTopLeftPos,
-                divideArea.AreaTopRightPos,
-                new Vector2Int(divideArea.AreaBottomLeftPos.x, randomDividePos + shiftDivideLineSpace),
-                new Vector2Int(divideArea.AreaBottomRightPos.x, randomDividePos + shiftDivideLineSpace)
-                );
+            Vector2Int divideAreaBottomLeftPos = new Vector2Int(divideArea.AreaTopLeftPos.x, randomDividePos + shiftDivideLineSpace);
+            Vector2Int divideAreaBottomRightPos = new Vector2Int(divideArea.AreaBottomRightPos.x, randomDividePos + shiftDivideLineSpace);
+            divideArea.SetAreaPos(divideArea.AreaTopLeftPos, divideAreaBottomLeftPos, divideArea.AreaTopRightPos, divideAreaBottomRightPos);
             
             SetMapTiles(TileType.UnWalkable, divideArea.AreaTopLeftPos.x, divideArea.AreaBottomRightPos.x, randomDividePos, randomDividePos);
         }
@@ -193,21 +184,25 @@ public class MapGenerater
     private AreaData SearchWideArea()
     {
         AreaData wideArea = null;
-        int newAreaSize, currentWideAreaSize;
+        int newAreaSize, currentWideAreaSize = 0;
         foreach (AreaData areaData in _areaDataList)
         {
             //Nullなら切り抜け
             if (wideArea == null)
             {
                 wideArea = areaData;
+                currentWideAreaSize = (wideArea.AreaBottomRightPos.x - areaData.AreaBottomLeftPos.x) * (wideArea.AreaTopLeftPos.y - wideArea.AreaBottomLeftPos.y);
                 continue;
             }
             
             //Nullじゃなければエリアの大きさを比較して更新
-            newAreaSize = (areaData.AreaBottomRightPos.x - areaData.AreaTopLeftPos.x) * (areaData.AreaBottomRightPos.y - areaData.AreaTopLeftPos.y);
-            currentWideAreaSize = (wideArea.AreaBottomRightPos.x - wideArea.AreaTopLeftPos.x) * (wideArea.AreaBottomRightPos.y - wideArea.AreaTopLeftPos.y);
+            newAreaSize = (areaData.AreaBottomRightPos.x - areaData.AreaBottomLeftPos.x) * (areaData.AreaTopLeftPos.y - areaData.AreaBottomLeftPos.y);
+
             if (newAreaSize > currentWideAreaSize)
+            {
+                currentWideAreaSize = newAreaSize;
                 wideArea = areaData;
+            }
         }
         
         return wideArea;
@@ -219,8 +214,8 @@ public class MapGenerater
     private bool TryDivideArea(AreaData divideArea)
     {
         //エリアの長さ
-        int areaLengthX = divideArea.AreaBottomRightPos.x - divideArea.AreaTopLeftPos.x;
-        int areaLengthY = divideArea.AreaBottomRightPos.y - divideArea.AreaTopLeftPos.y;
+        int areaLengthX = divideArea.AreaBottomRightPos.x - divideArea.AreaBottomLeftPos.x;
+        int areaLengthY = divideArea.AreaTopLeftPos.y - divideArea.AreaBottomLeftPos.y;
         
         //分割に必要なエリアの大きさ(部屋が二個分と分割線1本分)
         int minDivideAreaSizeX = _minAreaSizeX * 2 + 1;
@@ -255,20 +250,25 @@ public class MapGenerater
         int canBuildSpaceX, canBuildSpaceY;
         RoomData buildRoom = null;
         
+        Debug.Log("エリアの個数" + _areaDataList.Count);
         foreach (AreaData areaData in _areaDataList)
         {
             //部屋を作ることのできるエリアを求める
-            canBuildSpaceX = areaData.AreaBottomRightPos.x - areaData.AreaTopLeftPos.x - _areaBorderSpace;
-            canBuildSpaceY = areaData.AreaBottomRightPos.y - areaData.AreaTopLeftPos.y - _areaBorderSpace;
+            Debug.Log("エリアの長さX" + areaData.AreaBottomRightPos.x + " " + areaData.AreaTopLeftPos.x);
+            canBuildSpaceX = (areaData.AreaBottomRightPos.x - areaData.AreaTopLeftPos.x) - _areaBorderSpace;
+            Debug.Log("エリアの長さY" + areaData.AreaBottomRightPos.y + " " + areaData.AreaTopLeftPos.y);
+            canBuildSpaceY = (areaData.AreaBottomRightPos.y - areaData.AreaTopLeftPos.y) - _areaBorderSpace;
             
             //エリア内に建てることが可能な部屋を取得
             canBuildRoomDataList = new();
             foreach (RoomData roomData in _roomDataList)
             {
+                Debug.Log(canBuildSpaceX + " " + canBuildSpaceY);
                 if(canBuildSpaceX >= roomData.Width && canBuildSpaceY >= roomData.Height)
                     canBuildRoomDataList.Add(roomData);
             }
             
+            Debug.Log(canBuildRoomDataList.Count);
             //取得した部屋からランダムに部屋を選択して生成
             buildRoom = canBuildRoomDataList[UnityEngine.Random.Range(0, canBuildRoomDataList.Count)];
             SetRoom(areaData, buildRoom);
@@ -361,10 +361,10 @@ public class MapGenerater
     }
 
     /// <summary>一定の範囲のタイルを同じタイルで埋める</summary>
-    private void SetMapTiles(TileType putTile, int topPosX, int bottomPosX, int topPosY, int bottomPosY)
+    private void SetMapTiles(TileType putTile, int rightPosX, int leftPosX, int topPosY, int bottomPosY)
     {
-        for (int y = topPosY; y <= bottomPosY; y++)
-            for (int x = topPosX; x <= bottomPosX; x++)
+        for (int y = bottomPosY; y <= topPosY; y++)
+            for (int x = leftPosX; x <= rightPosX; x++)
                 _newMapData.SetTileType(x, y, putTile);
     }
     

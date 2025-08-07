@@ -1,15 +1,13 @@
 using System;
 using UnityEngine;
 
-/// <summary>�}�b�v�̃f�[�^��ۑ�����N���X</summary>
 #region MapDataClass
 [Serializable]
 public class MapData
 {
     private int _width, _height;
-
-    /// <summary>�}�b�v�f�[�^�̔z��A2�����z�񂾂�Serialize�s�\�Ȃ���1�����z��ŕۑ�</summary>
-    private TileType[] _gridMapData;
+    
+    [SerializeField] private TileType[] _gridMapData;
 
     public int Width => _width;
     public int Height => _height;
@@ -21,7 +19,7 @@ public class MapData
         _gridMapData = new TileType[width * height];
         _width = width;
         _height = height;
-        Debug.Log("�z��̒���" + GridMapData.Length);
+        Debug.Log("マップ全体の長さ" + GridMapData.Length);
     }
 
     public void SetTileType(int tilePosX, int tilePosY, TileType tileType)
