@@ -1,7 +1,5 @@
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEditor;
-using UnityEditor.AddressableAssets;
 using UnityEngine;
 
 [System.Serializable]
@@ -22,9 +20,9 @@ public class RoomMakingWindow : EditorWindow
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
 
-    private const string _mustSavePath = "Assets/Resources_moved/RoomData/";
-	private string _saveFolderPath = "DefaultRooms";
-    private string _roomName = "NewRoom";
+    private const string _mustSavePath = "Assets/Resources/RoomData/";
+	private string _saveFolderPath = "DefaultDungeonRoom";
+    private string _buildRoomName = "NewRoom";
     
     private bool _isInit = false;
     
@@ -46,6 +44,8 @@ public class RoomMakingWindow : EditorWindow
             _height = EditorGUILayout.IntField("縦の大きさ:", _height);
             EditorGUILayout.LabelField("保存先のPathを指定");
             _saveFolderPath　= EditorGUILayout.TextField(_saveFolderPath);
+            EditorGUILayout.LabelField("新しく作る部屋の名前");
+            _buildRoomName = EditorGUILayout.TextField(_buildRoomName);
         }
         
         //1行空ける
@@ -79,8 +79,10 @@ public class RoomMakingWindow : EditorWindow
     /// <param name="roomData">部屋のデータクラス</param>
     private void RoomMakeGUI()
     {
-        EditorGUILayout.LabelField("新しく作る部屋の名前");
-        _roomName = EditorGUILayout.DelayedTextField(_roomName);
+        EditorGUILayout.LabelField("新しく作る部屋の名前:" + _buildRoomName);
+
+        EditorGUILayout.Space();
+
         EditorGUILayout.LabelField("現在の部屋の大きさ");
         EditorGUILayout.LabelField("横の長さ:" + _width + "マス");
         EditorGUILayout.LabelField("縦の長さ:" + _height + "マス");
@@ -126,7 +128,7 @@ public class RoomMakingWindow : EditorWindow
         _gridRoomData = new TileType[_width * _height];
         for (int i = 0; i < _width; i++)
         for (int j = 0; j < _height; j++)
-            _gridRoomData[i + _width * j] = TileType.Walkable;
+            _gridRoomData[i + _width * j] = TileType.Ground;
         _isInit = true;
     }
     #endregion
@@ -142,13 +144,13 @@ public class RoomMakingWindow : EditorWindow
         RoomData newRoomData = ScriptableObject.CreateInstance<RoomData>();
 
         //Dataを保存
-        newRoomData.name = _roomName;
+        newRoomData.name = _buildRoomName;
         newRoomData.SetHeight(_height);
         newRoomData.SetWidth(_width);
         newRoomData.InitRoomData(_gridRoomData);
         
         // 保存パスの指定
-        string assetPath = $"{_mustSavePath + _saveFolderPath}/RoomData_{_roomName + System.DateTime.Now.Ticks}.asset";
+        string assetPath = $"{_mustSavePath + _saveFolderPath}/{_buildRoomName + System.DateTime.Now.Ticks}.asset";
         
         AssetDatabase.CreateAsset(newRoomData, assetPath);
         AssetDatabase.SaveAssets();
@@ -175,8 +177,8 @@ public class RoomMakingWindow : EditorWindow
     {
         switch (type)
         {
-            case TileType.Walkable: return Color.green;
-            case TileType.UnWalkable: return Color.black;
+            case TileType.Ground: return Color.green;
+            case TileType.Wall: return Color.black;
             default: return Color.magenta;
         }
     }

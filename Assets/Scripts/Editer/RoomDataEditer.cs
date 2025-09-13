@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(RoomData))]
@@ -17,7 +17,10 @@ public class RoomDataEditer : Editor
     //Gridの表示サイズの最低値と最高値
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
-        
+
+    //追加のColor
+    Color _brown = new Color(0.6f, 0.4f, 0.2f, 1.0f);
+
     public override void OnInspectorGUI()
     {
         scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.Height(_scrollHeight));
@@ -70,8 +73,8 @@ public class RoomDataEditer : Editor
         switch (type)
         {
             case TileType.Empty: return Color.white;
-            case TileType.Walkable: return Color.green;
-            case TileType.UnWalkable: return Color.black;
+            case TileType.Ground: return _brown;
+            case TileType.Wall: return Color.green;
             default: return Color.magenta;
         }
     }

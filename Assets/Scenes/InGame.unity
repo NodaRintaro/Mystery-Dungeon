@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 50, y: 100, z: 50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +377,37 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &582351890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582351891}
+  m_Layer: 0
+  m_Name: TileHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &582351891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582351890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32106507, y: 0.0000012788245, z: -10.727557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2068069522
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,19 +449,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2068069522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cdfe3dab2838334d9cbf040fd579827, type: 3}
+  m_Script: {fileID: 11500000, guid: c2458a8e371311c4db5e597f2563eeec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _gridSize: 2
-  _dungeonLengthX: 50
-  _dungeonLengthY: 50
-  _mapObject: {fileID: 0}
-  _divideNum: 6
-  _generateRoomPath: defaultRoom
-  _dungeonTypePath: MapTile/Default
-  _mapGenerater:
-    _maxRoomLinkLoadNum: 4
-    _areaDataList: []
+  _sectionRange: 12
+  _minRoomNum: 10
+  _maxRoomNum: 20
+  _horizontalSectionsNum: 5
+  _verticalSectionsNum: 5
+  _groundheight: 0
+  _roomDataPath: DefaultDungeonRoom
+  _mapDataPath: Default
+  _dungeonObjectHolder:
+    _tileHolderObj: {fileID: 582351890}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -438,3 +470,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 2068069523}
+  - {fileID: 582351891}
