@@ -107,7 +107,6 @@ public static class DungeonBuilder
 
     private static void BuildLoad(int addLoadNum)
     {
-        bool canConnect = true;
         Vector2Int connectSectionIndex = new Vector2Int(0, 0);
         Vector2Int saveCurrentSectionIndex = connectSectionIndex;
         _dungeonData.SectionDataArray[connectSectionIndex.x, connectSectionIndex.y].IsConnect = true;

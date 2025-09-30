@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/vantan/Desktop/Unity/Mystery Dungeon
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+63935
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/vantan/Desktop/Unity/Mystery Dungeon
+C:/Users/vantan/Desktop/Unity/Mystery Dungeon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10408]  Target information:
+
+Player connection [10408]  * "[IP] 192.168.11.23 [Port] 0 [Flags] 2 [Guid] 4238477118 [EditorId] 4238477118 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NCQE91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10408] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vantan/Desktop/Unity/Mystery Dungeon/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.6635
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003243 seconds.
+- Loaded All Assemblies, in  0.352 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 605ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.615 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 2479ms
+	BeginReloadAssembly (908ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (639ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 276 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6778 unused Assets / (21.6 MB). Loaded Objects now: 7566.
+Memory consumption went from 247.0 MB to 225.4 MB.
+Total: 12.636700 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.474900 ms MarkObjects: 4.201300 ms  DeleteObjects: 7.379700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 450720.003351 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16.png
+  artifactKey: Guid(778f4eaacc2e4664f9412eb36eb3fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16.png using Guid(778f4eaacc2e4664f9412eb36eb3fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd987eb4366ac704cd21d1193fbacbf20') in 0.0735177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/streaked-metal1-preview.png
+  artifactKey: Guid(5ac509b5142782747919ee1cf814026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/streaked-metal1-preview.png using Guid(5ac509b5142782747919ee1cf814026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c364c6fde7e744bcac56764cd7f7166') in 0.0225958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16_d3.png
+  artifactKey: Guid(7171241b731afb94bb9507b241d5ece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16_d3.png using Guid(7171241b731afb94bb9507b241d5ece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae1555d3be1852be720ff4ab2992ad6') in 0.0202913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/skinmatcap_p05.png
+  artifactKey: Guid(6e9a56d30ecfc7e40b45abb05525fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/skinmatcap_p05.png using Guid(6e9a56d30ecfc7e40b45abb05525fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72f34b24218b7a3c082f12c99a1e63e3') in 0.0237609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193911 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_04_Diff.png
+  artifactKey: Guid(4fe4f3363c742254fb77902f4899e8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_04_Diff.png using Guid(4fe4f3363c742254fb77902f4899e8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4359474156670a844fee5c1e481bce4a') in 0.0254587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_Basemap.png
+  artifactKey: Guid(0e9b09aae08c66e479d3d71bf3b796fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_Basemap.png using Guid(0e9b09aae08c66e479d3d71bf3b796fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e32ae661e959d37448d28b2bdf0004ac') in 0.0251147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.953069 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Weapons/Sword/Sword_04/P09_Weapon_Sword_04_Ref.png
+  artifactKey: Guid(6aa2c15327caa0546affab3a103743d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Weapons/Sword/Sword_04/P09_Weapon_Sword_04_Ref.png using Guid(6aa2c15327caa0546affab3a103743d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93743cfcb23f83087d36ebf15b7820c6') in 0.0243707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.744866 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_Normal.png
+  artifactKey: Guid(b7aa174caf30ba64dae00e6018429aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_Normal.png using Guid(b7aa174caf30ba64dae00e6018429aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb0cc13db0ca6f2a2fe8c29fffb31c32') in 0.0492654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.889834 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_003/P09_Male_Armor_003_Normal.png
+  artifactKey: Guid(fcfeeb47552100848bdcfddc96f5e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_003/P09_Male_Armor_003_Normal.png using Guid(fcfeeb47552100848bdcfddc96f5e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf8b1d187a2e95ad5ff0d1e38224c5d6') in 0.0269459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.760713 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Normal.png
+  artifactKey: Guid(0762a1e4557057e4b877105ec96c90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Normal.png using Guid(0762a1e4557057e4b877105ec96c90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92cdea68fc17c1bce1642738bcb99b7a') in 0.0404388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.226234 seconds.
+  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_007/P09_Female_Armor_007_Normal.png
+  artifactKey: Guid(631e8afaf63179b459a076f2feab0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_007/P09_Female_Armor_007_Normal.png using Guid(631e8afaf63179b459a076f2feab0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f39db849adb6455bb98f4575dab4732') in 0.0671386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

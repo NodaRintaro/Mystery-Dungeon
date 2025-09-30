@@ -61,27 +61,58 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\CombatAvatarView.cs" />
     <Compile Include="Assets\Scripts\Dungeon\Control\DungeonController.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\HairColorEditPartData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\ColorEditPartData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ModelRotateButton.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EditPage.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\ObjectPool.cs" />
     <Compile Include="Assets\AssetStoreTools\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\WeaponGroupData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentFrameView.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\SectionData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentFrameIconView.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\FaceEmotionData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ArmorListView.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentSelectView.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EditBodyPage.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\DungeonData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\DemoPageController.cs" />
     <Compile Include="Assets\Scripts\Sound\AudioManager.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\HorizontalSwitcher.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\WeaponsListView.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\RoomData.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\TileData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentListIconView.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\ArmorEditPartData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\AvatarEditData.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ArmorPage.cs" />
     <Compile Include="Assets\Scripts\Dungeon\View\DungeonObjectHolder.cs" />
     <Compile Include="Assets\Scripts\Sound\AudioHolder.cs" />
+    <Compile Include="Assets\Scripts\Characters\Controller\CharacterController.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\AvatarView.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\RendererEditPartData.cs" />
     <Compile Include="Assets\Scripts\Dungeon\Model\DungeonBuilder.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\Rotator.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\WeaponEditPartData.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomDataEditer.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\EditPartDataContainer.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\WeaponPage.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\IEditPartData.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomMakingWindow.cs" />
+    <Compile Include="Assets\Scripts\Characters\MoveSystem\CharacterMove.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\TransitionView.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\WheelController.cs" />
     <Compile Include="Assets\Scripts\Dungeon\Model\SectionBuilder.cs" />
+    <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\BustSizeEditPartData.cs" />
     <Compile Include="Assets\Scripts\RandomWeightPick\RandomWeightPick.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AssetStoreTools\P09_Modular_Humanoid\ReadMe_Eng.txt" />
+    <None Include="Assets\AssetStoreTools\P09_Modular_Humanoid\ReadMe_Jpn.txt" />
     <None Include="Assets\AssetStoreTools\AurynSky\Forest Pack\READ ME.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -1295,6 +1326,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="lilToon.Editor.csproj">
+      <Project>{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}</Project>
+      <Name>lilToon.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

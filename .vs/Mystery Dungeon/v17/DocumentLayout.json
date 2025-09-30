@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|c:\\users\\vantan\\desktop\\unity\\mystery dungeon\\assets\\scripts\\dungeon\\model\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\model\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\control\\dungeoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\control\\dungeoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\model\\sectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\model\\sectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|c:\\users\\vantan\\desktop\\unity\\mystery dungeon\\assets\\scripts\\dungeon\\model\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\model\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\dataclass\\sectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\dataclass\\sectiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\characters\\movesystem\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\movesystem\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\dataclass\\dungeondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\dataclass\\dungeondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\view\\dungeonobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\view\\dungeonobjectholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\dataclass\\roomdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\dataclass\\roomdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\objectpool\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\assets\\scripts\\dungeon\\dataclass\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeon\\dataclass\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|c:\\users\\vantan\\desktop\\unity\\mystery dungeon\\assets\\scripts\\characters\\controller\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08BC3DF-D6A3-7FE9-8D2F-232EE375ECCF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\controller\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomData.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\RoomData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DataClass\\RoomData.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\RoomData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\DataClass\\RoomData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvwsAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Characters\\Controller\\CharacterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Characters\\Controller\\CharacterController.cs",
+              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Characters\\Controller\\CharacterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Characters\\Controller\\CharacterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T08:59:46.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TileData.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\TileData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DataClass\\TileData.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\TileData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\DataClass\\TileData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T10:19:38.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DungeonObjectHolder.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\View\\DungeonObjectHolder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\View\\DungeonObjectHolder.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\View\\DungeonObjectHolder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\View\\DungeonObjectHolder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T11:20:27.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DungeonController.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAIwG4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:56:23.072Z",
+              "WhenOpened": "2025-09-30T15:59:21.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DungeonBuilder.cs",
               "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Model\\DungeonBuilder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\Model\\DungeonBuilder.cs",
               "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Model\\DungeonBuilder.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dungeon\\Model\\DungeonBuilder.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwv6oAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAmwGwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T09:02:54.625Z",
+              "WhenOpened": "2025-09-30T07:48:15.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DungeonController.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
+              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\Control\\DungeonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:53:27.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SectionBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Model\\SectionBuilder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\Model\\SectionBuilder.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\Model\\SectionBuilder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\Model\\SectionBuilder.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAAAK4AAABHAAAAAAAAAA==",
+              "Title": "CharacterMove.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Characters\\MoveSystem\\CharacterMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Characters\\MoveSystem\\CharacterMove.cs",
+              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Characters\\MoveSystem\\CharacterMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Characters\\MoveSystem\\CharacterMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:09:10.683Z",
+              "WhenOpened": "2025-09-30T06:47:13.721Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SectionData.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\SectionData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DataClass\\SectionData.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\SectionData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\DataClass\\SectionData.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwHIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T03:06:12.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DungeonData.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\DungeonData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DataClass\\DungeonData.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\Dungeon\\DataClass\\DungeonData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeon\\DataClass\\DungeonData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T02:59:51.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ObjectPool.cs",
-              "DocumentMoniker": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\ObjectPool\\ObjectPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPool\\ObjectPool.cs",
-              "ToolTip": "C:\\Users\\vantan\\Desktop\\Unity\\Mystery Dungeon\\Assets\\Scripts\\ObjectPool\\ObjectPool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectPool\\ObjectPool.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T11:45:21.389Z"
             }
           ]
         }

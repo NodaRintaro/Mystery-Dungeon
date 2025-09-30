@@ -113,7 +113,7 @@ public class DungeonController : MonoBehaviour
             GameObject tileObject = _dungeonObjectHolder.DungeonTilePool.SpawnObject(_dungeonObjectHolder.TileObjectDict[TileType.Wall]);
             return tileObject;
         }
-            return null;
+        return null;
     }
 
     private void GenerateSection(SectionData sectionData, Vector2Int generatePoints)
