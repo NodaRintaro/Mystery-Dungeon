@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[System.Serializable]
 public class DungeonData
 {
     /// <summary> ダンジョンを形成する各セクションデータ </summary>

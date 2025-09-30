@@ -68,13 +68,14 @@
     <Compile Include="Assets\Scripts\Dungeon\DataClass\SectionData.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\DungeonData.cs" />
+    <Compile Include="Assets\Scripts\Sound\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\RoomData.cs" />
     <Compile Include="Assets\Scripts\Dungeon\DataClass\TileData.cs" />
     <Compile Include="Assets\Scripts\Dungeon\View\DungeonObjectHolder.cs" />
+    <Compile Include="Assets\Scripts\Sound\AudioHolder.cs" />
     <Compile Include="Assets\Scripts\Dungeon\Model\DungeonBuilder.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomDataEditer.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\Model\BuildLoad.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomMakingWindow.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\WheelController.cs" />
     <Compile Include="Assets\Scripts\Dungeon\Model\SectionBuilder.cs" />

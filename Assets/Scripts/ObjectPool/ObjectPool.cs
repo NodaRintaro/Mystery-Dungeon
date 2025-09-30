@@ -33,6 +33,8 @@ public class ObjectPool
             targetPool.Add(go);
             go.SetActive(true);
 
+            Debug.Log(go.name + "を生成しました");
+
             return go;
         }
 

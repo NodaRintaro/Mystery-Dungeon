@@ -31,6 +31,10 @@ public class DungeonController : MonoBehaviour
     [Header("生成するDungeonのYのポジション")]
     [SerializeField] private int _groundheight = 0;
 
+    //ダンジョンに追加で敷く道の本数
+    [Header("ダンジョンに追加で敷く道の本数")]
+    [SerializeField] private int _addLoadNum = 5;
+
     //部屋のデータの保存先のパス
     [Header("部屋のデータの保存先のパス")]
     [SerializeField] private string _roomDataPath = "DefaultDungeonRoom";
@@ -50,6 +54,8 @@ public class DungeonController : MonoBehaviour
     public int MaxRoomNum => _maxRoomNum;
     public int HorizontalSectionsNum => _horizontalSectionsNum;
     public int VerticalSectionsNum => _verticalSectionsNum;
+    public int GroundHeight => _groundheight;
+    public int AddLoadNum => _addLoadNum;
     public DungeonData DungeonData => _dungeonData;
 
     public void SetSectionRange(int sectionRange) => _sectionRange = sectionRange;
@@ -57,31 +63,33 @@ public class DungeonController : MonoBehaviour
     public void SetMaxRoomNum(int maxRoomNum) => _maxRoomNum = maxRoomNum;
     public void SetHorizontalSectionsNum(int horizontalSectionsNum) => _horizontalSectionsNum = horizontalSectionsNum;
     public void SetVerticalSectionsNum(int verticalSectionsNum) => _verticalSectionsNum = verticalSectionsNum;
+    public void SetAddLoadNum(int addLoadNum) => _addLoadNum = addLoadNum;
 
     public async void Awake()
     {
-        GenerateDungeon();
+        await GenerateDungeon();
     }
 
-    public async void GenerateDungeon()
+    public async UniTask GenerateDungeon()
     {
-        await LoadDungeonObjPrefab();
+        LoadDungeonObjPrefab();
         await BuildDungeonData();
 
         for (int x = 0; x < _horizontalSectionsNum; x++)
         {
             for (int y = 0; y < _verticalSectionsNum; y++) 
-            { 
+            {
                 Vector2Int generatePoints = new Vector2Int(x, y);
                 GenerateSection(_dungeonData.SectionDataArray[x, y], generatePoints);
             }
         }
     }
 
-    private async UniTask LoadDungeonObjPrefab()
+    private void LoadDungeonObjPrefab()
     {
         TileData[] tileDataArr = Resources.LoadAll<TileData>("MapTile/" + _mapDataPath);
-        foreach(var tileData in tileDataArr)
+
+        foreach (var tileData in tileDataArr)
         {
             _dungeonObjectHolder.AddTileDict(tileData);
             Debug.Log(tileData.TileObject.name);
@@ -90,7 +98,7 @@ public class DungeonController : MonoBehaviour
 
     private async UniTask BuildDungeonData()
     {
-        _dungeonData = await DungeonBuilder.DungeonBuild(_sectionRange, _horizontalSectionsNum, _verticalSectionsNum, _minRoomNum, _maxRoomNum, _roomDataPath);
+        _dungeonData = await DungeonBuilder.DungeonBuild(_sectionRange, _horizontalSectionsNum, _verticalSectionsNum, _minRoomNum, _maxRoomNum, _addLoadNum, _roomDataPath);
     }
 
     private GameObject SpawnTileObj(TileType tileType)
@@ -100,7 +108,12 @@ public class DungeonController : MonoBehaviour
             GameObject tileObject = _dungeonObjectHolder.DungeonTilePool.SpawnObject(_dungeonObjectHolder.TileObjectDict[tileType]);
             return tileObject;
         }
-        return null;
+        else
+        {
+            GameObject tileObject = _dungeonObjectHolder.DungeonTilePool.SpawnObject(_dungeonObjectHolder.TileObjectDict[TileType.Wall]);
+            return tileObject;
+        }
+            return null;
     }
 
     private void GenerateSection(SectionData sectionData, Vector2Int generatePoints)
@@ -113,14 +126,14 @@ public class DungeonController : MonoBehaviour
 
         int gridPosCount = 0;
 
-        foreach (var grid in sectionData.GridData)
+        foreach (var grid in sectionData.GridDataArr)
         {
             GameObject gridTileObj = SpawnTileObj(grid.TileType);
             
             if (gridTileObj != null)
             {
                 gridTileObj.transform.position = GenerateTilePosition(gridPosCount, firstGeneratePos);
-                //gridTileObj.transform.parent = _dungeonObjectHolder.TileHolderObj.transform;
+                gridTileObj.transform.parent = _dungeonObjectHolder.TileHolderObj.transform;
             }
             gridPosCount++;
         }
@@ -138,7 +151,6 @@ public class DungeonController : MonoBehaviour
                 y = _groundheight,
                 z = leftBottomPos.y
             };
-            Debug.Log("b");
         }
         else
         {
@@ -148,7 +160,6 @@ public class DungeonController : MonoBehaviour
                 y = _groundheight,
                 z = (sectionsGridPos / _sectionRange) + leftBottomPos.y
             };
-            Debug.Log("a");
         }
 
         generatePos.x *= _gridSize;
