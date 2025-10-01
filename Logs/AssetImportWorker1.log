@@ -15,7 +15,7 @@ C:/Users/vantan/Desktop/Unity/Mystery Dungeon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63935
+57251
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/vantan/Desktop/Unity/Mystery Dungeon
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34520]  Target information:
+Player connection [15240]  Target information:
 
-Player connection [34520]  * "[IP] 192.168.11.23 [Port] 0 [Flags] 2 [Guid] 4165469887 [EditorId] 4165469887 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NCQE91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15240]  * "[IP] 192.168.11.23 [Port] 0 [Flags] 2 [Guid] 809303027 [EditorId] 809303027 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1NCQE91) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34520] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34520] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15240] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15240] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
@@ -91,43 +91,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002028 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Registered in 0.002153 seconds.
+- Loaded All Assemblies, in  0.330 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.338 seconds
-Domain Reload Profiling: 694ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 627ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (117ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (339ms)
+	FinalizeReload (299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (268ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,268 +136,170 @@ Domain Reload Profiling: 694ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.019 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.003 seconds
-Domain Reload Profiling: 2017ms
-	BeginReloadAssembly (363ms)
+- Finished resetting the current domain, in  0.402 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (366ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (570ms)
-		LoadAssemblies (405ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (170ms)
-			BuildScriptInfoCaches (69ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1004ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (402ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (748ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (170ms)
-			ProcessInitializeOnLoadAttributes (451ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 195 unused Assets / (8.6 MB). Loaded Objects now: 794.
+Memory consumption went from 121.0 MB to 112.4 MB.
+Total: 9.002500 ms (FindLiveObjects: 0.068500 ms CreateObjectMapping: 0.011800 ms MarkObjects: 5.227600 ms  DeleteObjects: 3.693000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 512169.087774 seconds.
+  path: Assets/Scripts/Characters/Controller/CharacterController.cs
+  artifactKey: Guid(eeb7629b89a6aab4dbe06bf1fc5b5aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Characters/Controller/CharacterController.cs using Guid(eeb7629b89a6aab4dbe06bf1fc5b5aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b08354ba51c3c5f5bdd9f30d0f79dbf7') in 0.0094668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.921 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 11737ms
+	BeginReloadAssembly (9230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (1622ms)
+		LoadAssemblies (10526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 276 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6778 unused Assets / (21.5 MB). Loaded Objects now: 7566.
-Memory consumption went from 244.9 MB to 223.4 MB.
-Total: 24.726500 ms (FindLiveObjects: 1.447000 ms CreateObjectMapping: 1.059400 ms MarkObjects: 7.789300 ms  DeleteObjects: 14.429500 ms)
+Unloading 241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6811 unused Assets / (21.4 MB). Loaded Objects now: 7535.
+Memory consumption went from 220.7 MB to 199.3 MB.
+Total: 12.545200 ms (FindLiveObjects: 0.512400 ms CreateObjectMapping: 0.457800 ms MarkObjects: 4.130900 ms  DeleteObjects: 7.443200 ms)
 
+Prepare: number of updated asset objects reloaded= 23
 ========================================================================
-Received Import Request.
-  Time since last request: 450554.761632 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Eye/P09_Eye_Yellow.mat
-  artifactKey: Guid(bbc0bc1770b7d734da47c9bc6c381493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Eye/P09_Eye_Yellow.mat using Guid(bbc0bc1770b7d734da47c9bc6c381493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7494683ec5cf2fd39b2bfa1c0dae9b08') in 1.077726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 85 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (17.2 MB). Loaded Objects now: 7535.
+Memory consumption went from 205.8 MB to 188.6 MB.
+Total: 10.330100 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.193200 ms MarkObjects: 4.720600 ms  DeleteObjects: 5.110200 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Eye/P09_Eye_Red.mat
-  artifactKey: Guid(2f97cc9871b2e2a4fbccc513a81426a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Eye/P09_Eye_Red.mat using Guid(2f97cc9871b2e2a4fbccc513a81426a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3405c31d1e9096d2de1ebc072f9c98c') in 0.0411954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.639 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1416ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6809 unused Assets / (24.1 MB). Loaded Objects now: 7556.
+Memory consumption went from 225.7 MB to 201.6 MB.
+Total: 14.448300 ms (FindLiveObjects: 0.524800 ms CreateObjectMapping: 0.466300 ms MarkObjects: 4.277400 ms  DeleteObjects: 9.179100 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.026481 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Gold.mat
-  artifactKey: Guid(4a95f5ef1d08d7a438fc02a8d58d25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Gold.mat using Guid(4a95f5ef1d08d7a438fc02a8d58d25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ae05f9d10ebfb5d4c1b1c0a7e4cc51d') in 0.2534215 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Purple.mat
-  artifactKey: Guid(e5f5a60b8d1d6894d9863b87316d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Purple.mat using Guid(e5f5a60b8d1d6894d9863b87316d0d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b422b0c648ec178151253bd49e0442fd') in 0.059822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Green.mat
-  artifactKey: Guid(7ce669283e9742842ab70b7f418a63bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair/P09_Hair_Green.mat using Guid(7ce669283e9742842ab70b7f418a63bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8954dfa250b4933095cf3a6db7d05145') in 0.0530504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.416468 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Gold.mat
-  artifactKey: Guid(bda254f0d853b2b498f10249f86d4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Gold.mat using Guid(bda254f0d853b2b498f10249f86d4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94439833e1175b4dd347bb3dcad9ccc9') in 0.094306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Ivory.mat
-  artifactKey: Guid(4dbee84223847ae4592fa2089a6dd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Ivory.mat using Guid(4dbee84223847ae4592fa2089a6dd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae4959d75935e54938efccf3496c38d9') in 0.0460496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Purple.mat
-  artifactKey: Guid(016b1e3b65c692d43b7c1628bdc57151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Materials/Common/Hair_10/P09_Hair_10_Purple.mat using Guid(016b1e3b65c692d43b7c1628bdc57151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403961099ca173e1cf9b1b9d1c97f179') in 0.0446067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.887902 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Diff.png
-  artifactKey: Guid(a2f80cb6a540d5b4cb14e3f6ccbdd127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Diff.png using Guid(a2f80cb6a540d5b4cb14e3f6ccbdd127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407d277dfa2760da1f389f5a40a65b0f') in 0.0374583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Ref.png
-  artifactKey: Guid(36b6606f8a0282848ab04133b3a581a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Ref.png using Guid(36b6606f8a0282848ab04133b3a581a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04b04000d9cc1c7b3c611acd2f7380f1') in 0.024928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Rim.png
-  artifactKey: Guid(7618d0088baf8694391dccdb86bbc5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_001/P09_Female_Armor_001_Rim.png using Guid(7618d0088baf8694391dccdb86bbc5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66b1e49ca2f1be7ac04caf07adc30838') in 0.023785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.399600 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_Dark_Diff.png
-  artifactKey: Guid(c0587e9201c201042860f363f269e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_Dark_Diff.png using Guid(c0587e9201c201042860f363f269e2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218ae95c6f2c9e84efea53e8b2255676') in 0.0239566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_LineMask.png
-  artifactKey: Guid(e69a03ba75f9c094199c861889f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_LineMask.png using Guid(e69a03ba75f9c094199c861889f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6337e26b619ff0f2d30453d16927dbd') in 0.0355968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_ShadowMask.png
-  artifactKey: Guid(c9ee8f2faccd6664694a6bef9747ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_ShadowMask.png using Guid(c9ee8f2faccd6664694a6bef9747ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '537c25b574deb12d8fcab2cc763e5ea2') in 0.0235728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_RimMask.png
-  artifactKey: Guid(d221c5061f3c7d043b88d88154f8f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Female_Body/P09_Female_Body_RimMask.png using Guid(d221c5061f3c7d043b88d88154f8f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd43b3599a727aa204d66962110da0497') in 0.0270424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.119716 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/eyepupilmatcap02.png
-  artifactKey: Guid(6bbd403658bed3e4880e993b52980f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/eyepupilmatcap02.png using Guid(6bbd403658bed3e4880e993b52980f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '232163c5a093bd22548f63c27a6bbb26') in 0.0233897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/metal_09.png
-  artifactKey: Guid(5d3e22e6e6a8c1248a5625b32d1e2b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/metal_09.png using Guid(5d3e22e6e6a8c1248a5625b32d1e2b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd87968c3f3db015bb8708e46ac6eaf7a') in 0.02684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/metal_10.png
-  artifactKey: Guid(6d376aaae1a673944b3d76fe15bb2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/metal_10.png using Guid(6d376aaae1a673944b3d76fe15bb2f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42afd0c98b409a726167f13eea292880') in 0.026568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16_d4.png
-  artifactKey: Guid(8cc0e6c6a4a1c254f8d400a958f05b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/MatCap/mc16_d4.png using Guid(8cc0e6c6a4a1c254f8d400a958f05b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5422ce5bd72ed0ab3b75b6830869d9f0') in 0.023884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.240536 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_02_Diff.png
-  artifactKey: Guid(2f057e16b543e7543986233268d3761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Male_Facial_Hair/P09_Male_FacialHair_02_Diff.png using Guid(2f057e16b543e7543986233268d3761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56763591e7e648bed46cba70cbe86505') in 0.027752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.985207 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Weapons/Sword/Sword_04/P09_Weapon_Sword_04_Metal.png
-  artifactKey: Guid(01dcedd91ad08bc4ca45b401b1f211b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Weapons/Sword/Sword_04/P09_Weapon_Sword_04_Metal.png using Guid(01dcedd91ad08bc4ca45b401b1f211b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4be4f4221b3b2ec99146d6bd3060691') in 0.0200823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.743177 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_ColorMask.png
-  artifactKey: Guid(0dff5f24ae15a6b4e9593609439f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_ColorMask.png using Guid(0dff5f24ae15a6b4e9593609439f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e9504071082b72724f22f879286ceec') in 0.0304474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_Rim.png
-  artifactKey: Guid(0ee30097a7ec8bf4c9a3708d66f093da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_009/P09_Male_Armor_009_Rim.png using Guid(0ee30097a7ec8bf4c9a3708d66f093da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6e28267463e53e23a54e5467f87666c') in 0.0267055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.866152 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_003/P09_Male_Armor_003_Diff.png
-  artifactKey: Guid(24b3a63597526c443b63d9af01d9117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Male_Armor_003/P09_Male_Armor_003_Diff.png using Guid(24b3a63597526c443b63d9af01d9117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aea0d3a79400925520bb651dc4696e10') in 0.0271695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.771606 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Diff.png
-  artifactKey: Guid(157c07b9a6af892428de1706eb17b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Diff.png using Guid(157c07b9a6af892428de1706eb17b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e453fe4b80ffbe9ef1e1f41d7bd7c299') in 0.0209344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Rim.png
-  artifactKey: Guid(bd5da813a22a7874190a2655bcc72c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_006/P09_Female_Armor_006_Rim.png using Guid(bd5da813a22a7874190a2655bcc72c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5300d4ab6e62c183083a4e94b28a8805') in 0.0337648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.180389 seconds.
-  path: Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_007/P09_Female_Armor_007_ColorMask.png
-  artifactKey: Guid(9351cc1169a093e419bfddd1da4077f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/P09_Modular_Humanoid/Model_DATA/Textures/Armors/Fem_Armor_007/P09_Female_Armor_007_ColorMask.png using Guid(9351cc1169a093e419bfddd1da4077f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17567d39468179b147de2e34c457cf69') in 0.0687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0
