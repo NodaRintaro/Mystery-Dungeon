@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lilToon.Editor", "lilToon.Editor.csproj", "{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{E839EF12-E663-0278-63AD-290B6CE035AB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaCloth2Example", "MagicaCloth2Example.csproj", "{E21DB5DE-62CE-11F6-1B02-57E7C44F9E74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F8D4C25B-E3A0-F983-55DF-6EE596B59F05}"
@@ -37,6 +39,10 @@ Global
 		{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E839EF12-E663-0278-63AD-290B6CE035AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E839EF12-E663-0278-63AD-290B6CE035AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E839EF12-E663-0278-63AD-290B6CE035AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E839EF12-E663-0278-63AD-290B6CE035AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E21DB5DE-62CE-11F6-1B02-57E7C44F9E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E21DB5DE-62CE-11F6-1B02-57E7C44F9E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21DB5DE-62CE-11F6-1B02-57E7C44F9E74}.Release|Any CPU.ActiveCfg = Release|Any CPU

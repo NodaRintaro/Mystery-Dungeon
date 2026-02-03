@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_23;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;MAGICACLOTH2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_0_23;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;MAGICACLOTH2;DOTWEEN;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -62,59 +62,58 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\CombatAvatarView.cs" />
+    <Compile Include="Assets\Scripts\Data\CharacterData\EnemyCharacterData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\HairColorEditPartData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\ColorEditPartData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ModelRotateButton.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
-    <Compile Include="Assets\Scripts\Characters\Data\DataHolder\CharacterDataHolder.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EditPage.cs" />
+    <Compile Include="Assets\Scripts\Data\DungeonData\SectionData.cs" />
     <Compile Include="Assets\Scripts\ObjectPool\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Characters\Data\BaseData\CharacterBaseData.cs" />
+    <Compile Include="Assets\Scripts\Dungeon\DungeonBuilder.cs" />
     <Compile Include="Assets\AssetStoreTools\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\WeaponGroupData.cs" />
+    <Compile Include="Assets\Scripts\Data\DungeonData\RoomData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentFrameView.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\DataClass\SectionData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentFrameIconView.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
+    <Compile Include="Assets\Scripts\Dungeon\DungeonTilePool.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\FaceEmotionData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ArmorListView.cs" />
-    <Compile Include="Assets\Scripts\Characters\Data\PlayerData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentSelectView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EditBodyPage.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\DataClass\DungeonData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\DemoPageController.cs" />
     <Compile Include="Assets\Scripts\Sound\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Characters\CharacterActions\CharacterAttack.cs" />
+    <Compile Include="Assets\Scripts\Dungeon\DungeonGenerator.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\HorizontalSwitcher.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\WeaponsListView.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\Controller\DungeonController.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\DataClass\RoomData.cs" />
-    <Compile Include="Assets\Scripts\Characters\Data\EnemyData.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\DataClass\TileData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\EquipmentListIconView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\ArmorEditPartData.cs" />
+    <Compile Include="Assets\Scripts\Data\DungeonData\TileData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\AvatarEditData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\ArmorPage.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\View\DungeonObjectHolder.cs" />
     <Compile Include="Assets\Scripts\Sound\AudioHolder.cs" />
-    <Compile Include="Assets\Scripts\Characters\Controller\CharacterController.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\AvatarView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\RendererEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\Model\DungeonBuilder.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterActions\CharacterAttack.cs" />
+    <Compile Include="Assets\Scripts\Data\DungeonData\DungeonData.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\WeaponEditPartData.cs" />
+    <Compile Include="Assets\Scripts\Dungeon\SectionBuilder.cs" />
+    <Compile Include="Assets\Scripts\Data\CharacterData\PlayerCharacterData.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomDataEditer.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\EditPartDataContainer.cs" />
+    <Compile Include="Assets\Scripts\Data\CharacterData\CharacterBaseData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\WeaponPage.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\IEditPartData.cs" />
     <Compile Include="Assets\Scripts\Editer\RoomMakingWindow.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\TransitionView.cs" />
     <Compile Include="Assets\AssetStoreTools\AurynSky\Forest Pack\Scripts\WheelController.cs" />
-    <Compile Include="Assets\Scripts\Characters\CharacterActions\interface\ICharacterAction.cs" />
-    <Compile Include="Assets\Scripts\Dungeon\Model\SectionBuilder.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterActions\CharacterWalk.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerCharacterController.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Model_DATA\Scenes\DemoScene_Data\Scripts\Data\BustSizeEditPartData.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterActions\interface\ICharacterAction.cs" />
     <Compile Include="Assets\Scripts\RandomWeightPick\RandomWeightPick.cs" />
-    <Compile Include="Assets\Scripts\Characters\CharacterActions\CharacterWalk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStoreTools\P09_Modular_Humanoid\ReadMe_Eng.txt" />
@@ -592,6 +591,10 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -1332,13 +1335,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="lilToon.Editor.csproj">
-      <Project>{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}</Project>
-      <Name>lilToon.Editor</Name>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E839EF12-E663-0278-63AD-290B6CE035AB}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="MagicaClothV2.csproj">
       <Project>{0B17A6BC-5741-774D-9B4B-EEE3154549D6}</Project>
       <Name>MagicaClothV2</Name>
+    </ProjectReference>
+    <ProjectReference Include="lilToon.Editor.csproj">
+      <Project>{A71B6305-6DD1-F4BD-43DA-ECE88F419D8E}</Project>
+      <Name>lilToon.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MagicaClothV2.Editor.csproj">
       <Project>{DA0DDBD4-B2F2-5076-B0FD-BB7A2715B21E}</Project>
