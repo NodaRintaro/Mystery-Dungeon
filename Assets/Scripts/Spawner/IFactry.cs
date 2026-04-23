@@ -1,0 +1,15 @@
+﻿using Roguelike.Dungeon;
+using UnityEngine;
+
+public interface IFactry<T>
+{
+    protected const int _spawnPosY = 1;
+
+    public DungeonData DungeonData {  get; }
+
+    /// <summary> 初期化 </summary>
+    public void Init(DungeonData dungeonData);
+
+    /// <summary> スポーン </summary>
+    public T Spawn(int spawnObjId, Vector2Int spawnPosition);
+}
