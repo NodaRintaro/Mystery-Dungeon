@@ -94,7 +94,7 @@ namespace Roguelike.Dungeon.System
         /// <summary> ダンジョンを構成するタイルのPrefabをロードしてTileObjectPoolに保存する関数 </summary>
         private void LoadStageTilePrefab()
         {
-            TileData[] tileDataArr = UnityEngine.Resources.LoadAll<TileData>("MapTile/" + _mapDataPath);
+            TileData[] tileDataArr = null;
 
             foreach (var tileData in tileDataArr)
             {

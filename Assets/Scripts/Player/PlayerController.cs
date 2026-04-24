@@ -13,10 +13,10 @@ public class PlayerController
         _characterData = characterData;
         _playerCharacterView = playerCharacterView;
 
-        _playerApplication = new PlayerApplication(_characterData, dungeonData, _playerCharacterView.transform);
+        _playerApplication = new CharacterApplication(_characterData, dungeonData, _playerCharacterView.transform);
     }
 
-    private PlayerApplication _playerApplication = null;
+    private CharacterApplication _playerApplication = null;
 
     private PlayerCharacterView _playerCharacterView = null;
 

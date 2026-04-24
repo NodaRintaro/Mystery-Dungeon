@@ -27,6 +27,9 @@ namespace Data.Character
         [SerializeField, Header("キャラクターの成長曲線")]
         private readonly CharacterGrowthRates _growthRates;
 
+        [SerializeField, Header("所持スキル")]
+        private SkillSlot _characterSkillSlot = new SkillSlot();
+
         /// <summary> キャラクターの座標 </summary>
         private Vector3 _characterPosition = new Vector3();
 
@@ -38,6 +41,7 @@ namespace Data.Character
         public Vector3 GridPosition => _characterPosition;
         public CharacterStatus CurrentCharacterStatus => _currentCharacterStatus;
         public CharacterGrowthRates GrowthRates => _growthRates;
+        public SkillSlot CharacterSkillSlot => _characterSkillSlot;
 
         public void SetDirection(CharacterDirectionType characterDirection) => _characterDirection = characterDirection;
         public void SetPosition(Vector3 position) => _characterPosition = position;

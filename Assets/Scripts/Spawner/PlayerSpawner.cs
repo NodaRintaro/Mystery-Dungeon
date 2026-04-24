@@ -27,7 +27,7 @@ public class PlayerSpawner : MonoBehaviour, IFactry<CharacterData>
     public CharacterData Spawn(int spawnObjId, Vector2Int spawnPosition)
     {
         CharacterData characterData = null;
-        CharacterAssetData assetData = null;
+        CharacterVisualData assetData = null;
 
         if(!_characterDataRepositry.TryCreateCharacter(spawnObjId, out assetData, out characterData))
         {

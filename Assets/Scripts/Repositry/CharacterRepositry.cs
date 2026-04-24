@@ -10,7 +10,7 @@ public class CharacterRepositry
     private const string _characterAssetsPath = "Character";
 
     private string[,] _characterDataCSV = null;
-    private CharacterAssetData[] _characterAssetDataArray = null;
+    private CharacterVisualDataHolder _characterVisualDataHolder = null;
 
     private List<CharacterData> _characterDataList = new List<CharacterData>();
 
@@ -21,11 +21,11 @@ public class CharacterRepositry
         LoadData().Forget();
     }
 
-    public bool TryCreateCharacter(int characterID, out CharacterAssetData characterAssetData, out CharacterData characterData)
+    public bool TryCreateCharacter(int characterID, out CharacterVisualData characterVisualData, out CharacterData characterData)
     {
-        if(!TryGetCharacterData(characterID, out characterData) || !TryGetCharacterAssetData(characterID, out characterAssetData))
+        if(!TryGetCharacterData(characterID, out characterData) || !TryGetVisualData(characterID, out characterVisualData))
         {
-            characterAssetData = null;
+            characterVisualData = null;
             characterData = null;
             return false;
         }
@@ -38,35 +38,19 @@ public class CharacterRepositry
 
     private async UniTask LoadData()
     {
-        TextAsset csvFile = null;
-        ResourceRequest request = Resources.LoadAsync<TextAsset>(_csvDataPath);
+        ServiceLocator.TryGet<AssetsLoader>(out var assetsLoader);
+        TextAsset csvFile = await assetsLoader.LoadAssetAsync<TextAsset>(_csvDataPath);
 
-        await request.ToUniTask();
-
-        if (request.asset == null)
-        {
-            Debug.LogError($"Asset not found at: {_csvDataPath}");
-            return;
-        }
-
-        csvFile = (TextAsset)request.asset;
-
-        _characterDataCSV = CSVDateLoader.ParseCsv(csvFile.text);
-        _characterAssetDataArray = Resources.LoadAll<CharacterAssetData>(_characterAssetsPath).ToArray();
+        _characterDataCSV = ServiceLocator.TryGet<CSVDateLoader>(out var csvDataLoader) ? csvDataLoader.ParseCsv(csvFile.text) : null;
+        _characterVisualDataHolder = await assetsLoader.LoadAssetAsync<CharacterVisualDataHolder>(_characterAssetsPath);
     }
 
-    private bool TryGetCharacterAssetData(int characterID, out CharacterAssetData characterAssetData)
+    private bool TryGetVisualData(int characterID, out CharacterVisualData data)
     {
-        characterAssetData = null;
-        foreach (var assetData in _characterAssetDataArray)
-        {
-            if (assetData.CharacterID == characterID)
-            {
-                characterAssetData = assetData;
-                return true;
-            }
-        } 
-        return false;
+        data = _characterVisualDataHolder.GetCharacterVisualData(characterID);
+
+        if (data == null) return false;
+        return true;
     }
 
     private bool TryGetCharacterData(int characterID, out CharacterData characterData)

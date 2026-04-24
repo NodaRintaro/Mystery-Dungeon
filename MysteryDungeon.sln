@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx.Examples", "UniRx.Exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{40E21C09-D87E-D71C-E064-49AB8789EF49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaCloth2Example", "MagicaCloth2Example.csproj", "{D97BEFDE-2204-E843-5620-1088A34D6D2A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D6C2140F-868B-EE91-076E-44F7BA324B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaCloth2Example", "MagicaCloth2Example.csproj", "{D97BEFDE-2204-E843-5620-1088A34D6D2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lilToon.Editor.External", "lilToon.Editor.External.csproj", "{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}"
 EndProject
@@ -67,14 +67,14 @@ Global
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97BEFDE-2204-E843-5620-1088A34D6D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Release|Any CPU.ActiveCfg = Release|Any CPU
