@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// ユーザーからの入力によって発生する処理部分の機構
 /// </summary>
-public class PlayerApplication 
+public class PlayerApplication
 { 
     public PlayerApplication(ICharacterData characterData, DungeonData dungeonData, Transform characterTransform)
     {
@@ -12,7 +12,7 @@ public class PlayerApplication
         _characterAttack = new();
     }
 
-    private CharacterMovement _characterMovement;
+    private CharacterMovement _characterMovement = null;
 
-    private CharacterAttack _characterAttack;
+    private CharacterAttack _characterAttack = null;
 }

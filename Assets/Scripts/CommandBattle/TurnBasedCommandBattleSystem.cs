@@ -1,28 +1,28 @@
 ﻿using JetBrains.Annotations;
 using System.Collections.Generic;
 
+/// <summary> ターン制コマンドバトルシステム </summary>
 public class TurnBasedCommandBattleSystem
 {
-    private Dictionary<ICharacterCommander, uint> _commanderList = new();
+    private Dictionary<ICharacterData, uint> _characterList = new();
 
     private uint _baseActiveValue = 10000;
 
     /// <summary> 行動対象を追加する </summary>
-    /// <param name="commander"> 行動対象 </param>
-    public void AddCommander(ICharacterCommander commander)
+    /// <param name="character"> 行動対象 </param>
+    public void AddCharacter(ICharacterData character)
     {
-        _commanderList.Add(commander, _baseActiveValue);
+        _characterList.Add(character, _baseActiveValue);
     }
 
     /// <summary> 次の行動者を選択 </summary>
     public void ChangeTurn()
     {
-        ICharacterCommander commander;
 
-        
     }
 
-    public void CalculateNextTurnCommander()
+    /// <summary> 次の行動者を速度を元に計算 </summary>
+    public void CalculateNextActionCharacter()
     {
 
     }

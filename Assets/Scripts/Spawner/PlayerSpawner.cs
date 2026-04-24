@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerSpawner : MonoBehaviour, IFactry<CharacterData>
 {
-    [SerializeField] private PlayerCharacterView _playerViewPrefab;
+    [SerializeField] private PlayerCharacterView _playerPrefab;
 
     private CharacterRepositry _characterDataRepositry = null;
 
@@ -16,7 +16,7 @@ public class PlayerSpawner : MonoBehaviour, IFactry<CharacterData>
 
     private void Start()
     {
-        ServiceLocator.TryGetService<CharacterRepositry>(out _characterDataRepositry);
+        
     }
 
     public void Init(DungeonData dungeonData)
@@ -34,14 +34,17 @@ public class PlayerSpawner : MonoBehaviour, IFactry<CharacterData>
             return null;
         }
 
+        PlayerCharacterView playerCharacterView = Instantiate(_playerPrefab);
         GameObject characterObject = Instantiate(assetData.CharacterPrefab);
+
         characterObject.GetComponent<Animator>().runtimeAnimatorController = assetData.AnimatorController;
+        characterObject.transform.SetParent(playerCharacterView.transform);
 
         // PlayerCharacterのViewを生成
-        if (_playerViewPrefab != null)
-            characterObject.transform.SetParent(Instantiate(_playerViewPrefab).gameObject.transform);
+        if (_playerPrefab != null)
+            characterObject.transform.SetParent(Instantiate(_playerPrefab).gameObject.transform);
 
-        PlayerController playerController = new PlayerController(characterData, characterObject.transform);
+        PlayerController playerController = new PlayerController(characterData, _dungeonData, playerCharacterView);
 
         return characterData;
     }

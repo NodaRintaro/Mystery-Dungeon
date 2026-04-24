@@ -30,6 +30,10 @@ namespace Data.Character
         /// <summary> キャラクターの座標 </summary>
         private Vector3 _characterPosition = new Vector3();
 
+        /// <summary> このキャラクターの行動可能フラグ </summary>
+        private bool _canAction = false;
+
+        public bool CanAction => _canAction;
         public CharacterDirectionType CharacterDirection => _characterDirection;
         public Vector3 GridPosition => _characterPosition;
         public CharacterStatus CurrentCharacterStatus => _currentCharacterStatus;

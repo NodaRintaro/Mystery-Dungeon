@@ -36,46 +36,12 @@ public class PlayerCharacterView : MonoBehaviour
 
     private void Update()
     {
-        if (_isInit)
-        {
-            _currentKeyboard = Keyboard.current;
-            if (_currentKeyboard == null) return;
-
-            OnInputMove();
-        }
-    }
-
-    /// <summary> キャラクターの移動入力 </summary>
-    private void OnInputMove()
-    {
-        // カメラから見て前方に進む
-        if (_currentKeyboard.wKey.wasPressedThisFrame)
-        {
+        if (_isInit) return;
             
-        }
+        _currentKeyboard = Keyboard.current;
 
-        // カメラから見て後方に進む
-        if (_currentKeyboard.sKey.wasPressedThisFrame)
-        {
-            
-        }
 
-        // カメラから見て左方向に進む
-        if (_currentKeyboard.aKey.wasPressedThisFrame)
-        {
-            
-        }
 
-        // カメラから見て右方向に進む    
-        if (_currentKeyboard.dKey.wasPressedThisFrame)
-        {
-            
-        }
-    }
-
-    /// <summary> キャラクターの攻撃入力 </summary>
-    public async UniTask OnInputAttack()
-    {
 
     }
 }
