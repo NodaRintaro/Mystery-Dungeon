@@ -21,9 +21,8 @@ public class RoomMakingWindow : EditorWindow
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
 
-    private const string _mustSavePath = "Assets/Resources/RoomData/";
-	private string _saveFolderPath = "DefaultDungeonRoom";
-    private string _buildRoomName = "NewRoom";
+    private RoomDataHolder _roomDataHolder;
+    private int _roomWeight = 5;
     
     private bool _isInit = false;
     
@@ -43,10 +42,10 @@ public class RoomMakingWindow : EditorWindow
             EditorGUILayout.LabelField("作る部屋の大きさを設定");
             _width = EditorGUILayout.IntField("横の大きさ:", _width);
             _height = EditorGUILayout.IntField("縦の大きさ:", _height);
-            EditorGUILayout.LabelField("保存先のPathを指定");
-            _saveFolderPath　= EditorGUILayout.TextField(_saveFolderPath);
-            EditorGUILayout.LabelField("新しく作る部屋の名前");
-            _buildRoomName = EditorGUILayout.TextField(_buildRoomName);
+            _roomWeight = EditorGUILayout.IntField("出現重み:", _roomWeight);
+            EditorGUILayout.Space();
+            EditorGUILayout.LabelField("保存先のRoomDataHolderを指定");
+            _roomDataHolder = (RoomDataHolder)EditorGUILayout.ObjectField(_roomDataHolder, typeof(RoomDataHolder), false);
         }
         
         //1行空ける
@@ -80,7 +79,14 @@ public class RoomMakingWindow : EditorWindow
     /// <param name="roomData">部屋のデータクラス</param>
     private void RoomMakeGUI()
     {
-        EditorGUILayout.LabelField("新しく作る部屋の名前:" + _buildRoomName);
+        if (_roomDataHolder != null)
+        {
+            EditorGUILayout.LabelField("保存先:" + _roomDataHolder.name);
+        }
+        else
+        {
+            EditorGUILayout.HelpBox("RoomDataHolderをアサインしてください", MessageType.Warning);
+        }
 
         EditorGUILayout.Space();
 
@@ -113,7 +119,7 @@ public class RoomMakingWindow : EditorWindow
             EditorGUILayout.EndHorizontal();
         }
         
-        if (GUILayout.Button("Save RoomGrid"))
+        if (GUILayout.Button("Add to RoomDataHolder"))
         {
             SaveRoomData();
         }
@@ -138,27 +144,25 @@ public class RoomMakingWindow : EditorWindow
     /// <summary>部屋のデータを保存</summary>
     private void SaveRoomData()
     {
-        if (!Directory.Exists(_mustSavePath + _saveFolderPath))
+        if (_roomDataHolder == null)
         {
-            Directory.CreateDirectory(_mustSavePath + _saveFolderPath);
+            Debug.LogError("RoomDataHolder is not assigned!");
+            return;
         }
-        RoomData newRoomData = ScriptableObject.CreateInstance<RoomData>();
+
+        RoomData newRoomData = new RoomData();
 
         //Dataを保存
-        newRoomData.name = _buildRoomName;
         newRoomData.SetHeight(_height);
         newRoomData.SetWidth(_width);
+        newRoomData.SetRoomWeight(_roomWeight);
         newRoomData.InitRoomData(_gridRoomData);
         
-        // 保存パスの指定
-        string assetPath = $"{_mustSavePath + _saveFolderPath}/{_buildRoomName + System.DateTime.Now.Ticks}.asset";
-        
-        AssetDatabase.CreateAsset(newRoomData, assetPath);
+        _roomDataHolder.AddRoomData(newRoomData);
+        EditorUtility.SetDirty(_roomDataHolder);
         AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
         
-        // 作成後に選択状態に
-        Selection.activeObject = newRoomData;
+        Debug.Log("RoomData added to " + _roomDataHolder.name);
     }
     #endregion
 	

@@ -61,7 +61,8 @@ namespace Roguelike.Dungeon.System
         /// <param name="maxRoomSize"> 生成可能な部屋の最大サイズ </param>
         private UniTask<RoomData[]> GetCanBuildRoomData(string roomDataPath, int maxRoomSize)
         {
-            RoomData[] roomData = UnityEngine.Resources.LoadAll<RoomData>("RoomData/" + roomDataPath);
+            //Todo: AssetsLoaderを使う
+            RoomData[] roomData = null;
             List<RoomData> canBuildRoomDataList = new List<RoomData>();
 
             foreach (var room in roomData)

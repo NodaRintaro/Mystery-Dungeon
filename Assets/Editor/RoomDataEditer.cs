@@ -2,7 +2,7 @@
 using UnityEditor;
 using Roguelike.Dungeon;
 
-[CustomEditor(typeof(RoomData))]
+[CustomEditor(typeof(RoomDataHolder))]
 public class RoomDataEditer : Editor
 {
     //スクロールしている場所の位置
@@ -19,24 +19,57 @@ public class RoomDataEditer : Editor
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
 
+    private int _selectedRoomIndex = 0;
+
     //追加のColor
     Color _brown = new Color(0.6f, 0.4f, 0.2f, 1.0f);
 
     public override void OnInspectorGUI()
     {
+        RoomDataHolder holder = (RoomDataHolder)target;
+
+        if (holder.RoomDataArray == null || holder.RoomDataArray.Length == 0)
+        {
+            EditorGUILayout.HelpBox("RoomDataArray is empty.", MessageType.Info);
+            return;
+        }
+
+        EditorGUILayout.Space(_spaceSize);
+
+        // 部屋の選択
+        string[] options = new string[holder.RoomDataArray.Length];
+        for (int i = 0; i < options.Length; i++)
+        {
+            options[i] = $"Room {i} ({holder.RoomDataArray[i].Width}x{holder.RoomDataArray[i].Height})";
+        }
+        _selectedRoomIndex = EditorGUILayout.Popup("Select Room", _selectedRoomIndex, options);
+        _selectedRoomIndex = Mathf.Clamp(_selectedRoomIndex, 0, holder.RoomDataArray.Length - 1);
+
+        EditorGUILayout.Space(_spaceSize);
+
+        if (GUILayout.Button("Remove Selected Room"))
+        {
+            holder.RemoveRoomDataAt(_selectedRoomIndex);
+            EditorUtility.SetDirty(holder);
+            return;
+        }
+
+        EditorGUILayout.Space(_spaceSize);
+
         scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.Height(_scrollHeight));
         
-        RoomData roomData = (RoomData)target;
+        RoomData roomData = holder.RoomDataArray[_selectedRoomIndex];
         
         //nullの場合Dataを初期化
-        if (roomData.GridRoomData == null)
+        if (roomData.GridRoomData == null || roomData.GridRoomData.Length == 0)
         {
             roomData.InitRoomData(new TileType[roomData.Width * roomData.Height]);
-            EditorUtility.SetDirty(roomData);
+            EditorUtility.SetDirty(holder);
         }
         
         EditorGUILayout.LabelField("横のタイルの長さ:" + roomData.Width);
         EditorGUILayout.LabelField("縦のタイルの長さ:" + roomData.Height);
+        EditorGUILayout.LabelField("出現重み:" + roomData.RoomWeight);
 
         EditorGUILayout.Space(_spaceSize);
         

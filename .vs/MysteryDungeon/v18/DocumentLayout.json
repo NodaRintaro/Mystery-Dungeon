@@ -3,15 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\users\\rintaro\\documents\\unity\\mysterydungeon\\assets\\scripts\\system\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\users\\rintaro\\documents\\unity\\mysterydungeon\\assets\\scripts\\so\\roomdataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\so\\roomdataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\stage\\stagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage\\stagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\editor\\roomdataediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\roomdataediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\editor\\addressablegroupdetectorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\addressablegroupdetectorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\system\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\users\\rintaro\\documents\\unity\\mysterydungeon\\assets\\scripts\\system\\asstesloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\system\\assetsloadinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\assetsloadinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\system\\asstesloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\system\\asstesloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\users\\rintaro\\documents\\unity\\mysterydungeon\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,28 +59,16 @@
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage\\stagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\stage\\stagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage\\stagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\data\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:1:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycharacterstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\IFactry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Spawner\\IFactry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,19 +83,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StateMachine.cs",
-              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\StateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\StateMachine.cs",
-              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\StateMachine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\System\\StateMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Title": "RoomDataHolder.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\RoomDataHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\RoomDataHolder.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\RoomDataHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SO\\RoomDataHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T03:52:34.052Z",
+              "WhenOpened": "2026-04-25T10:23:01.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "RoomDataEditer.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomDataEditer.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\RoomDataEditer.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomDataEditer.cs",
+              "RelativeToolTip": "Assets\\Editor\\RoomDataEditer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-04-25T09:39:05.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoomMakingWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeToolTip": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T09:48:06.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddressableGroupDetectorWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\AddressableGroupDetectorWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\AddressableGroupDetectorWindow.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\AddressableGroupDetectorWindow.cs",
+              "RelativeToolTip": "Assets\\Editor\\AddressableGroupDetectorWindow.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:49:49.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssetsLoadInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T10:23:01.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AsstesLoader.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\AsstesLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\System\\AsstesLoader.cs",
@@ -87,12 +151,11 @@
               "RelativeToolTip": "Assets\\Scripts\\System\\AsstesLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T03:49:04.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T10:23:01.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Character\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterMovement.cs",
@@ -100,12 +163,35 @@
               "RelativeToolTip": "Assets\\Scripts\\Character\\CharacterMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T03:48:20.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T10:23:01.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StageGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageGenerator.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stage\\StageGenerator.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwGIAAAAqAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-04-25T10:23:01.828Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RoomMakingWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeToolTip": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwIgAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-04-25T09:39:05.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ItemSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\ItemSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\ItemSpawner.cs",
@@ -113,23 +199,35 @@
               "RelativeToolTip": "Assets\\Scripts\\Spawner\\ItemSpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAATAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:50:20.651Z"
+              "WhenOpened": "2026-04-25T10:23:01.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EnemyCharacterStateMachine.cs",
-              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
-              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAawFgAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "StageBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageBuilder.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageBuilder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stage\\StageBuilder.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAEwD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T03:44:11.167Z"
+              "WhenOpened": "2026-04-25T10:23:01.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\System\\StateMachine.cs",
+              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\System\\StateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-04-25T10:23:01.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\PlayerSpawner.cs",
@@ -137,11 +235,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Spawner\\PlayerSpawner.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:47:27.17Z"
+              "WhenOpened": "2026-04-25T10:23:01.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\EnemySpawner.cs",
@@ -149,47 +247,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Spawner\\EnemySpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:46:08.254Z"
+              "WhenOpened": "2026-04-25T10:23:01.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IFactry.cs",
-              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\IFactry.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\IFactry.cs",
-              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\IFactry.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Spawner\\IFactry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:44:13.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StageGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageGenerator.cs",
-              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stage\\StageGenerator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:44:13.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StageBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageBuilder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageBuilder.cs",
-              "ToolTip": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageBuilder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stage\\StageBuilder.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCMAAAAgAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:44:13.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "StageData.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageData.cs",
@@ -197,11 +259,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Stage\\StageData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:44:13.671Z"
+              "WhenOpened": "2026-04-25T10:23:01.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SkillData.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Data\\SkillData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SkillData.cs",
@@ -209,11 +271,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Data\\SkillData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAWAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:44:13.672Z"
+              "WhenOpened": "2026-04-25T10:23:01.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "EnemyCharacterStateMachine.cs",
               "DocumentMoniker": "C:\\Users\\Rintaro\\Documents\\Unity\\MysteryDungeon\\Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
@@ -221,7 +283,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-04-23T10:44:13.672Z"
+              "WhenOpened": "2026-04-25T10:23:01.857Z"
             }
           ]
         }

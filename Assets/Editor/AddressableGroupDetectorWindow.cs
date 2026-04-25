@@ -13,7 +13,6 @@ public class AddressableGroupDetectorWindow : EditorWindow
 {
     private AddressableAssetGroup _targetGroup;
     private string _saveFolder;
-    private bool _isGenerateGetFunction = false;
 
     [MenuItem("Tools/Detector/AddressableGroupDetectorWindow")]
     private static void Init()
@@ -25,7 +24,6 @@ public class AddressableGroupDetectorWindow : EditorWindow
     {
         _targetGroup = (AddressableAssetGroup)EditorGUILayout.ObjectField(_targetGroup, typeof(AddressableAssetGroup), false);
         _saveFolder = EditorGUILayout.TextField("SavePath", _saveFolder);
-        _isGenerateGetFunction = EditorGUILayout.Toggle("GetPath関数を追加する", _isGenerateGetFunction);
 
         if (_targetGroup == null) return;
         var path = _saveFolder + $"/AAG{_targetGroup.name.Replace(" ", "")}.cs";
@@ -45,14 +43,7 @@ public class AddressableGroupDetectorWindow : EditorWindow
                 var line =
                     $"    public const string k{obj.AssetPath.Split('.')[0].Replace("/", "_")} = \"{obj.AssetPath}\";\n\n";
                 content.Add(line);
-
-                if (line.Contains("ID_"))
-                {
-
-                }
             }
-
-
 
             content.Add("}\n");
             WriteCode(path, content);

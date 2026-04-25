@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: RoomDataGroup
   m_GUID: 0ac74b53fc222f74c9b7ae987edf5094
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2d5ae5e3c4d31e44f91c9cd21afc93a7
+    m_Address: Assets/Data/RoomData/CommonRoomData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ff78ba9aec9599843b8dc159f3a437d7, type: 2}
   m_SchemaSet:

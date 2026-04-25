@@ -94,6 +94,8 @@ namespace Roguelike.Dungeon.System
         /// <summary> ダンジョンを構成するタイルのPrefabをロードしてTileObjectPoolに保存する関数 </summary>
         private void LoadStageTilePrefab()
         {
+            if (!ServiceLocator.TryGet(out AssetsLoader assetsLoader)) return;
+
             TileData[] tileDataArr = null;
 
             foreach (var tileData in tileDataArr)
