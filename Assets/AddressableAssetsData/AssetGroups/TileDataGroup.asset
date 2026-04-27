@@ -14,17 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: TileDataGroup
   m_GUID: a0b306116eea4df49acf25a65d00c395
-  m_SerializeEntries:
-  - m_GUID: 10772385173249d4f9c61cc801f51728
-    m_Address: Assets/Data/MapTile/Default/DefaultWallTile.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8d0e4c3a58b698f4b88699a3acad85f1
-    m_Address: Assets/Data/MapTile/Default/DefaultGroundTile.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ff78ba9aec9599843b8dc159f3a437d7, type: 2}
   m_SchemaSet:

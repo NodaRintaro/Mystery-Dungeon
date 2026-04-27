@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using Roguelike.Dungeon;
+using Domain;
+using Infrastructure;
 
 [CustomEditor(typeof(RoomDataHolder))]
 public class RoomDataEditer : Editor
