@@ -1,7 +1,11 @@
 ﻿# Code Manual
 
-## Overview
-This document provides a manual for the code in this project.
+## Coding規約
+ - privateの変数は先頭アンダーバーのキャメルケースで命名する。<br>
+ 　　例: _exampleVariable
 
-## Structure
-(Add project structure and code explanations here)
+ - publicの変数はアッパーキャメルケースで命名する。<br>
+ 　　例: ExampleVariable
+
+ - メソッドは先頭動詞を使用し、アッパーキャメルケースで命名する。<br>
+ 　　例: ExampleMethod
