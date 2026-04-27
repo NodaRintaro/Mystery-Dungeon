@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\readme\\readme.md.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\readme\\readme.md.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\infrastructure\\character\\characterassetdataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infrastructure\\character\\characterassetdataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\view\\enemy\\enemycharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\view\\enemy\\enemycharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\editor\\roomdataediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\roomdataediter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6C2140F-868B-EE91-076E-44F7BA324B01}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\roommakingwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\system\\randomweightpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\system\\randomweightpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\domain\\system\\randomweightpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDD7EF8-ADAA-F92C-79D6-539C28FF18DB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\domain\\stage\\stagebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -129,6 +141,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\TileViewData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SO\\TileViewData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,46 +162,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadMe.md.txt",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\ReadMe\\ReadMe.md.txt",
+              "RelativeDocumentMoniker": "Assets\\ReadMe\\ReadMe.md.txt",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\ReadMe\\ReadMe.md.txt",
+              "RelativeToolTip": "Assets\\ReadMe\\ReadMe.md.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-27T07:56:56.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoomMakingWindow.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\RoomMakingWindow.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
-              "RelativeToolTip": "Assets\\Editor\\RoomMakingWindow.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvwMAAAAVAAAAAAAAAA==",
+              "Title": "CharacterAssetDataHolder.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Character\\CharacterAssetDataHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastructure\\Character\\CharacterAssetDataHolder.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Character\\CharacterAssetDataHolder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastructure\\Character\\CharacterAssetDataHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:09:46.852Z",
+              "WhenOpened": "2026-04-27T07:56:53.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RandomWeightPick.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:09:01.855Z",
-              "EditorCaption": ""
+              "Title": "EnemyCharacterView.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\Enemy\\EnemyCharacterView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\Enemy\\EnemyCharacterView.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\Enemy\\EnemyCharacterView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\Enemy\\EnemyCharacterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-04-27T07:56:53.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StageBuilder.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwFUAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:09:01.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Data\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ItemData.cs",
@@ -197,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CharacterAttack.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Character\\CharacterAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterAttack.cs",
@@ -209,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CharacterAnimator.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Character\\CharacterAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterAnimator.cs",
@@ -221,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CharacterApplication.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Character\\CharacterApplication.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterApplication.cs",
@@ -233,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "DungeonManager.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Dungeon\\DungeonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DungeonManager.cs",
@@ -245,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Character\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterMovement.cs",
@@ -257,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DungeonData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Dungeon\\DungeonData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeon\\DungeonData.cs",
@@ -268,20 +283,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RoomDataEditer.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomDataEditer.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\RoomDataEditer.cs",
               "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomDataEditer.cs",
               "RelativeToolTip": "Assets\\Editor\\RoomDataEditer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T09:08:19.076Z",
-              "EditorCaption": ""
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-04-26T09:08:19.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CharacterData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Data\\CharacterData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\CharacterData.cs",
@@ -293,19 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerSpawner.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwAkAAAA0AAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-04-26T19:06:03.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "TargetFollowCamera.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Camera\\TargetFollowCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\TargetFollowCamera.cs",
@@ -317,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "StageGenerator.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageGenerator.cs",
@@ -329,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -340,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ICharacterData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Interface\\ICharacterData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\ICharacterData.cs",
@@ -352,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SkillData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Data\\SkillData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SkillData.cs",
@@ -364,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "DebugLogger.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Debug\\DebugLogger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Debug\\DebugLogger.cs",
@@ -376,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "EnemyCharacterStateMachine.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyCharacterStateMachine.cs",
@@ -388,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "PlayerCharacterView.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Player\\PlayerCharacterView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCharacterView.cs",
@@ -400,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ItemSpawner.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\ItemSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\ItemSpawner.cs",
@@ -412,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\EnemySpawner.cs",
@@ -424,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "StageBuilder.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageBuilder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageBuilder.cs",
@@ -436,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Spawner\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner\\PlayerSpawner.cs",
@@ -448,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "StageTileObjectPool.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageTileObjectPool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageTileObjectPool.cs",
@@ -460,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "StageData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Stage\\StageData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stage\\StageData.cs",
@@ -472,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "IFactry.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Interface\\IFactry.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\IFactry.cs",
@@ -484,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "RoomDataHolder.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\RoomDataHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\RoomDataHolder.cs",
@@ -496,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "CharacterViewDataHolder.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\CharacterViewDataHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\CharacterViewDataHolder.cs",
@@ -508,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AssetsLoadInitializer.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\System\\AssetsLoadInitializer.cs",
@@ -520,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "TileViewData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\SO\\TileViewData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\TileViewData.cs",
@@ -529,6 +531,67 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T16:03:42.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UniTaskScheduler.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.cysharp.unitask\\Runtime\\UniTaskScheduler.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwFkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:56:53.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomMakingWindow.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Editor\\RoomMakingWindow.cs",
+              "RelativeToolTip": "Assets\\Editor\\RoomMakingWindow.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvwMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:09:46.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RandomWeightPick.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\System\\RandomWeightPick.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:09:01.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StageBuilder.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Stage\\StageBuilder.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFUAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:09:01.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Infrastructure\\Player\\PlayerSpawner.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwAkAAAA0AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-04-26T19:06:03.175Z"
             }
           ]
         }

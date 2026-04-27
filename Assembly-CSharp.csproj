@@ -77,6 +77,7 @@
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentFrameView.cs" />
     <Compile Include="Assets\AssetStoreTools\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Item\ItemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterRepositry.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGTileDataGroup.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\ArmorListView.cs" />
     <Compile Include="Assets\Scripts\Application\Item\ItemPresenter.cs" />
@@ -84,9 +85,9 @@
     <Compile Include="Assets\Scripts\Infrastructure\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\ISkillData.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Stage\StageTileObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterViewDataHolder.cs" />
     <Compile Include="Assets\Scripts\Application\Character\CharacterAttack.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\IEditPartData.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterAssetDataHolder.cs" />
     <Compile Include="Assets\Scripts\View\Item\ItemView.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGRoomDataGroup.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Player\PlayerSpawner.cs" />
@@ -127,7 +128,6 @@
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\CombatAvatarView.cs" />
     <Compile Include="Assets\Scripts\Domain\Stage\StageBuilder.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\ModelRotateButton.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Repositry\CharacterRepositry.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\WeaponEditPartData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\HorizontalSwitcher.cs" />
     <Compile Include="Assets\AssetStoreTools\Forest Pack\Scripts\WheelController.cs" />

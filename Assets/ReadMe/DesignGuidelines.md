@@ -1,9 +1,10 @@
 ﻿# Design Guidelines
 
 ## 設計思想
-クリーンアーキテクチャ
-MVC、MVP
-
+クリーンアーキテクチャを基軸にした階層構造です。
+上位の層が下位の層に依存する形で設計されており、下位の層は上位の層に依存しないようになっています。
+今回はあくまでも個人製作のため、DDD(ドメイン駆動設計)のような厳密なドメインモデルの設計は行わず、
+シンプルかつ分かりやすいな階層構造を目指しております。
 
 ## 階層構造
 
@@ -18,7 +19,7 @@ MVC、MVP
 ### UseCase
  - Logic : ドメインロジックを実装するクラス
 
-### Domain
+### Entity
  - Data : ドメインモデルを表すクラス
 
 ### Infrastructure
@@ -27,7 +28,8 @@ MVC、MVP
  - Initializer : アプリケーションの初期化を行うクラス
 
 ## 依存関係
- - View >> Application
- - Application >> UseCase
- - UseCase >> Domain
  - Domain(依存先なし)
+	- UseCase >> Domain
+	- Application >> UseCase, Domain
+	- View >> Application
+	- Infrastructure >> Domain, UseCase, Application

@@ -30,7 +30,7 @@ namespace Infrastructure
         public CharacterData Spawn(int spawnObjId, Vector2Int spawnPosition)
         {
             CharacterData characterData = null;
-            CharacterViewData assetData = null;
+            CharacterAssetData assetData = null;
 
             if (!_characterDataRepositry.TryCreateCharacter(spawnObjId, out assetData, out characterData))
             {
