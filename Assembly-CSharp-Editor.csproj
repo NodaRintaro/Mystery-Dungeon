@@ -62,11 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\AddressableGroupDetectorWindow.cs" />
+    <Compile Include="Assets\Editor\CSVDataCreater.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Editor\RendererEditPartDataEditor.cs" />
     <Compile Include="Assets\Editor\RoomMakingWindow.cs" />
     <Compile Include="Assets\Editor\RoomDataEditer.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Editor\WeaponEditPartDataEditor.cs" />
-    <Compile Include="Assets\Editor\CSVDataCreater\CSVDataCreater.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1363,17 +1363,33 @@
       <Project>{021F1A55-24FF-2A79-1BB3-449383DB1AB6}</Project>
       <Name>MagicaClothV2</Name>
     </ProjectReference>
+    <ProjectReference Include="View.csproj">
+      <Project>{3EBA6265-8829-870C-7A48-561F28F42EFB}</Project>
+      <Name>View</Name>
+    </ProjectReference>
     <ProjectReference Include="CriMw.CriWare.Runtime.csproj">
       <Project>{B117B71F-D196-514A-9DCB-0E1F0AD50E5E}</Project>
       <Name>CriMw.CriWare.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Infrastructure.csproj">
+      <Project>{8472AA63-AD38-88F8-F60D-CD301F520FA0}</Project>
+      <Name>Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{ACC707A5-8AA0-9597-FE1F-2F04BD452E54}</Project>
       <Name>UniRx</Name>
     </ProjectReference>
+    <ProjectReference Include="Application.csproj">
+      <Project>{D83C32F9-735E-499F-CE33-126D067D1A39}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
     <ProjectReference Include="MagicaClothV2.Editor.csproj">
       <Project>{91D62431-07F1-9B41-FEF8-2CB9E8AE1062}</Project>
       <Name>MagicaClothV2.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Domain.csproj">
+      <Project>{4158E2F3-99B3-2282-CA66-E78100233AD9}</Project>
+      <Name>Domain</Name>
     </ProjectReference>
     <ProjectReference Include="CriMw.CriWare.Editor.csproj">
       <Project>{CCD308BD-6BDE-5FAE-B355-6A067AB3AC8D}</Project>

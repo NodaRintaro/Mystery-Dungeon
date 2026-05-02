@@ -1,24 +1,15 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using Domain;
 using Infrastructure;
 
 
 namespace Infrastructure
 {
-public interface IFactry<T>
-{
-    protected const int _spawnPosY = 1;
+    public interface IFactry<T>
+    {
+        public static DungeonData CurrentDungeon { get; }
 
-    public DungeonData DungeonData {  get; }
-
-    /// <summary> èâä˙âª </summary>
-    public void Init(DungeonData dungeonData);
-
-    /// <summary> ÉXÉ|Å[Éì </summary>
-    public T Spawn(int spawnObjId, Vector2Int spawnPosition);
+        /// <summary> „Çπ„Éù„Éº„É≥ </summary>
+        public T Spawn(int spawnObjId, Vector3 spawnPosition);
+    }
 }
-}
-
-
-
-

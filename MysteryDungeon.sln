@@ -17,13 +17,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lilToon.Editor", "lilToon.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx.Examples", "UniRx.Examples.csproj", "{03C9B3CE-D7A3-BB4A-499D-21DD20C25EB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain.csproj", "{4158E2F3-99B3-2282-CA66-E78100233AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application.csproj", "{D83C32F9-735E-499F-CE33-126D067D1A39}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{40E21C09-D87E-D71C-E064-49AB8789EF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure.csproj", "{8472AA63-AD38-88F8-F60D-CD301F520FA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D6C2140F-868B-EE91-076E-44F7BA324B01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaCloth2Example", "MagicaCloth2Example.csproj", "{D97BEFDE-2204-E843-5620-1088A34D6D2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lilToon.Editor.External", "lilToon.Editor.External.csproj", "{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View.csproj", "{3EBA6265-8829-870C-7A48-561F28F42EFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +71,22 @@ Global
 		{03C9B3CE-D7A3-BB4A-499D-21DD20C25EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03C9B3CE-D7A3-BB4A-499D-21DD20C25EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03C9B3CE-D7A3-BB4A-499D-21DD20C25EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4158E2F3-99B3-2282-CA66-E78100233AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4158E2F3-99B3-2282-CA66-E78100233AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4158E2F3-99B3-2282-CA66-E78100233AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4158E2F3-99B3-2282-CA66-E78100233AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83C32F9-735E-499F-CE33-126D067D1A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83C32F9-735E-499F-CE33-126D067D1A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83C32F9-735E-499F-CE33-126D067D1A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83C32F9-735E-499F-CE33-126D067D1A39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E21C09-D87E-D71C-E064-49AB8789EF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8472AA63-AD38-88F8-F60D-CD301F520FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8472AA63-AD38-88F8-F60D-CD301F520FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8472AA63-AD38-88F8-F60D-CD301F520FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8472AA63-AD38-88F8-F60D-CD301F520FA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C2140F-868B-EE91-076E-44F7BA324B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,6 +99,10 @@ Global
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FAD31E4-83F9-5DD8-60D3-7477A3BED582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBA6265-8829-870C-7A48-561F28F42EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBA6265-8829-870C-7A48-561F28F42EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBA6265-8829-870C-7A48-561F28F42EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBA6265-8829-870C-7A48-561F28F42EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

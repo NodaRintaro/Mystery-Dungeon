@@ -59,7 +59,7 @@ public class RoomDataEditer : Editor
 
         scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.Height(_scrollHeight));
         
-        RoomData roomData = holder.RoomDataArray[_selectedRoomIndex];
+        DungeonRoomData roomData = holder.RoomDataArray[_selectedRoomIndex];
         
         //nullの場合Dataを初期化
         if (roomData.GridRoomData == null || roomData.GridRoomData.Length == 0)
@@ -81,7 +81,7 @@ public class RoomDataEditer : Editor
         EditorGUILayout.EndScrollView();
     }
 
-    private void TileTypeGUI(RoomData roomData, int displaySize)
+    private void TileTypeGUI(DungeonRoomData roomData, int displaySize)
     {
         TileType currentTile;
         Color tileColor;

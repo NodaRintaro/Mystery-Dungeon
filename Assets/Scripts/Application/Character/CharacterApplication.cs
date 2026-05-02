@@ -1,9 +1,9 @@
-using Domain;
+ï»¿using Domain;
 using UnityEngine;
 
 namespace Application
 {
-    /// <summary> ƒ†[ƒU[‚©‚ç‚Ì“ü—Í‚É‚æ‚Á‚Ä”­¶‚·‚éˆ—•”•ª‚Ì‹@\ </summary>
+    /// <summary> ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‹ã‚‰ã®å…¥åŠ›ã«ã‚ˆã£ã¦ç™ºç”Ÿã™ã‚‹å‡¦ç†éƒ¨åˆ†ã®æ©Ÿæ§‹ </summary>
     public class CharacterApplication
     {
         public CharacterApplication(ICharacterData characterData, DungeonData dungeonData, Transform characterTransform)
@@ -14,7 +14,7 @@ namespace Application
 
         private CharacterMovement _characterMovement = null;
 
-        private CharacterAttack _characterAttack = null;
+        private CharacterSkill _characterAttack = null;
     }
 }
 

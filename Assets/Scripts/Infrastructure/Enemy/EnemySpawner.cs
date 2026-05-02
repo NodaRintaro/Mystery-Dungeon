@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 using Domain;
 
@@ -8,14 +8,14 @@ namespace Infrastructure
     {
         private DungeonData _dungeonData = null;
 
-        public DungeonData DungeonData { get; }
+        public DungeonData CurrentDungeon { get; }
 
         public void Init(DungeonData dungeonData)
         {
             _dungeonData = dungeonData;
         }
 
-        public CharacterData Spawn(int spawnObjId, Vector2Int spawnPosition)
+        public CharacterData Spawn(int spawnObjId, Vector3 spawnPosition)
         {
             //GameObject enemyInstance = Instantiate(spawnObj);
             //enemyInstance.transform.position = new Vector3(spawnPosition.x * DungeonGenerator.GridSize, _spawnPosY, spawnPosition.y * DungeonGenerator.GridSize);

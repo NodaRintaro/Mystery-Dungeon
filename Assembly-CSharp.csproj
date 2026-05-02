@@ -63,84 +63,36 @@
   <ItemGroup>
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\WeaponPage.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\ColorEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Stage\RoomDataHolder.cs" />
-    <Compile Include="Assets\Scripts\Domain\Enum\CharacterDirectionType.cs" />
-    <Compile Include="Assets\Scripts\Application\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Domain\Skill\SkillSlot.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\HairColorEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Application\Character\CharacterApplication.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\ICharacterData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Initializer\AssetsLoadInitializer.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGCSVDataGroup.cs" />
-    <Compile Include="Assets\Scripts\Application\Enemy\EnemyController.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\EditPartDataContainer.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentFrameView.cs" />
     <Compile Include="Assets\AssetStoreTools\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Item\ItemSpawner.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterRepositry.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGTileDataGroup.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\ArmorListView.cs" />
-    <Compile Include="Assets\Scripts\Application\Item\ItemPresenter.cs" />
-    <Compile Include="Assets\Scripts\Application\Enemy\EnemyCharacterStateMachine.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Enemy\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\ISkillData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Stage\StageTileObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Application\Character\CharacterAttack.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\IEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterAssetDataHolder.cs" />
-    <Compile Include="Assets\Scripts\View\Item\ItemView.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGRoomDataGroup.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Player\PlayerSpawner.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\AvatarEditData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Sound\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\Domain\Enum\TileType.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentFrameIconView.cs" />
-    <Compile Include="Assets\Scripts\Domain\CommandBattle\TurnBasedCommandBattleSystem.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\IItemData.cs" />
-    <Compile Include="Assets\Scripts\Application\Character\CharacterMovement.cs" />
-    <Compile Include="Assets\Scripts\View\Enemy\EnemyCharacterView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\FaceEmotionData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\WeaponsListView.cs" />
-    <Compile Include="Assets\Scripts\Application\System\StateMachine.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\BustSizeEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Interface\IFactry.cs" />
     <Compile Include="Assets\AssetStoreTools\Forest Pack\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonManager.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EditBodyPage.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\WeaponGroupData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EditPage.cs" />
     <Compile Include="Assets\AssetStoreTools\Forest Pack\Scripts\MaterialMover.cs" />
-    <Compile Include="Assets\Scripts\View\Camera\TargetFollowCamera.cs" />
-    <Compile Include="Assets\Scripts\Application\Character\CharacterAnimator.cs" />
-    <Compile Include="Assets\Scripts\Domain\System\RandomWeightPick.cs" />
-    <Compile Include="Assets\Scripts\Domain\Item\ItemData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Character\CharacterData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\ArmorPage.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentSelectView.cs" />
-    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Stage\StageGenerator.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\ArmorEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\AsstesLoader.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\ServiceLocator.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\TransitionView.cs" />
-    <Compile Include="Assets\Scripts\Domain\Stage\StageData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\CombatAvatarView.cs" />
-    <Compile Include="Assets\Scripts\Domain\Stage\StageBuilder.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\ModelRotateButton.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\WeaponEditPartData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\HorizontalSwitcher.cs" />
     <Compile Include="Assets\AssetStoreTools\Forest Pack\Scripts\WheelController.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentListIconView.cs" />
-    <Compile Include="Assets\Scripts\View\Player\PlayerCharacterView.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\CSVDateLoader.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\DemoPageController.cs" />
-    <Compile Include="Assets\Scripts\Domain\Skill\SkillData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Stage\TileViewData.cs" />
     <Compile Include="Assets\AssetStoreTools\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\AvatarView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\RendererEditPartData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Stage\RoomData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fakeshadow.shader" />
@@ -1474,17 +1426,33 @@
       <Project>{021F1A55-24FF-2A79-1BB3-449383DB1AB6}</Project>
       <Name>MagicaClothV2</Name>
     </ProjectReference>
+    <ProjectReference Include="View.csproj">
+      <Project>{3EBA6265-8829-870C-7A48-561F28F42EFB}</Project>
+      <Name>View</Name>
+    </ProjectReference>
     <ProjectReference Include="CriMw.CriWare.Runtime.csproj">
       <Project>{B117B71F-D196-514A-9DCB-0E1F0AD50E5E}</Project>
       <Name>CriMw.CriWare.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Infrastructure.csproj">
+      <Project>{8472AA63-AD38-88F8-F60D-CD301F520FA0}</Project>
+      <Name>Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="UniRx.csproj">
       <Project>{ACC707A5-8AA0-9597-FE1F-2F04BD452E54}</Project>
       <Name>UniRx</Name>
     </ProjectReference>
+    <ProjectReference Include="Application.csproj">
+      <Project>{D83C32F9-735E-499F-CE33-126D067D1A39}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
     <ProjectReference Include="MagicaClothV2.Editor.csproj">
       <Project>{91D62431-07F1-9B41-FEF8-2CB9E8AE1062}</Project>
       <Name>MagicaClothV2.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Domain.csproj">
+      <Project>{4158E2F3-99B3-2282-CA66-E78100233AD9}</Project>
+      <Name>Domain</Name>
     </ProjectReference>
     <ProjectReference Include="CriMw.CriWare.Editor.csproj">
       <Project>{CCD308BD-6BDE-5FAE-B355-6A067AB3AC8D}</Project>

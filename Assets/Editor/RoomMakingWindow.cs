@@ -150,7 +150,7 @@ public class RoomMakingWindow : EditorWindow
             return;
         }
 
-        RoomData newRoomData = new RoomData();
+        DungeonRoomData newRoomData = new DungeonRoomData();
 
         //Dataを保存
         newRoomData.SetHeight(_height);
