@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using Domain;
+using Layer.Domain;
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     public class ItemSpawner : MonoBehaviour, IFactry<ItemData>
     {
@@ -22,6 +22,9 @@ namespace Infrastructure
         }
     }
 }
+
+
+
 
 
 

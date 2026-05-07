@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿﻿using System.Collections.Generic;
 using UnityEngine;
 using System;
 
 
-namespace Domain
+namespace Layer.Domain
 {
     [Serializable]
     public struct RandomPickItem<T>

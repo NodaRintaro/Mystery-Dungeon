@@ -1,7 +1,7 @@
-﻿using Domain;
+using Layer.Domain;
 using UnityEngine;
 
-namespace Application
+namespace Layer.Application
 {
     /// <summary> ユーザーからの入力によって発生する処理部分の機構 </summary>
     public class CharacterApplication
@@ -9,12 +9,9 @@ namespace Application
         public CharacterApplication(ICharacterData characterData, DungeonData dungeonData, Transform characterTransform)
         {
             _characterMovement = new(characterData, dungeonData, characterTransform);
-            _characterAttack = new();
         }
 
         private CharacterMovement _characterMovement = null;
-
-        private CharacterSkill _characterAttack = null;
     }
 }
 

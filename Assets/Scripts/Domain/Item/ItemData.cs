@@ -1,12 +1,13 @@
-using UnityEngine;
+﻿﻿using UnityEngine;
 
-namespace Domain
+namespace Layer.Domain
 {
     public class ItemData
     {
 
     }
 }
+
 
 
 

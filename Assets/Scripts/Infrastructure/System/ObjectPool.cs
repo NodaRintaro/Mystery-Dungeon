@@ -1,9 +1,8 @@
-﻿using Domain;
-using System.Collections.Generic;
+﻿﻿using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     /// <summary> ObjectPool </summary>
     public class ObjectPool
@@ -83,6 +82,9 @@ namespace Infrastructure
         }
     }
 }
+
+
+
 
 
 

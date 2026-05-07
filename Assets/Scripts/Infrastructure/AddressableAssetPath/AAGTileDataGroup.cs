@@ -1,18 +1,11 @@
-using Domain;
-
-
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
-// ©“®¶¬‚Ìƒ\[ƒXƒR[ƒh‚Å‚·
-public class AAGTileDataGroup
-{
-    public const string kAssets_Data_MapTile_Default_DefaultWallTile = "Assets/Data/MapTile/Default/DefaultWallTile.asset";
+    // è‡ªå‹•ç”Ÿæˆã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™
+    public class AAGTileDataGroup
+    {
+        public const string kAssets_Data_MapTile_Default_DefaultWallTile = "Assets/Data/MapTile/Default/DefaultWallTile.asset";
 
-    public const string kAssets_Data_MapTile_Default_DefaultGroundTile = "Assets/Data/MapTile/Default/DefaultGroundTile.asset";
+        public const string kAssets_Data_MapTile_Default_DefaultGroundTile = "Assets/Data/MapTile/Default/DefaultGroundTile.asset";
 
+    }
 }
-}
-
-
-
-

@@ -1,17 +1,19 @@
-﻿using Domain;
-using Infrastructure;
-using UnityEngine;
+﻿using UnityEngine;
+using Layer.Domain;
 
-public abstract class Factry<T> : IFactry<T>
+namespace Layer.Infrastructure
 {
-    private static DungeonData _dungeonData;
-
-    public static DungeonData CurrentDungeon => _dungeonData;
-
-    public static void SetDungeonData(DungeonData dungeonData)
+    public abstract class Factry<T> : IFactry<T>
     {
-        _dungeonData = dungeonData;
-    }
+        private static DungeonData _dungeonData;
 
-    public abstract T Spawn(int spawnObjId, Vector3 spawnPosition);
+        public static DungeonData CurrentDungeon => _dungeonData;
+
+        public static void SetDungeonData(DungeonData dungeonData)
+        {
+            _dungeonData = dungeonData;
+        }
+
+        public abstract T Spawn(int spawnObjId, Vector3 spawnPosition);
+    }
 }

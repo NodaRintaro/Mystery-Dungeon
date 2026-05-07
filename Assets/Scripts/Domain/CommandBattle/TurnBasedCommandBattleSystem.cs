@@ -1,36 +1,37 @@
-using JetBrains.Annotations;
+ï»¿ï»¿using JetBrains.Annotations;
 using System.Collections.Generic;
 
 
-namespace Domain
+namespace Layer.Domain
 {
-/// <summary> ƒ^[ƒ“§ƒRƒ}ƒ“ƒhƒoƒgƒ‹ƒVƒXƒeƒ€ </summary>
-public class TurnBasedCommandBattleSystem
-{
-    private Dictionary<ICharacterData, uint> _characterList = new();
-
-    private uint _baseActiveValue = 10000;
-
-    /// <summary> s“®‘ÎÛ‚ğ’Ç‰Á‚·‚é </summary>
-    /// <param name="character"> s“®‘ÎÛ </param>
-    public void AddCharacter(ICharacterData character)
+    /// <summary> ã‚¿ãƒ¼ãƒ³åˆ¶ã‚³ãƒãƒ³ãƒ‰ãƒãƒˆãƒ«ã‚·ã‚¹ãƒ†ãƒ  </summary>
+    public class TurnBasedCommandBattleSystem
     {
-        _characterList.Add(character, _baseActiveValue);
-    }
+        private  Dictionary<ICharacterData, uint> _characterList = new();
 
-    /// <summary> Ÿ‚Ìs“®Ò‚ğ‘I‘ğ </summary>
-    public void ChangeTurn()
-    {
+        private uint _baseActiveValue = 10000;
 
-    }
+        /// <summary> è¡Œå‹•å¯¾è±¡ã‚’è¿½åŠ ã™ã‚‹ </summary>
+        /// <param name="character"> è¡Œå‹•å¯¾è±¡ </param>
+        public void AddCharacter(ICharacterData character)
+        {
+            _characterList.Add(character, _baseActiveValue);
+        }
 
-    /// <summary> Ÿ‚Ìs“®Ò‚ğ‘¬“x‚ğŒ³‚ÉŒvZ </summary>
-    public void CalculateNextActionCharacter()
-    {
+        /// <summary> æ¬¡ã®è¡Œå‹•è€…ã‚’é¸æŠ </summary>
+        public void ChangeTurn()
+        {
 
+        }
+
+        /// <summary> æ¬¡ã®è¡Œå‹•è€…ã‚’é€Ÿåº¦ã‚’å…ƒã«è¨ˆç®— </summary>
+        public void CalculateNextActionCharacter()
+        {
+
+        }
     }
 }
-}
+
 
 
 

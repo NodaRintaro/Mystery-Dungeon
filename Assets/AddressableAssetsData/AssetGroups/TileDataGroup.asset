@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: TileDataGroup
   m_GUID: a0b306116eea4df49acf25a65d00c395
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 8106e6ccf53c9de41a645fc888d1cc12
+    m_Address: Assets/MasterData/MapTile/VolcanoTile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96092f064887cf64db354127a092a700
+    m_Address: Assets/MasterData/MapTile/ForestTile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ff78ba9aec9599843b8dc159f3a437d7, type: 2}
   m_SchemaSet:

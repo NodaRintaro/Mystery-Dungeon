@@ -1,10 +1,9 @@
-using Application;
-using Domain;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using Layer.Application;
 
 
-namespace View
+namespace Layer.View
 {
     public class PlayerCharacterView : MonoBehaviour
     {
@@ -46,6 +45,9 @@ namespace View
         }
     }
 }
+
+
+
 
 
 

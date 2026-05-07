@@ -1,16 +1,9 @@
-using Domain;
-
-
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
-// ©“®¶¬‚Ìƒ\[ƒXƒR[ƒh‚Å‚·
-public class AAGRoomDataGroup
-{
-    public const string kAssets_Data_RoomData_CommonRoomData = "Assets/Data/RoomData/CommonRoomData.asset";
+    // è‡ªå‹•ç”Ÿæˆã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™
+    public class AAGRoomDataGroup
+    {
+        public const string kAssets_Data_RoomData_CommonRoomData = "Assets/Data/RoomData/CommonRoomData.asset";
 
+    }
 }
-}
-
-
-
-

@@ -1,27 +1,25 @@
-using Application;
-using Domain;
 using UnityEngine;
 
-namespace View
+namespace Layer.View
 {
-    /// <summary> ƒvƒŒƒCƒ„[‚ğ’Ç]‚·‚éMainCamera </summary>
+    /// <summary> ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ(ä¸»ã«Playerã‚’è¿½å¾“ã™ã‚‹ã‚«ãƒ¡ãƒ©) </summary>
     public class TargetFollowCamera : MonoBehaviour
     {
-        [SerializeField, Header("ƒJƒƒ‰‚ÆƒvƒŒƒCƒ„[‚Ì‹——£")]
+        [SerializeField, Header("ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã¨ã®è·é›¢")]
         private Vector3 _targetDistance;
 
-        [SerializeField, Header("’Ç]‚·‚éƒvƒŒƒCƒ„[ƒIƒuƒWƒFƒNƒg")]
+        [SerializeField, Header("ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ")]
         private GameObject _targetObj;
 
-        [SerializeField, Header("’Ç]‚·‚éƒXƒs[ƒh")]
+        [SerializeField, Header("è¿½å¾“é€Ÿåº¦")]
         private float _followSpeed;
 
-        [SerializeField, Header("‰ñ“]‚·‚éƒXƒs[ƒh")]
+        [SerializeField, Header("å›è»¢é€Ÿåº¦")]
         private float _rotationSpeed;
 
         private void Start()
         {
-            //ƒvƒŒƒCƒ„[ƒIƒuƒWƒFƒNƒg‚ª‘¶İ‚·‚éê‡AƒJƒƒ‰‚ÌˆÊ’u‚ğƒvƒŒƒCƒ„[‚ÌˆÊ’u‚©‚çw’è‹——£•ª‚¾‚¯—£‚·
+            // ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒè¨­å®šã•ã‚Œã¦ã„ã‚‹å ´åˆã€åˆæœŸä½ç½®ã‚’è¨­å®š
             if (_targetObj != null)
                 this.transform.position = _targetObj.transform.position + _targetDistance;
         }
@@ -30,21 +28,21 @@ namespace View
         {
             if (_targetObj != null)
             {
-                //üŒ`•âŠÔŠÖ”‚É‚æ‚éƒJƒƒ‰‚ÌˆÚ“®
+                // ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã«å‘ã‹ã£ã¦ä½ç½®ã‚’è£œé–“
                 transform.position = Vector3.Lerp(this.transform.position, _targetObj.transform.position - _targetDistance, Time.deltaTime * _followSpeed);
 
-                // ƒ^[ƒQƒbƒg‚Ö‚Ì•ûŒüƒxƒNƒgƒ‹‚ğŒvZ
+                // ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–¹å‘ã‚’è¨ˆç®—
                 Vector3 direction = _targetObj.transform.position - transform.position;
 
-                // ‚»‚Ì•ûŒü‚ğŒü‚­‚½‚ß‚Ì‰ñ“]’l‚ğæ“¾
+                // ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–¹å‘ã‚’è¨ˆç®—
                 Quaternion targetRotation = Quaternion.LookRotation(direction);
 
-                // Œ»İ‚Ì‰ñ“]‚©‚ç–Ú•W‚Ì‰ñ“]‚Ü‚ÅŠŠ‚ç‚©‚É•âŠÔ
+                // å›è»¢ã‚’è£œé–“
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _rotationSpeed * Time.deltaTime);
             }
         }
 
-        /// <summary> ƒvƒŒƒCƒ„[ƒIƒuƒWƒFƒNƒg‚ğİ’è </summary>
+        /// <summary> ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è¨­å®š </summary>
         public void SetTargetObj(GameObject playerObj)
         {
             _targetObj = playerObj;
@@ -52,9 +50,3 @@ namespace View
         }
     }
 }
-
-
-
-
-
-

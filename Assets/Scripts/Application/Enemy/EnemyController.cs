@@ -1,8 +1,7 @@
-using Domain;
-using UnityEngine;
+﻿﻿using UnityEngine;
 
 
-namespace Application
+namespace Layer.Application
 {
 public class EnemyController : MonoBehaviour
 {
@@ -19,6 +18,9 @@ public class EnemyController : MonoBehaviour
     }
 }
 }
+
+
+
 
 
 

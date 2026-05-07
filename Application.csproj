@@ -65,7 +65,8 @@
     <Compile Include="Assets\Scripts\Application\Character\CharacterApplication.cs" />
     <Compile Include="Assets\Scripts\Application\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Application\Item\ItemPresenter.cs" />
-    <Compile Include="Assets\Scripts\Application\Character\CharacterAnimator.cs" />
+    <Compile Include="Assets\Scripts\Application\Enemy\EnemyCharacterStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Application\Dungeon\DungeonPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Application\Application.asmdef" />

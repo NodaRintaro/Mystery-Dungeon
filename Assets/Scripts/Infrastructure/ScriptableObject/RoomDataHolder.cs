@@ -1,9 +1,9 @@
-﻿using Domain;
-using System;
+﻿using System;
 using System.Linq;
 using UnityEngine;
+using Layer.Domain;
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     [CreateAssetMenu(fileName = "RoomDataHolder", menuName = "ScriptableObjects/RoomData")]
     public class RoomDataHolder : ScriptableObject
@@ -27,7 +27,3 @@ namespace Infrastructure
         }
     }
 }
-
-
-
-

@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿﻿using UnityEngine;
 
-namespace Domain
+namespace Layer.Domain
 {
-    public interface ICharacterData : IOnGridObject
+    public interface ICharacterData : IOnGridData
     {
         /// <summary> このキャラクターの行動可能フラグ </summary>
         public bool CanAction { get; }

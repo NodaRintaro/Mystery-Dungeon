@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\View\Item\ItemView.cs" />
+    <Compile Include="Assets\Scripts\View\Character\CharacterAnimator.cs" />
     <Compile Include="Assets\Scripts\View\Enemy\EnemyCharacterView.cs" />
     <Compile Include="Assets\Scripts\View\Camera\TargetFollowCamera.cs" />
     <Compile Include="Assets\Scripts\View\Player\PlayerCharacterView.cs" />

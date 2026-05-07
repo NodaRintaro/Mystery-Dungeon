@@ -1,8 +1,8 @@
-﻿using Domain;
+using Layer.Domain;
 using Cysharp.Threading.Tasks;
 using UnityEngine.InputSystem;
 
-namespace Application
+namespace Layer.Application
 {
     public class PlayerController
     {

@@ -1,12 +1,12 @@
-﻿using Domain;
-using UnityEngine;
+﻿using UnityEngine;
+using Layer.Domain;
 
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     public class PlayerSpawner : MonoBehaviour, IFactry<CharacterData>
     {
-        private CharacterRepositry _characterDataRepositry = null;
+        private CharacterDataRepositry _characterDataRepositry = null;
 
         private DungeonData _dungeonData;
 
@@ -30,8 +30,3 @@ namespace Infrastructure
         }
     }
 }
-
-
-
-
-

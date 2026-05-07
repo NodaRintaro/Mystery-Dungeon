@@ -1,84 +1,57 @@
-using Domain;
 using System;
 using System.Text.RegularExpressions;
-using System.IO;
 
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
-public class CSVDateLoader
-{
-    /// <summary> CSVƒf[ƒ^‚ğ2ŸŒ³”z—ñ‚É•ÏŠ·‚·‚éŠÖ” </summary>
-    /// <param name="csvData">  æ“¾‚µ‚½CSV‚Ìƒf[ƒ^ </param>
-    /// <returns> æ“¾‚µ‚½CSVƒf[ƒ^‚ğŠi”[‚µ‚½2ŸŒ³”z—ñ </returns>
-    public string[,] ParseCsv(string csvData)
+    public class CSVDateLoader
     {
-        // s‚²‚Æ‚É•ªŠ„i\r\n ‚© \n ‚ğl—¶j
-        string[] rows = csvData.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-        // 1s–Ú‚Ì—ñ”‚ğŠî€‚É‚·‚é
-        string[] firstRow = SplitCsvLine(rows[0]);
-        int rowCount = rows.Length;
-        int colCount = firstRow.Length;
-
-        // 2ŸŒ³”z—ñ‚ğì¬
-        string[,] result = new string[rowCount, colCount];
-
-        for (int i = 0; i < rowCount; i++)
+        /// <summary> CSVDataã‚’string[,]å½¢å¼ã«å¤‰æ› </summary>
+        /// <param name="csvData"> CSVãƒ‡ãƒ¼ã‚¿ã®æ–‡å­—åˆ— </param>
+        /// <returns> 2æ¬¡å…ƒé…åˆ—ã«å¤‰æ›ã•ã‚ŒãŸCSVãƒ‡ãƒ¼ã‚¿ </returns>
+        public string[,] ParseCsv(string csvData)
         {
-            string[] cols = SplitCsvLine(rows[i]);
+            // CSVãƒ‡ãƒ¼ã‚¿ã‚’è¡Œã”ã¨ã«åˆ†å‰²
+            string[] rows = csvData.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
 
-            for (int j = 0; j < colCount; j++)
+            // æœ€åˆã®è¡Œã‚’è§£æã—ã¦åˆ—æ•°ã‚’å–å¾—
+            string[] firstRow = SplitCsvLine(rows[0]);
+            int rowCount = rows.Length;
+            int colCount = firstRow.Length;
+
+            // CSVãƒ‡ãƒ¼ã‚¿ã‚’2æ¬¡å…ƒé…åˆ—ã«å¤‰æ›
+            string[,] result = new string[rowCount, colCount];
+
+            for (int i = 0; i < rowCount; i++)
             {
-                // ”z—ñ‚Ì”ÍˆÍ‚ğ’´‚¦‚½ê‡‚Í‹ó•¶š‚ğƒZƒbƒg
-                result[i, j] = j < cols.Length ? cols[j] : "";
+                string[] cols = SplitCsvLine(rows[i]);
+
+                for (int j = 0; j < colCount; j++)
+                {
+                    // 
+                    result[i, j] = j < cols.Length ? cols[j] : "";
+                }
             }
+
+            return result;
         }
 
-        return result;
-    }
-
-    /// <summary> CSV‚Ì1s‚ğ•ªŠ„‚·‚éŠÖ” </summary>
-    /// <param name="line"></param>
-    /// <returns></returns>
-    private string[] SplitCsvLine(string line)
-    {
-        // ³‹K•\Œ»‚ÅCSV‚ÌƒtƒB[ƒ‹ƒh‚ğ’Šo
-        MatchCollection matches = Regex.Matches(line, "\"([^\"]*)\"|([^,]+)");
-
-        string[] fields = new string[matches.Count];
-
-        for (int i = 0; i < matches.Count; i++)
+        /// <summary> CSVã®1è¡Œã‚’è§£æã—ã¦ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã«åˆ†å‰² </summary>
+        /// <param name="line"> CSVã®1è¡Œã®æ–‡å­—åˆ— </param>
+        /// <returns> åˆ†å‰²ã•ã‚ŒãŸãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®é…åˆ— </returns>
+        private string[] SplitCsvLine(string line)
         {
-            fields[i] = matches[i].Value.Trim('"'); // ƒ_ƒuƒ‹ƒNƒH[ƒg‚ğíœ
-        }
+            // æ­£è¦è¡¨ç¾ã‚’ä½¿ç”¨ã—ã¦ã€ãƒ€ãƒ–ãƒ«ã‚¯ã‚©ãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ã§å›²ã¾ã‚ŒãŸãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã¨ã‚«ãƒ³ãƒã§åŒºåˆ‡ã‚‰ã‚ŒãŸãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’åˆ†å‰²
+            MatchCollection matches = Regex.Matches(line, "\"([^\"]*)\"|([^,]+)");
 
-        return fields;
-    }
+            string[] fields = new string[matches.Count];
 
-    /// <summary> ŠO•”‚©‚ç¶¬‚µ‚½CSVƒtƒ@ƒCƒ‹‚ğ2ŸŒ³”z—ñ‚Åƒ[ƒh‚·‚éŠÖ” </summary>
-    /// <param name="filePath"> ¶¬æ‚ÌPath </param>
-    public string[,] LoadCsvAs2DArray(string filePath)
-    {
-        string[] lines = File.ReadAllLines(filePath); // s‚²‚Æ‚É“Ç‚İ‚Ş
-        int rows = lines.Length;
-        int cols = lines[0].Split(',').Length; // 1s–Ú‚Ì—ñ”‚ğŠî€‚É‚·‚é
-        string[,] array = new string[rows, cols];
-
-        for (int i = 0; i < rows; i++)
-        {
-            string[] cells = lines[i].Split(','); // ƒJƒ“ƒ}‹æØ‚è‚Å•ªŠ„
-            for (int j = 0; j < cols; j++)
+            for (int i = 0; i < matches.Count; i++)
             {
-                array[i, j] = cells[j].Trim('\"'); // —]•ª‚È " ‚ğíœ
+                fields[i] = matches[i].Value.Trim('"'); // ãƒ€ãƒ–ãƒ«ã‚¯ã‚©ãƒ¼ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å‰Šé™¤
             }
-        }
 
-        return array;
+            return fields;
+        }
     }
 }
-}
-
-
-
-

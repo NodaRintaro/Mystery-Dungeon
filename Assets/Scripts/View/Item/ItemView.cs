@@ -1,9 +1,7 @@
-using Application;
-using Domain;
-using UnityEngine;
+﻿﻿using UnityEngine;
 
 
-namespace View
+namespace Layer.View
 {
 public class ItemView : MonoBehaviour
 {
@@ -20,6 +18,9 @@ public class ItemView : MonoBehaviour
     }
 }
 }
+
+
+
 
 
 

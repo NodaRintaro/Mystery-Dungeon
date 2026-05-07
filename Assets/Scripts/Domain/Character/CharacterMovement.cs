@@ -1,8 +1,8 @@
-﻿using Domain;
+﻿using Layer.Domain;
 using UnityEngine;
 using System;
 
-namespace Domain
+namespace Layer.Domain
 {
     public class CharacterMovement : IDisposable
     {
@@ -53,6 +53,7 @@ namespace Domain
         }
     }
 }
+
 
 
 

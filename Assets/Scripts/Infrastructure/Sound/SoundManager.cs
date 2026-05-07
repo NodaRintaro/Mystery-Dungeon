@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿﻿using UnityEngine;
 using CriWare;
 using System.Collections.Generic;
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     /// <summary> CueSheetの名前保管クラス </summary>
     public class CueSheetPathHolder
@@ -162,6 +162,7 @@ namespace Infrastructure
         }
     }
 }
+
 
 
 

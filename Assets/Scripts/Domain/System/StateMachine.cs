@@ -1,8 +1,8 @@
-﻿using Cysharp.Threading.Tasks;
+﻿﻿using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 
-namespace Domain
+namespace Layer.Domain
 {
     [Serializable]
     public abstract class State<TStateType>

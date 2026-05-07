@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
+using Layer.Domain;
 
-using Domain;
-
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     public class EnemySpawner : MonoBehaviour, IFactry<CharacterData>
     {
@@ -23,6 +22,9 @@ namespace Infrastructure
         }
     }
 }
+
+
+
 
 
 

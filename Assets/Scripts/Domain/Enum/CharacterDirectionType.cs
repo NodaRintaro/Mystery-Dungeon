@@ -1,6 +1,6 @@
+﻿﻿
 
-
-namespace Domain
+namespace Layer.Domain
 {
 public enum CharacterDirectionType
 {
@@ -10,6 +10,7 @@ public enum CharacterDirectionType
     Right
 }
 }
+
 
 
 

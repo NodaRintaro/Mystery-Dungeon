@@ -1,9 +1,9 @@
-using Domain;
+using Layer.Domain;
 
 
 namespace Infrastructure
 {
-// ©“®¶¬‚Ìƒ\[ƒXƒR[ƒh‚Å‚·
+// è‡ªå‹•ç”Ÿæˆã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™
 public class AAGCSVDataGroup
 {
     public const string kAssets_Data_CSV_CharacterDataCSV = "Assets/Data/CSV/CharacterDataCSV.csv";

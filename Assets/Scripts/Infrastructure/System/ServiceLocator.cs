@@ -1,9 +1,8 @@
-﻿using Domain;
-using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     /// <summary>
     /// シンプルなサービスロケーターパターンの実装
@@ -129,3 +128,5 @@ namespace Infrastructure
         }
     }
 }
+
+

@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿﻿using UnityEngine;
 
-namespace Domain
+namespace Layer.Domain
 {
-    public interface IGimmickData : IOnGridObject
+    public interface IGimmickData : IOnGridData
     {
 
     }
 }
+

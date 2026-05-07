@@ -3,7 +3,7 @@ root = true
 
 # C# ファイル
 [*.cs]
-charset = utf-8-bom
+charset = utf-8
 
 #### コア EditorConfig オプション ####
 

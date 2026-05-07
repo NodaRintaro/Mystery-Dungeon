@@ -64,31 +64,32 @@
     <Compile Include="Assets\Scripts\Domain\Enum\CharacterDirectionType.cs" />
     <Compile Include="Assets\Scripts\Domain\Skill\SkillSlot.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\IItemData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\EnemyData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\ICharacterData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\DungeonRoomData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Enum\CharacterType.cs" />
+    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonRoomData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Effect\Effect.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\CharacterActionOrder.cs" />
-    <Compile Include="Assets\Scripts\Domain\Stage\DungeonBuilder.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Player\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Domain\CommandBattle\DamageCalculator.cs" />
     <Compile Include="Assets\Scripts\Domain\Enum\TileType.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\TurnBasedCommandBattleSystem.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\GimmickData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\CharacterData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\SkillData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Enemy\EnemyCharacterStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IOnGridData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Gimmick\GimmickData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Enemy\EnemyData.cs" />
     <Compile Include="Assets\Scripts\Domain\System\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Domain\Character\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Repositry\IDungeonDataRepositry.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\IOnGridObject.cs" />
     <Compile Include="Assets\Scripts\Domain\System\RandomWeightPick.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonChanger.cs" />
     <Compile Include="Assets\Scripts\Domain\Item\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Character\CharacterData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Repositry\IRepositry.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IEffect.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\ISkillData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Data\DungeonData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\IGimmickData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Character\CharacterSkill.cs" />
-    <Compile Include="Assets\Scripts\Domain\Stage\DungeonChanger.cs" />
+    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonBuilder.cs" />
+    <Compile Include="Assets\Scripts\Domain\Skill\SkillData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Domain\Domain.asmdef" />
@@ -1120,6 +1121,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{ACC707A5-8AA0-9597-FE1F-2F04BD452E54}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

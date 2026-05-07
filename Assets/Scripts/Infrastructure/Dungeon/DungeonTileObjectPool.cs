@@ -1,9 +1,8 @@
-﻿using Domain;
-using UnityEngine;
+﻿﻿using UnityEngine;
 using System;
 using System.Collections.Generic;
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     [Serializable]
     public class DungeonTileObjectPool : ObjectPool
@@ -23,6 +22,9 @@ namespace Infrastructure
         }
     }
 }
+
+
+
 
 
 

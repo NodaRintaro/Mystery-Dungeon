@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
-using Domain;
-using Infrastructure;
+using Layer.Domain;
 
-
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     public interface IFactry<T>
     {
@@ -13,3 +11,5 @@ namespace Infrastructure
         public T Spawn(int spawnObjId, Vector3 spawnPosition);
     }
 }
+
+

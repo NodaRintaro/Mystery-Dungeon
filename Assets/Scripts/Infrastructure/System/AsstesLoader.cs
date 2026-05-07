@@ -1,11 +1,10 @@
-﻿using Domain;
-using System.Collections.Generic;
+﻿﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
 
-namespace Infrastructure
+namespace Layer.Infrastructure
 {
     /// <summary>
     /// Assetをロードするためのクラス
@@ -41,3 +40,5 @@ namespace Infrastructure
         }
     }
 }
+
+

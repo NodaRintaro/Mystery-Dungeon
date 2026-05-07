@@ -1,13 +1,11 @@
-using UnityEngine;
+﻿﻿using UnityEngine;
 
-
-namespace Domain
+namespace Layer.Domain
 {
-public interface ISkillData
-{
-    
+    public interface ISkillData
+    {
+        public int SkillID { get; }
+        public string SkillName { get; }
+        public string SkillDescription { get; }
+    }
 }
-}
-
-
-
