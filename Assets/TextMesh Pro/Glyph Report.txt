@@ -1,0 +1,13 @@
+Font: Kaisei Decol  Style: Regular
+Point Size: 77   Padding: -677689492   SP/PD Ratio: -880116200.0%
+
+Characters included: 1441/1442
+Missing characters: 1
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 9	Hex: 9	Char [	]
+
+Characters excluded from packing:
+----------------------------------------

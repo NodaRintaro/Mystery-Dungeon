@@ -102,19 +102,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fakeshadow.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_fakeshadow.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_onetrans_o.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Documentation\DISTORTION INFO.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_onetrans.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Demo\Scene\Shaders\SH_Vefects_Grid_01.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_tessellation.hlsl" />
     <None Include="Assets\AssetStoreTools\P09_Modular_Humanoid\ReadMe_Eng.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_input.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\AssetStoreTools\P09_Modular_Humanoid\ReadMe_Jpn.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsmulti_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_opaque.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_onetrans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pipeline_lwrp.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_twotrans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_twotrans.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Add_URP_New.shader" />
@@ -129,9 +133,11 @@
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Distortion_01_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_shadowcaster.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_vert_audiolink.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_vert_fur_thirdparty.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_replace_keywords.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_tess_cutout.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_onetrans.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fur_cutout.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fur_two.shader" />
@@ -140,12 +146,14 @@
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fur.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_cutout.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\AssetStoreTools\AurynSky\Dungeon Pack\READ ME.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_lite.hlsl" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Slash_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_trans.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_transparent.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_macro.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_AB_Dissolve_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_bakeramp.shader" />
@@ -161,20 +169,28 @@
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_AB_Trail_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_functions_thirdparty.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsmulti_ref.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_frag_alpha.hlsl" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_AB_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_o.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_vert_outline.hlsl" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Add_Color_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_gem.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\_ Extra\Shaders\SH_Vefects_Extra_Grid_01.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_furonly_two.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_lite_opaque.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsmulti_gem.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_AB_Color_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_cutout.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_functions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pipeline_brp.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_gem.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_baker.shader" />
@@ -184,11 +200,13 @@
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_tess_opaque.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_lite_cutout.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_refblur.hlsl" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_dummy.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\_ Extra\Shaders\SH_Vefects_Extra_Billboard_01.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_cutout_oo.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_cutout_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_cutout_o.shader" />
+    <None Include="Assets\TextMesh Pro\Glyph Report.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_trans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_motionvectors.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_cutout.shader" />
@@ -201,6 +219,7 @@
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_cutout_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_twotrans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\openlit_core.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_ref.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_overlay_one.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\VRC Light Volumes\LightVolumes.cginc" />
@@ -208,17 +227,21 @@
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Add_Trail_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_cutout.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_tess_transparent.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_depthonly.hlsl" />
     <None Include="Assets\AssetStoreTools\Stylized_Library\README.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_proponly.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_trans.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsmulti_fur.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Shader Graph\How to use the Shader Graph assets.txt" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Add_DoubleSided_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_twotrans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_twotrans.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_furonly_cutout.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\AssetStoreTools\Forest Pack\READ ME.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_ref_blur.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_depthnormals.hlsl" />
@@ -226,6 +249,7 @@
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_input_base.hlsl" />
     <None Include="Assets\AssetStoreTools\RPG Button 7\Readme.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_tess_trans.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_fur.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_o.shader" />
@@ -1393,6 +1417,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">

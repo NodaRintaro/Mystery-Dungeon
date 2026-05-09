@@ -71,12 +71,15 @@
     <Compile Include="Assets\Scripts\Domain\CommandBattle\CharacterActionOrder.cs" />
     <Compile Include="Assets\Scripts\Domain\Player\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\DamageCalculator.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IDungeonCondition.cs" />
     <Compile Include="Assets\Scripts\Domain\Enum\TileType.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\TurnBasedCommandBattleSystem.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\IOnGridData.cs" />
     <Compile Include="Assets\Scripts\Domain\Gimmick\GimmickData.cs" />
     <Compile Include="Assets\Scripts\Domain\Enemy\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IQuestClearConditions.cs" />
     <Compile Include="Assets\Scripts\Domain\System\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\Domain\Quest\QuestData.cs" />
     <Compile Include="Assets\Scripts\Domain\Character\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Repositry\IDungeonDataRepositry.cs" />
     <Compile Include="Assets\Scripts\Domain\System\RandomWeightPick.cs" />
@@ -86,6 +89,7 @@
     <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Repositry\IRepositry.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\IEffect.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\Data\IQuestData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\ISkillData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\IGimmickData.cs" />
     <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonBuilder.cs" />

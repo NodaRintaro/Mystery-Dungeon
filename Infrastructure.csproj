@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Infrastructure\Player\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Sound\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\System\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonCondition.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonTileObjectPool.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Interface\IFactry.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonDataRepositry.cs" />
