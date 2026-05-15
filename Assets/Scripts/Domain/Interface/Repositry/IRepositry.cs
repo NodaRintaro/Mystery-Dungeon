@@ -1,6 +1,10 @@
-﻿﻿using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
+using Layer.Domain;
 
-public interface IRepositry<TData>
+namespace Layer.Domain
 {
-
+    public interface IRepositry
+    {
+        public void GetData<T>(int id) where T : class, IData;
+    }
 }

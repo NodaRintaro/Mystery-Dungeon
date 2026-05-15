@@ -1,9 +1,9 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 
 namespace Layer.Domain
 {
     /// <summary> Tileの上に置かれるオブジェクトのインターフェース </summary>
-    public interface IOnGridData 
+    public interface IOnGrid 
     {
         /// <summary> 
         /// このオブジェクトが占有しているGridのサイズ

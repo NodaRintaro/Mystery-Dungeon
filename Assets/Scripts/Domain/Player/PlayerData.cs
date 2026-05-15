@@ -1,12 +1,19 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 
 namespace Layer.Domain
 {
     public class PlayerData : CharacterData
     {
-        public PlayerData(Vector3 characterPosition, int characterGridSize, int characterLevel,
-            SkillSlot skillSlot, CharacterStatus characterStatus, CharacterGrowthRates growthRates)
-            : base(characterPosition, characterGridSize, characterLevel, skillSlot, characterStatus, growthRates)
+        public PlayerData(
+            int id, 
+            string name, 
+            Vector3 position, 
+            int gridSize, 
+            int level,
+            SkillSlot skillSlot, 
+            CharacterStatus status, 
+            CharacterGrowthRates growthRates)
+            : base(id, name, position, gridSize, level, skillSlot, status, growthRates)
         {
 
         }

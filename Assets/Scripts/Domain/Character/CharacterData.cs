@@ -1,4 +1,4 @@
-﻿﻿using System;
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -6,32 +6,40 @@ namespace Layer.Domain
 {
     [Serializable]
     /// <summary> キャラクターのデータ </summary>
-    public class CharacterData : ICharacterData
+    public class CharacterData : IData, IOnGrid
     {
         /// <summary> キャラクターデータのコンストラクタ </summary>
         /// <param name="characterGridSize">キャラクターの占有するGridのサイズ</param>
         /// <param name="characterLevel">キャラクターのレベル</param>
         /// <param name="characterStatus">キャラクターのステータス</param>
         /// <param name="growthRates">キャラクターの成長曲線</param>
-        public CharacterData(Vector3 characterPosition, int characterGridSize, int characterLevel, 
+        public CharacterData(int id, string name, Vector3 characterPosition, int characterGridSize, int characterLevel, 
             SkillSlot skillSlot, CharacterStatus characterStatus, CharacterGrowthRates growthRates)
         {
+            _id = id;
+            _characterName = name;
             _growthData = new CharacterGrowthData(characterLevel, growthRates);
             _currentCharacterStatus = characterStatus;
             _characterSkillSlot = skillSlot;
             _characterPosition = characterPosition;
         }
 
-        [SerializeField, Header("キャラクターの向き")]
+        [SerializeField, Tooltip("キャラクターのID")]
+        private int _id;
+
+        [SerializeField, Tooltip("キャラクターの名前")]
+        private string _characterName;
+
+        [SerializeField, Tooltip("キャラクターの向き")]
         private CharacterDirectionType _characterDirection = CharacterDirectionType.Front;
 
-        [SerializeField, Header("キャラクターのステータス")]
+        [SerializeField, Tooltip("キャラクターのステータス")]
         private readonly CharacterStatus _currentCharacterStatus = null;
 
-        [SerializeField, Header("キャラクターの成長曲線")]
+        [SerializeField, Tooltip("キャラクターの成長曲線")]
         private readonly CharacterGrowthData _growthData = null;
 
-        [SerializeField, Header("所持スキル")]
+        [SerializeField, Tooltip("所持スキル")]
         private SkillSlot _characterSkillSlot = null;
 
         /// <summary> キャラクターの座標 </summary>
@@ -44,13 +52,15 @@ namespace Layer.Domain
         private readonly int _characterGridSize = 0;
 
         #region 参照用プロパティ
+        public int ID => _id;
+        public string Name => _characterName;
+        public CharacterStatus CurrentCharacterStatus => _currentCharacterStatus;
+        public CharacterGrowthData GrowthData => _growthData;
+        public SkillSlot CharacterSkillSlot => _characterSkillSlot;
         public bool CanAction => _canAction;
         public CharacterDirectionType CharacterDirection => _characterDirection;
         public Vector3 GridPosition => _characterPosition;
         public int GridSize => _characterGridSize;
-        public CharacterStatus CurrentCharacterStatus => _currentCharacterStatus;
-        public CharacterGrowthData GrowthData => _growthData;
-        public SkillSlot CharacterSkillSlot => _characterSkillSlot;
         #endregion
 
         public void SetDirection(CharacterDirectionType characterDirection) => _characterDirection = characterDirection;
@@ -103,10 +113,8 @@ namespace Layer.Domain
     [Serializable]
     public class CharacterStatus
     {
-        public CharacterStatus(int characterID, string characterName, int maxHp, int maxMp, int atk, int matk, int def, int mdef, int speed, int criticalRate, int criticalDMG)
+        public CharacterStatus(int maxHp, int maxMp, int atk, int matk, int def, int mdef, int speed, int criticalRate, int criticalDMG)
         {
-            _characterID = characterID;
-            _characterName = characterName;
             _maxHp = maxHp;
             _hp = maxHp;
             _maxMp = maxMp;
@@ -120,10 +128,6 @@ namespace Layer.Domain
             _criticalDMG = criticalDMG;
         }
 
-        /// <summary> キャラクターのID </summary>
-        private readonly int _characterID;
-        /// <summary> キャラクターの名前 </summary>
-        private readonly string _characterName;
         /// <summary> 体力の最大値 </summary>
         private int _maxHp;
         /// <summary> 体力 </summary>
@@ -148,8 +152,6 @@ namespace Layer.Domain
         private int _criticalDMG;
 
         #region 参照用プロパティ
-        public int CharacterID => _characterID;
-        public string CharacterName => _characterName;
         public int MaxHp => _maxHp;
         public int HP => _hp;
         public int MaxMp => _maxMp;
@@ -201,8 +203,6 @@ namespace Layer.Domain
     {
         // 表示したいフィールド名（SerializeFieldがついた変数名）のリスト
         private readonly string[] _fieldNames = {
-            "CharacterID",
-            "CharacterName",
             "MaxHp",
             "HP",
             "MaxMp",
@@ -218,8 +218,6 @@ namespace Layer.Domain
 
         // インスペクター上のラベル表示名
         private readonly string[] _displayNames = {
-            "Character ID",
-            "Name",
             "Max HP",
             "Current HP",
             "Max MP",

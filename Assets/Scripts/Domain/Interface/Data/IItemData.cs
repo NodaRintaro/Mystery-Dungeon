@@ -1,9 +1,9 @@
-﻿﻿using UnityEngine;
+using UnityEngine;
 
 
 namespace Layer.Domain
 {
-    public interface IItemData : IOnGridData
+    public interface IItemData : IData, IOnGrid
     {
 
     }

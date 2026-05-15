@@ -3,32 +3,72 @@
   "WorkspaceRootPath": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\interface\\data\\iquestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\character\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\character\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\enemy\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\iskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\data\\iskilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\skill\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\skill\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\interface\\repositry\\idungeondatarepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\repositry\\idungeondatarepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\repositry\\irepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\repositry\\irepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\domain\\quest\\questdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\quest\\questdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\dungeon\\dungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\dungeon\\dungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\enum\\questcleartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\enum\\questcleartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\iquestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\data\\iquestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8472AA63-AD38-88F8-F60D-CD301F520FA0}|Infrastructure.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\infrastructure\\dungeon\\dungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8472AA63-AD38-88F8-F60D-CD301F520FA0}|Infrastructure.csproj|solutionrelative:assets\\scripts\\infrastructure\\dungeon\\dungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8472AA63-AD38-88F8-F60D-CD301F520FA0}|Infrastructure.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\infrastructure\\dungeon\\dungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8472AA63-AD38-88F8-F60D-CD301F520FA0}|Infrastructure.csproj|solutionrelative:assets\\scripts\\infrastructure\\dungeon\\dungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\icharacterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\data\\icharacterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\iquestclearconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\iquestclearconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\iitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\data\\iitemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\idungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\idungeoncondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\igimmickdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\data\\igimmickdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Quest\\QuestData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:Assets\\Scripts\\Domain\\Quest\\QuestData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\iquestclearcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\interface\\iquestclearcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\dungeon\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4158E2F3-99B3-2282-CA66-E78100233AD9}|Domain.csproj|solutionrelative:assets\\scripts\\domain\\dungeon\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\domain\\interface\\data\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\domain\\interface\\data\\idata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +78,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IQuestClearCondition.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IQuestClearCondition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\IQuestClearCondition.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IQuestClearCondition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\IQuestClearCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.347Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Player\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Player\\PlayerData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Player\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Player\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:43:36.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Enemy\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Enemy\\EnemyData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Enemy\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Enemy\\EnemyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:41:51.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SkillData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Skill\\SkillData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Skill\\SkillData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Skill\\SkillData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Skill\\SkillData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:41:00.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDungeonDataRepositry.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Repositry\\IDungeonDataRepositry.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Repositry\\IDungeonDataRepositry.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Repositry\\IDungeonDataRepositry.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Repositry\\IDungeonDataRepositry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:40:07.264Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
@@ -50,88 +155,153 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DungeonCondition.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonCondition.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonCondition.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonCondition.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonCondition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAEAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-07T14:20:41.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuestData.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IRepositry.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Repositry\\IRepositry.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Repositry\\IRepositry.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Repositry\\IRepositry.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Repositry\\IRepositry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:20:41.586Z"
+              "WhenOpened": "2026-05-10T17:36:49.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDungeonCondition.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IDungeonCondition.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\IDungeonCondition.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IDungeonCondition.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\IDungeonCondition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:20:41.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IQuestClearConditions.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IQuestClearConditions.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\IQuestClearConditions.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IQuestClearConditions.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\IQuestClearConditions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\IData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\IData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\IData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-07T14:20:41.581Z"
+              "WhenOpened": "2026-05-10T17:36:49.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IItemData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\IItemData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\IItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAvAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGimmickData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IGimmickData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\IGimmickData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IGimmickData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\IGimmickData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAyAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.351Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CharacterData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Character\\CharacterData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Character\\CharacterData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Character\\CharacterData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Character\\CharacterData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:36:49.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICharacterData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\ICharacterData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\ICharacterData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\ICharacterData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\ICharacterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\IData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\IData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAjAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISkillData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\ISkillData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\ISkillData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\ISkillData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\ISkillData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:36:49.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IQuestData.cs",
               "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IQuestData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Interface\\Data\\IQuestData.cs",
               "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Interface\\Data\\IQuestData.cs",
               "RelativeToolTip": "Assets\\Scripts\\Domain\\Interface\\Data\\IQuestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAVAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-10T17:36:49.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestData.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Quest\\QuestData.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvxAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:20:41.583Z",
+              "WhenOpened": "2026-05-10T17:36:49.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DungeonGenerator.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonGenerator.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Infrastructure\\Dungeon\\DungeonGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA3AAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-07T08:31:15.9Z"
+              "DocumentIndex": 9,
+              "Title": "QuestClearType.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Enum\\QuestClearType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Enum\\QuestClearType.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Enum\\QuestClearType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Enum\\QuestClearType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:36:49.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DungeonBuilder.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Dungeon\\DungeonBuilder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Dungeon\\DungeonBuilder.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Dungeon\\DungeonBuilder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Domain\\Dungeon\\DungeonBuilder.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DungeonCondition.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Dungeon\\DungeonCondition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Domain\\Dungeon\\DungeonCondition.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Domain\\Dungeon\\DungeonCondition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Domain\\Dungeon\\DungeonCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:20:41.586Z"
+              "WhenOpened": "2026-05-10T17:36:49.376Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,8 @@
-﻿﻿using UnityEngine;
+using UnityEngine;
 
 namespace Layer.Domain
 {
-    public interface IGimmickData : IOnGridData
+    public interface IGimmickData : IData, IOnGrid
     {
 
     }

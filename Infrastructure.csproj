@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestStartNotifier.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Initializer\AssetsLoadInitializer.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGCSVDataGroup.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\SkillDataHolder.cs" />
@@ -72,8 +73,9 @@
     <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGRoomDataGroup.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Player\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Sound\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestSaveData.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestSaveDataInitializer.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\System\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonCondition.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonTileObjectPool.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Interface\IFactry.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonDataRepositry.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\Scripts\Infrastructure\System\Factry.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\RoomDataHolder.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\System\CSVDateLoader.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\System\SceneTransitionManager.cs" />
     <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonGenerator.cs" />
   </ItemGroup>
   <ItemGroup>

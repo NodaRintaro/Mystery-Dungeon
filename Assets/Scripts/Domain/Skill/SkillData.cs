@@ -1,4 +1,4 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 
 namespace Layer.Domain.SkillData
 {
@@ -25,8 +25,8 @@ namespace Layer.Domain.SkillData
         [SerializeField, Tooltip("スキルの説明")] 
         private string _skillDescription;
 
-        public int SkillID => _skillID;
-        public string SkillName => _skillName;
-        public string SkillDescription => _skillDescription;
+        public int ID => _skillID;
+        public string Name => _skillName;
+        public string Description => _skillDescription;
     }
 }

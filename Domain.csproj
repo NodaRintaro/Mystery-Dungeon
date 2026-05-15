@@ -66,18 +66,19 @@
     <Compile Include="Assets\Scripts\Domain\Interface\Data\IItemData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\ICharacterData.cs" />
     <Compile Include="Assets\Scripts\Domain\Enum\CharacterType.cs" />
+    <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonCondition.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IData.cs" />
     <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonRoomData.cs" />
     <Compile Include="Assets\Scripts\Domain\Effect\Effect.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\CharacterActionOrder.cs" />
     <Compile Include="Assets\Scripts\Domain\Player\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IQuestClearCondition.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\DamageCalculator.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\IDungeonCondition.cs" />
+    <Compile Include="Assets\Scripts\Domain\Interface\IOnGrid.cs" />
     <Compile Include="Assets\Scripts\Domain\Enum\TileType.cs" />
     <Compile Include="Assets\Scripts\Domain\CommandBattle\TurnBasedCommandBattleSystem.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\IOnGridData.cs" />
     <Compile Include="Assets\Scripts\Domain\Gimmick\GimmickData.cs" />
     <Compile Include="Assets\Scripts\Domain\Enemy\EnemyData.cs" />
-    <Compile Include="Assets\Scripts\Domain\Interface\IQuestClearConditions.cs" />
     <Compile Include="Assets\Scripts\Domain\System\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Domain\Quest\QuestData.cs" />
     <Compile Include="Assets\Scripts\Domain\Character\CharacterMovement.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\Domain\Interface\Data\ISkillData.cs" />
     <Compile Include="Assets\Scripts\Domain\Interface\Data\IGimmickData.cs" />
     <Compile Include="Assets\Scripts\Domain\Dungeon\DungeonBuilder.cs" />
+    <Compile Include="Assets\Scripts\Domain\Enum\QuestClearType.cs" />
     <Compile Include="Assets\Scripts\Domain\Skill\SkillData.cs" />
   </ItemGroup>
   <ItemGroup>

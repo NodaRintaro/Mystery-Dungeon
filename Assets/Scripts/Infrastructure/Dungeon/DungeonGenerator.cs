@@ -12,36 +12,9 @@ namespace Layer.Infrastructure
         [SerializeField]
         private int _gridSize = 2;
 
-        // 各セクションのサイズ（一辺の長さ）
-        [Header("各セクションのサイズ")]
-        [SerializeField] private int _sectionRange = 10;
-
-        // 生成する部屋の最小・最大数
-        [Header("部屋の最小生成数")]
-        [SerializeField] private int _minRoomNum = 5;
-        [Header("部屋の最大生成数")]
-        [SerializeField] private int _maxRoomNum = 10;
-
-        // ダンジョンのセクション分割数（横・縦）
-        [Header("横方向のセクション数")]
-        [SerializeField] private int _horizontalSectionsNum = 5;
-        [Header("縦方向のセクション数")]
-        [SerializeField] private int _verticalSectionsNum = 5;
-
         // ダンジョンが生成される高さ（Y座標）
         [Header("ダンジョンの生成高度")]
         [SerializeField] private int _groundheight = 0;
-
-        // 基本の連結以外に追加で生成する通路の数
-        [Header("追加の通路数")]
-        [SerializeField] private int _addRoadNum = 5;
-
-        // 部屋データおよびマップデータのロードパス
-        [Header("部屋データのパス")]
-        [SerializeField] private string _roomDataPath = "DefaultDungeonRoom";
-
-        [Header("マップデータのパス")]
-        [SerializeField] private string _mapDataPath = "Default";
 
         // 生成されたタイルオブジェクトを管理するプールクラス
         [Header("オブジェクトプール管理クラス")]
@@ -49,38 +22,18 @@ namespace Layer.Infrastructure
 
         private DungeonBuilder _dungeonBuilder = new();
 
-        #region ゲッター
-        public int GridSize => _gridSize;
-        public int SectionRange => _sectionRange;
-        public int MinRoomNum => _minRoomNum;
-        public int MaxRoomNum => _maxRoomNum;
-        public int HorizontalSectionsNum => _horizontalSectionsNum;
-        public int VerticalSectionsNum => _verticalSectionsNum;
-        public int GroundHeight => _groundheight;
-        public int addRoadNum => _addRoadNum;
-        #endregion
-
-        #region セッター
-        public void SetSectionRange(int sectionRange) => _sectionRange = sectionRange;
-        public void SetMinRoomNum(int minRoomNum) => _minRoomNum = minRoomNum;
-        public void SetMaxRoomNum(int maxRoomNum) => _maxRoomNum = maxRoomNum;
-        public void SetHorizontalSectionsNum(int horizontalSectionsNum) => _horizontalSectionsNum = horizontalSectionsNum;
-        public void SetVerticalSectionsNum(int verticalSectionsNum) => _verticalSectionsNum = verticalSectionsNum;
-        public void SetaddRoadNum(int addRoadNum) => _addRoadNum = addRoadNum;
-        #endregion
-
         /// <summary> ダンジョンの生成プロセスを実行します。 </summary>
-        public async UniTask<DungeonData> GenerateDungeon()
+        public async UniTask<DungeonData> GenerateDungeon(DungeonCondition dungeonCondition)
         {
             LoadStageTilePrefab();
-            DungeonData dungeonData = await CreateStageData();
+            DungeonData dungeonData = await CreateStageData(dungeonCondition);
 
-            for (int x = 0; x < _horizontalSectionsNum; x++)
+            for (int x = 0; x < dungeonCondition.HorizontalSectionsNum; x++)
             {
-                for (int y = 0; y < _verticalSectionsNum; y++)
+                for (int y = 0; y < dungeonCondition.VerticalSectionsNum; y++)
                 {
                     Vector2Int generatePoints = new Vector2Int(x, y);
-                    GenerateSection(dungeonData.DungeonSectionsData[x, y], generatePoints);
+                    GenerateSection(dungeonData.DungeonSectionsData[x, y], generatePoints, dungeonCondition.SectionRange);
                 }
             }
 
@@ -102,9 +55,9 @@ namespace Layer.Infrastructure
         }
 
         /// <summary> ダンジョン生成に必要な構成データを構築します。 </summary>
-        private async UniTask<DungeonData> CreateStageData()
+        private async UniTask<DungeonData> CreateStageData(DungeonCondition dungeonCondition)
         {
-            return await _dungeonBuilder.BuildDungeon(_sectionRange, _horizontalSectionsNum, _verticalSectionsNum, _minRoomNum, _maxRoomNum, _addRoadNum, _roomDataPath);
+            return await _dungeonBuilder.BuildDungeon(dungeonCondition.SectionRange, dungeonCondition.HorizontalSectionsNum, dungeonCondition.VerticalSectionsNum, dungeonCondition.MinRoomNum, dungeonCondition.MaxRoomNum, dungeonCondition.AddRoadNum, dungeonCondition.RoomDataPath);
         }
 
         /// <summary> 指定されたタイルの種類に応じて、プールからオブジェクトを生成します。 </summary>   
@@ -123,12 +76,12 @@ namespace Layer.Infrastructure
         }
 
         /// <summary> セクションデータに基づき、タイルを配置してセクションを構築します。 </summary>
-        private void GenerateSection(SectionData sectionData, Vector2Int generatePoints)
+        private void GenerateSection(SectionData sectionData, Vector2Int generatePoints, int sectionRange)
         {
             Vector2Int firstGeneratePos = new Vector2Int
             {
-                x = (generatePoints.x * _sectionRange) + _sectionRange,
-                y = (generatePoints.y * _sectionRange) + _sectionRange
+                x = (generatePoints.x * sectionRange) + sectionRange,
+                y = (generatePoints.y * sectionRange) + sectionRange
             };
 
             int gridPosCount = 0;
@@ -139,7 +92,7 @@ namespace Layer.Infrastructure
 
                 if (gridTileObj != null)
                 {
-                    gridTileObj.transform.position = GetGenerateTilePosition(gridPosCount, firstGeneratePos);   
+                    gridTileObj.transform.position = GetGenerateTilePosition(gridPosCount, firstGeneratePos, sectionRange);   
                     gridTileObj.transform.parent = _tileObjectPool.DungeonTileParent.transform;
                 }
                 gridPosCount++;
@@ -147,11 +100,11 @@ namespace Layer.Infrastructure
         }
 
         /// <summary> グリッド内のインデックスから、ワールド座標でのタイル配置位置を算出します。 </summary>
-        private Vector3Int GetGenerateTilePosition(int sectionsGridPos, Vector2Int leftBottomPos)
+        private Vector3Int GetGenerateTilePosition(int sectionsGridPos, Vector2Int leftBottomPos, int sectionRange)
         {
             Vector3Int generatePos;
 
-            if (sectionsGridPos < _sectionRange)
+            if (sectionsGridPos < sectionRange)
             {
                 generatePos = new Vector3Int
                 {
@@ -164,14 +117,14 @@ namespace Layer.Infrastructure
             {
                 generatePos = new Vector3Int
                 {
-                    x = (sectionsGridPos % _sectionRange) + leftBottomPos.x,
+                    x = (sectionsGridPos % sectionRange) + leftBottomPos.x,
                     y = _groundheight,
-                    z = (sectionsGridPos / _sectionRange) + leftBottomPos.y
+                    z = (sectionsGridPos / sectionRange) + leftBottomPos.y
                 };
             }
 
-            generatePos.x *= GridSize;
-            generatePos.z *= GridSize;
+            generatePos.x *= _gridSize;
+            generatePos.z *= _gridSize;
             return generatePos;
         }
 
