@@ -61,32 +61,33 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestStartNotifier.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Initializer\AssetsLoadInitializer.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGCSVDataGroup.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\SkillDataHolder.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\CharacterViewDataHolder.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Item\ItemSpawner.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGTileDataGroup.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\TileViewDataHolder.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Enemy\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\AddressableAssetPath\AAGRoomDataGroup.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Player\PlayerSpawner.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Sound\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestSaveData.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Quest\QuestSaveDataInitializer.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonTileObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Interface\IFactry.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonDataRepositry.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\AsstesLoader.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\ServiceLocator.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Character\CharacterDataRepositry.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\Factry.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\ScriptableObject\RoomDataHolder.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\CSVDateLoader.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\System\SceneTransitionManager.cs" />
-    <Compile Include="Assets\Scripts\Infrastructure\Dungeon\DungeonGenerator.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\AddressableAssetPath\AAGTileDataGroup.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Skill\SkillDataHolder.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Sound\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Quest\QuestInitializer.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Character\CharacterDataRepositry.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Dungeon\RoomDataHolder.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Player\PlayerSpawner.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Quest\QuestStartNotifier.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Dungeon\DungeonTileObjectHolder.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\Factry.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Quest\QuestSaveData.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Dungeon\DungeonTileObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Quest\QuestData.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Enemy\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Interface\IFactry.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Dungeon\DungeonDataRepositry.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\ServiceLocator.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\AddressableAssetPath\AAGRoomDataGroup.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\OutGame\Screen\OutGameScreenInitializer.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Character\CharacterPrefabHolder.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\CSVDateLoader.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\AddressableAssetPath\AAGCSVDataGroup.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Dungeon\DungeonSpawner.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\Item\ItemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\SceneTransitionManager.cs" />
+    <Compile Include="Assets\Scripts\Infrastructure\InGame\System\AsstesLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Infrastructure\Infrastructure.asmdef" />
@@ -1145,6 +1146,10 @@
     <ProjectReference Include="CriMw.CriWare.Runtime.csproj">
       <Project>{B117B71F-D196-514A-9DCB-0E1F0AD50E5E}</Project>
       <Name>CriMw.CriWare.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{ACC707A5-8AA0-9597-FE1F-2F04BD452E54}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

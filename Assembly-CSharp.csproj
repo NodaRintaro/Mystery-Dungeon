@@ -1419,12 +1419,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UniTask.Addressables">
@@ -1473,10 +1473,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{40E21C09-D87E-D71C-E064-49AB8789EF49}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="MagicaClothV2.csproj">
       <Project>{021F1A55-24FF-2A79-1BB3-449383DB1AB6}</Project>
       <Name>MagicaClothV2</Name>
@@ -1508,6 +1504,10 @@
     <ProjectReference Include="Domain.csproj">
       <Project>{4158E2F3-99B3-2282-CA66-E78100233AD9}</Project>
       <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="DOTween.Modules.csproj">
+      <Project>{8C0D5647-9E19-CDBD-5399-3B6BF5867A1B}</Project>
+      <Name>DOTween.Modules</Name>
     </ProjectReference>
     <ProjectReference Include="CriMw.CriWare.Editor.csproj">
       <Project>{CCD308BD-6BDE-5FAE-B355-6A067AB3AC8D}</Project>
