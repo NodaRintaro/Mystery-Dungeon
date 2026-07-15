@@ -1,21 +1,24 @@
-using UnityEngine;
 using UnityEditor;
-using Layer.Domain;
-using Layer.Infrastructure;
+using UnityEngine;
+
+using Domain.InGame;
+using Domain.InGame.Dungeon;
+using Infrastructure.InGame;
+
 
 [CustomEditor(typeof(RoomDataHolder))]
-public class RoomDataEditer : Editor
+public class RoomDataEditer : UnityEditor.Editor
 {
     //スクロールしている場所の位置
     private Vector2 scrollPos;
     private int _scrollHeight = 500;
-    
+
     //空白の大きさ
     private int _spaceSize = 10;
-    
+
     //表示するグリッドの大きさ
     private int _displayGridSize = 25;
-    
+
     //Gridの表示サイズの最低値と最高値
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
@@ -58,26 +61,26 @@ public class RoomDataEditer : Editor
         EditorGUILayout.Space(_spaceSize);
 
         scrollPos = EditorGUILayout.BeginScrollView(scrollPos, GUILayout.Height(_scrollHeight));
-        
+
         DungeonRoomData roomData = holder.RoomDataArray[_selectedRoomIndex];
-        
+
         //nullの場合Dataを初期化
         if (roomData.GridRoomData == null || roomData.GridRoomData.Length == 0)
         {
             roomData.InitRoomData(new TileType[roomData.Width * roomData.Height]);
             EditorUtility.SetDirty(holder);
         }
-        
+
         EditorGUILayout.LabelField("横のタイルの長さ:" + roomData.Width);
         EditorGUILayout.LabelField("縦のタイルの長さ:" + roomData.Height);
         EditorGUILayout.LabelField("出現重み:" + roomData.RoomWeight);
 
         EditorGUILayout.Space(_spaceSize);
-        
+
         TileTypeGUI(roomData, _displayGridSize);
-        
+
         _displayGridSize = EditorGUILayout.IntSlider("タイルの表示サイズ", _displayGridSize, _minDisplayGridSize, _maxDisplayGridSize);
-        
+
         EditorGUILayout.EndScrollView();
     }
 
@@ -85,7 +88,7 @@ public class RoomDataEditer : Editor
     {
         TileType currentTile;
         Color tileColor;
-        
+
         for (int y = 0; y < roomData.Height; y++)
         {
             //配列の要素数を横に表示する
@@ -101,7 +104,7 @@ public class RoomDataEditer : Editor
             EditorGUILayout.EndHorizontal();
         }
     }
-    
+
     /// <summary>グリッド上の表記をわかり安くする</summary>
     private Color GetTileColor(TileType type)
     {
@@ -113,7 +116,7 @@ public class RoomDataEditer : Editor
             default: return Color.magenta;
         }
     }
-    
+
     /// <summary>clickされた際にTileTypeを変える処理</summary>
     private TileType ChangeTileType(TileType type)
     {

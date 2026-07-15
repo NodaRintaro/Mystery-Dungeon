@@ -61,13 +61,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Application\InGame\Enemy\EnemyCharacterStateMachine.cs" />
     <Compile Include="Assets\Scripts\Application\InGame\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Application\InGame\Item\ItemPresenter.cs" />
-    <Compile Include="Assets\Scripts\Application\InGame\Character\CharacterApplication.cs" />
-    <Compile Include="Assets\Scripts\Application\OutGame\Screen\OutGameScreenController.cs" />
+    <Compile Include="Assets\Scripts\Application\OutGame\Interface\IPlayerDataSaveView.cs" />
+    <Compile Include="Assets\Scripts\Application\Common\Interface\IScreenView.cs" />
+    <Compile Include="Assets\Scripts\Application\OutGame\PlayerSettings\PlayerSettingsPresenter.cs" />
     <Compile Include="Assets\Scripts\Application\InGame\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Application\OutGame\Fade\FadeScreenPresenter.cs" />
+    <Compile Include="Assets\Scripts\Application\Common\Screen\ScreenPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Application\Application.asmdef" />

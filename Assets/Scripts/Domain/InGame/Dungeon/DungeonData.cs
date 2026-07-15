@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Dungeon
 {
     /// <summary> ステージのデータ </summary>
     public class DungeonData

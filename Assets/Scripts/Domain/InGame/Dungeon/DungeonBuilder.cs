@@ -3,7 +3,9 @@ using Cysharp.Threading.Tasks;
 using System.Linq;
 using UnityEngine;
 
-namespace Layer.Domain
+using Domain.InGame.System;
+
+namespace Domain.InGame.Dungeon
 {
     /// <summary>
     /// ダンジョン生成を担当するクラスです。

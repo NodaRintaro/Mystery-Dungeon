@@ -1,8 +1,10 @@
-using Layer.Domain;
 using Cysharp.Threading.Tasks;
 using UnityEngine.InputSystem;
 
-namespace Layer.Application
+using Domain.Common.Interface;
+using Domain.InGame.Dungeon;
+
+namespace Application.InGame.Player
 {
     public class PlayerController
     {
@@ -10,8 +12,6 @@ namespace Layer.Application
         {
 
         }
-
-        private CharacterApplication _playerApplication = null;
 
         private ICharacterData _characterData = null;
 

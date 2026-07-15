@@ -1,21 +1,10 @@
-﻿using UnityEngine;
+using Domain.Common.Interface;
+using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Enemy
 {
-    public class EnemyData : CharacterData
+    public class EnemyData
     {
-        public EnemyData(
-            int id, 
-            string name, 
-            Vector3 position, 
-            int gridSize, 
-            int level, 
-            SkillSlot skillSlot, 
-            CharacterStatus status, 
-            CharacterGrowthRates growthRates)
-            : base(id, name, position, gridSize, level, skillSlot, status, growthRates)
-        {
 
-        }
     }
 }

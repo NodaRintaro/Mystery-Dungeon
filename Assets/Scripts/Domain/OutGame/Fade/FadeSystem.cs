@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UniRx;
 
-namespace Layer.Domain
+namespace Domain.InGame.Fade
 {
     public class FadeSystem
     {

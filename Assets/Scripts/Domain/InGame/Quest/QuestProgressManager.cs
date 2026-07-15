@@ -1,8 +1,9 @@
+using Domain.Common.Interface;
 using System;
 using UniRx;
 using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Quest
 {
     /// <summary> クエストの進行状況を管理するクラス </summary>
     public class QuestProgressManager

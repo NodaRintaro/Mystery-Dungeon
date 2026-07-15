@@ -1,16 +1,10 @@
-﻿﻿
-
-namespace Layer.Domain
+namespace Domain.InGame
 {
-public enum CharacterDirectionType
-{
-    Front,
-    Back,
-    Left,
-    Right
+    public enum CharacterDirectionType
+    {
+        Front,
+        Back,
+        Left,
+        Right
+    }
 }
-}
-
-
-
-

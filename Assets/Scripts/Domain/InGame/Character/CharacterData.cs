@@ -1,28 +1,34 @@
+using Domain.InGame;
+using Domain.Common.Interface;
+using Domain.InGame.Skill;
 using System;
 using UniRx;
-using UnityEditor;
 using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Character
 {
     [Serializable]
     /// <summary> キャラクターのデータ </summary>
-    public class CharacterData : IData, IOnGrid
+    public struct CharacterData : ICharacterData
     {
         /// <summary> キャラクターデータのコンストラクタ </summary>
         /// <param name="characterGridSize">キャラクターの占有するGridのサイズ</param>
         /// <param name="characterLevel">キャラクターのレベル</param>
         /// <param name="characterStatus">キャラクターのステータス</param>
         /// <param name="growthRates">キャラクターの成長曲線</param>
-        public CharacterData(int id, string name, Vector3 characterPosition, int characterGridSize, int characterLevel, 
+        public CharacterData(int id, string name, 
+            Vector3 characterPosition, int characterGridSize, int characterLevel, 
             SkillSlot skillSlot, CharacterStatus characterStatus, CharacterGrowthRates growthRates)
         {
             _id = id;
             _characterName = name;
+            _characterPosition = new(characterPosition);
+            _characterGridSize = characterGridSize;
             _growthData = new CharacterGrowthData(characterLevel, growthRates);
             _currentCharacterStatus = characterStatus;
             _characterSkillSlot = skillSlot;
-            _characterPosition = characterPosition;
+            _canAction = false;
+            _characterDirection = new(CharacterDirectionType.Front);
         }
 
         [SerializeField, Tooltip("キャラクターのID")]
@@ -31,26 +37,26 @@ namespace Layer.Domain
         [SerializeField, Tooltip("キャラクターの名前")]
         private string _characterName;
 
-        [SerializeField, Tooltip("キャラクターの向き")]
-        private CharacterDirectionType _characterDirection = CharacterDirectionType.Front;
-
         [SerializeField, Tooltip("キャラクターのステータス")]
-        private readonly CharacterStatus _currentCharacterStatus = null;
+        private readonly CharacterStatus _currentCharacterStatus;
 
         [SerializeField, Tooltip("キャラクターの成長曲線")]
-        private readonly CharacterGrowthData _growthData = null;
+        private readonly CharacterGrowthData _growthData;
 
         [SerializeField, Tooltip("所持スキル")]
-        private SkillSlot _characterSkillSlot = null;
+        private SkillSlot _characterSkillSlot;
+
+        /// <summary> キャラクターの向いている方向 </summary>
+        private ReactiveProperty<CharacterDirectionType> _characterDirection;
 
         /// <summary> キャラクターの座標 </summary>
-        private Vector3 _characterPosition = Vector3.zero;
+        private ReactiveProperty<Vector3> _characterPosition;
 
         /// <summary> このキャラクターの行動可能フラグ </summary>
-        private bool _canAction = false;
+        private bool _canAction;
 
         /// <summary> キャラクターの占有するGridのサイズ </summary>
-        private readonly int _characterGridSize = 0;
+        private readonly int _characterGridSize;
 
         #region 参照用プロパティ
         public int ID => _id;
@@ -59,43 +65,45 @@ namespace Layer.Domain
         public CharacterGrowthData GrowthData => _growthData;
         public SkillSlot CharacterSkillSlot => _characterSkillSlot;
         public bool CanAction => _canAction;
-        public CharacterDirectionType CharacterDirection => _characterDirection;
-        public Vector3 GridPosition => _characterPosition;
+        public IReadOnlyReactiveProperty<CharacterDirectionType> CharacterDirection => _characterDirection;
+        public IReadOnlyReactiveProperty<Vector3> GridPosition => _characterPosition;
         public int GridSize => _characterGridSize;
         #endregion
 
-        public void SetDirection(CharacterDirectionType characterDirection) => _characterDirection = characterDirection;
-        public void SetPosition(Vector3 position) => _characterPosition = position;
+        public void SetDirection(CharacterDirectionType characterDirection) => _characterDirection.Value = characterDirection;
+        public void SetPosition(Vector3 position) => _characterPosition.Value = position;
     }
 
     #region キャラクターの成長データ
     /// <summary> キャラクターの成長データ </summary>
-    public class CharacterGrowthData
+    public struct CharacterGrowthData
     {
-        public CharacterGrowthData(int characterLevel, CharacterGrowthRates characterGrowthRates)
+        public CharacterGrowthData(int characterLevel, CharacterGrowthRates growthRates)
         {
-            _characterLevel = characterLevel;
-            _characterGrowthRates = characterGrowthRates;
+            _characterLevel = new(characterLevel);
+            _characterXP = new(0);
+            _nextLevelXP = 0;
+            _characterGrowthRates = growthRates;
         }
 
         /// <summary> キャラクターのレベル </summary>
-        private int _characterLevel;
+        private ReactiveProperty<int> _characterLevel;
+        /// <summary> キャラクターの経験値 </summary>
+        private ReactiveProperty<int> _characterXP;
         /// <summary> 次のレベルまでの経験値 </summary>
         private int _nextLevelXP;
-        /// <summary> キャラクターの経験値 </summary>
-        private int _characterXP;
         /// <summary> キャラクターの成長曲線 </summary>
         private CharacterGrowthRates _characterGrowthRates;
 
         #region 参照用プロパティ
-        public int CharacterLevel => _characterLevel;
+        public IReactiveProperty<int> CharacterLevel => _characterLevel;
+        public IReactiveProperty<int> CharacterXP => _characterXP;
         public int NextLevelXP => _nextLevelXP;
-        public int CharacterXP => _characterXP;
         #endregion
 
         /// <summary> キャラクターのレベルを増加させる </summary>
         /// <param name="addLevel"> 増加させるレベル </param>   
-        public void AddCharacterLevel(int addLevel) => _characterLevel += addLevel;
+        public void AddCharacterLevel(int addLevel) => _characterLevel.Value += addLevel;
 
         /// <summary> 次のレベルまでの経験値を増加させる </summary>
         /// <param name="addXP"> 増加させる経験値 </param>
@@ -103,7 +111,7 @@ namespace Layer.Domain
 
         /// <summary> キャラクターの経験値を増加させる </summary>
         /// <param name="addXP"> 増加させる経験値 </param>
-        public void AddCharacterXP(int addXP)  => _characterXP += addXP;
+        public void AddCharacterXP(int addXP)  => _characterXP.Value += addXP;
 
         public CharacterGrowthRates CharacterGrowthRates => _characterGrowthRates;
     }
@@ -112,12 +120,14 @@ namespace Layer.Domain
     #region キャラクターステータス
     /// <summary> キャラクターのステータス </summary>
     [Serializable]
-    public class CharacterStatus
+    public struct CharacterStatus
     {
         public CharacterStatus(int maxHp, int maxMp, int atk, int matk, int def, int mdef, int speed, int criticalRate, int criticalDMG)
         {
             _maxHp = maxHp;
+            _currentHP = new(maxHp);
             _maxMp = maxMp;
+            _currentMP = new(maxMp);
             _atk = atk;
             _matk = matk;
             _def = def;
@@ -132,7 +142,7 @@ namespace Layer.Domain
         /// <summary> 現在の魔力 </summary>
         private ReactiveProperty<int> _currentMP;
         /// <summary> 体力の最大値 </summary>
-        private  int _maxHp;
+        private int _maxHp;
         /// <summary> 魔力の最大値 </summary>
         private int _maxMp;
         /// <summary> 物理攻撃力 </summary>
@@ -195,138 +205,54 @@ namespace Layer.Domain
         #endregion
     }
 
-    #region ステータスの表示用エディタ拡張
-#if UNITY_EDITOR
-    [CustomPropertyDrawer(typeof(CharacterStatus))]
-    public class CharacterStatusDrawer : PropertyDrawer
-    {
-        // 表示したいフィールド名（SerializeFieldがついた変数名）のリスト
-        private readonly string[] _fieldNames = {
-            "MaxHp",
-            "HP",
-            "MaxMp",
-            "MP",
-            "ATK",
-            "MATK",
-            "DEF",
-            "MDEF",
-            "SPEED",
-            "CriticalRate",
-            "CriticalDMG"
-            };
-
-        // インスペクター上のラベル表示名
-        private readonly string[] _displayNames = {
-            "Max HP",
-            "Current HP",
-            "Max MP",
-            "Current MP",
-            "ATK",
-            "MATK",
-            "DEF",
-            "MDEF",
-            "Speed",
-            "Critical Rate (%)",
-            "Critical DMG (%)"
-            };
-
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-        {
-            EditorGUI.BeginProperty(position, label, property);
-
-            // 親ラベル（変数名）を表示
-            position = EditorGUI.PrefixLabel(position, GUIUtility.GetControlID(FocusType.Passive), label);
-
-            // インデントの深さを調整
-            var indent = EditorGUI.indentLevel;
-            EditorGUI.indentLevel = 0;
-
-            // --- 表示のみ（編集不可）の設定開始 ---
-            EditorGUI.BeginDisabledGroup(true);
-
-            float lineHeight = EditorGUIUtility.singleLineHeight;
-            float spacing = 2f;
-            Rect fieldRect = new Rect(position.x, position.y, position.width, lineHeight);
-
-            for (int i = 0; i < _fieldNames.Length; i++)
-            {
-                SerializedProperty prop = property.FindPropertyRelative(_fieldNames[i]);
-
-                if (prop != null)
-                {
-                    // 正確にフィールドを描画
-                    EditorGUI.PropertyField(fieldRect, prop, new GUIContent(_displayNames[i]));
-                    // 次の行へ移動
-                    fieldRect.y += lineHeight + spacing;
-                }
-            }
-
-            EditorGUI.EndDisabledGroup();
-            // --- 表示のみの設定終了 ---
-
-            EditorGUI.indentLevel = indent;
-            EditorGUI.EndProperty();
-        }
-
-        public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
-        {
-            // 全体の高さを計算（(行数 * 1行の高さ) + 行間の合計）
-            float lineHeight = EditorGUIUtility.singleLineHeight;
-            float spacing = 2f;
-            return (lineHeight + spacing) * _fieldNames.Length;
-        }
-    }
-#endif
-    #endregion
-
     #endregion
 
     #region キャラクターの成長曲線
-    public class CharacterGrowthRates
+    public struct CharacterGrowthRates
+    {
+        public CharacterGrowthRates(int hpGrowthRate, int mpGrowthRate, int atkGrowthRate, int matkGrowthRate, int defGrowthRate, int mdefGrowthRate, int speedGrowthRate)
         {
-            public CharacterGrowthRates(int hpGrowthRate, int mpGrowthRate, int atkGrowthRate, int matkGrowthRate, int defGrowthRate, int mdefGrowthRate, int speedGrowthRate)
-            {
-                _hpGrowthRate = hpGrowthRate;
-                _mpGrowthRate = mpGrowthRate;
-                _atkGrowthRate = atkGrowthRate;
-                _matkGrowthRate = matkGrowthRate;
-                _defGrowthRate = defGrowthRate;
-                _mdefGrowthRate = mdefGrowthRate;
-                _speedGrowthRate = speedGrowthRate;
-            }
-
-            /// <summary> レベルアップ時のHPの成長率 </summary>
-            private float _hpGrowthRate;
-            /// <summary> レベルアップ時のMPの成長率 </summary>
-            private float _mpGrowthRate;
-            /// <summary> レベルアップ時のATKの成長率 </summary>
-            private float _atkGrowthRate;
-            /// <summary> レベルアップ時のATKの成長率 </summary>
-            private float _matkGrowthRate;
-            /// <summary> レベルアップ時のDEFの成長率 </summary>
-            private float _defGrowthRate;
-            /// <summary> レベルアップ時のMDEFの成長率 </summary>
-            private float _mdefGrowthRate;
-            /// <summary> レベルアップ時のSPEEDの成長率 </summary>
-            private float _speedGrowthRate;
-
-            public float HpGrowthRate => _hpGrowthRate;
-            public float MpGrowthRate => _mpGrowthRate;
-            public float AtkGrowthRate => _atkGrowthRate;
-            public float MatkGrowthRate => _matkGrowthRate;
-            public float DefGrowthRate => _defGrowthRate;
-            public float MdefGrowthRate => _mdefGrowthRate;
-            public float SpeedGrowthRate => _speedGrowthRate;
-
-            #region 成長率の増加用関数
-            public void AddHpGrowthRate(float hpGrowthRate) => _hpGrowthRate += hpGrowthRate;
-            public void AddMpGrowthRate(float mpGrowthRate) => _mpGrowthRate += mpGrowthRate;
-            public void AddAtkGrowthRate(float atkGrowthRate) => _atkGrowthRate += atkGrowthRate;
-            public void AddMatkGrowthRate(float matkGrowthRate) => _matkGrowthRate += matkGrowthRate;
-            public void AddDefGrowthRate(float defGrowthRate) => _defGrowthRate += defGrowthRate;
-            public void AddMdefGrowthRate(float mdefGrowthRate) => _mdefGrowthRate += mdefGrowthRate;
-            public void AddSpeedGrowthRate(float speedGrowthRate) => _speedGrowthRate += speedGrowthRate;
-            #endregion
+            _hpGrowthRate = hpGrowthRate;
+            _mpGrowthRate = mpGrowthRate;
+            _atkGrowthRate = atkGrowthRate;
+            _matkGrowthRate = matkGrowthRate;
+            _defGrowthRate = defGrowthRate;
+            _mdefGrowthRate = mdefGrowthRate;
+            _speedGrowthRate = speedGrowthRate;
         }
+
+        /// <summary> レベルアップ時のHPの成長率 </summary>
+        private float _hpGrowthRate;
+        /// <summary> レベルアップ時のMPの成長率 </summary>
+        private float _mpGrowthRate;
+        /// <summary> レベルアップ時のATKの成長率 </summary>
+        private float _atkGrowthRate;
+        /// <summary> レベルアップ時のATKの成長率 </summary>
+        private float _matkGrowthRate;
+        /// <summary> レベルアップ時のDEFの成長率 </summary>
+        private float _defGrowthRate;
+        /// <summary> レベルアップ時のMDEFの成長率 </summary>
+        private float _mdefGrowthRate;
+        /// <summary> レベルアップ時のSPEEDの成長率 </summary>
+        private float _speedGrowthRate;
+
+        public float HpGrowthRate => _hpGrowthRate;
+        public float MpGrowthRate => _mpGrowthRate;
+        public float AtkGrowthRate => _atkGrowthRate;
+        public float MatkGrowthRate => _matkGrowthRate;
+        public float DefGrowthRate => _defGrowthRate;
+        public float MdefGrowthRate => _mdefGrowthRate;
+        public float SpeedGrowthRate => _speedGrowthRate;
+
+        #region 成長率の増加用関数
+        public void AddHpGrowthRate(float hpGrowthRate) => _hpGrowthRate += hpGrowthRate;
+        public void AddMpGrowthRate(float mpGrowthRate) => _mpGrowthRate += mpGrowthRate;
+        public void AddAtkGrowthRate(float atkGrowthRate) => _atkGrowthRate += atkGrowthRate;
+        public void AddMatkGrowthRate(float matkGrowthRate) => _matkGrowthRate += matkGrowthRate;
+        public void AddDefGrowthRate(float defGrowthRate) => _defGrowthRate += defGrowthRate;
+        public void AddMdefGrowthRate(float mdefGrowthRate) => _mdefGrowthRate += mdefGrowthRate;
+        public void AddSpeedGrowthRate(float speedGrowthRate) => _speedGrowthRate += speedGrowthRate;
         #endregion
+    }
+    #endregion
 }

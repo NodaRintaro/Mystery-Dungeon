@@ -1,6 +1,9 @@
-﻿﻿public enum TileType
+namespace Domain.InGame
 {
-    Empty = 0,
-    Wall,
-    Ground,
+    public enum TileType
+    {
+        Empty = 0,
+        Wall = 1,
+        Ground = 2,
+    }
 }

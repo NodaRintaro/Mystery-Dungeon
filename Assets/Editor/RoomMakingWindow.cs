@@ -1,41 +1,44 @@
 using UnityEditor;
 using UnityEngine;
-using Layer.Domain;
-using Layer.Infrastructure;
+
+using Domain.InGame.Dungeon;
+using Domain.InGame;
+using Infrastructure.InGame;
+
 
 [System.Serializable]
 public class RoomMakingWindow : EditorWindow
 {
     private TileType[] _gridRoomData;
-    
+
     private Vector2 _scrollPos;
     private int _scrollHeight = 600;
-    
+
     private int _width = 5;
     private int _height = 5;
-    
+
     private int _spaceSize = 20;
     private int _displayGridSize = 25;
-    
+
     //Gridの表示サイズの最低値と最高値
     private int _minDisplayGridSize = 1;
     private int _maxDisplayGridSize = 50;
 
     private RoomDataHolder _roomDataHolder;
     private int _roomWeight = 5;
-    
+
     private bool _isInit = false;
-    
+
     [MenuItem("Tools/CreateRoom")]
     public static void ShowWindow()
     {
         GetWindow<RoomMakingWindow>();
     }
-    
+
     private void OnGUI()
     {
         _scrollPos = EditorGUILayout.BeginScrollView(_scrollPos, GUILayout.Height(_scrollHeight));
-        
+
         //初期化前に行うべき設定
         if (!_isInit)
         {
@@ -47,10 +50,10 @@ public class RoomMakingWindow : EditorWindow
             EditorGUILayout.LabelField("保存先のRoomDataHolderを指定");
             _roomDataHolder = (RoomDataHolder)EditorGUILayout.ObjectField(_roomDataHolder, typeof(RoomDataHolder), false);
         }
-        
+
         //1行空ける
         EditorGUILayout.Space(_spaceSize);
-        
+
         //ボタンを押すと初期化されるようにする
         if (GUILayout.Button("Initialize Grid"))
         {
@@ -63,14 +66,14 @@ public class RoomMakingWindow : EditorWindow
             _gridRoomData = null;
             _isInit = false;
         }
-        
+
         EditorGUILayout.Space(_spaceSize);
-        
-        if(_isInit)
+
+        if (_isInit)
         {
             RoomMakeGUI();
         }
-        
+
         EditorGUILayout.EndScrollView();
     }
 
@@ -93,9 +96,9 @@ public class RoomMakingWindow : EditorWindow
         EditorGUILayout.LabelField("現在の部屋の大きさ");
         EditorGUILayout.LabelField("横の長さ:" + _width + "マス");
         EditorGUILayout.LabelField("縦の長さ:" + _height + "マス");
-            
+
         EditorGUILayout.Space();
-        
+
         for (int y = 0; y < _height; y++)
         {
             //配列の要素数を横に表示する
@@ -118,12 +121,12 @@ public class RoomMakingWindow : EditorWindow
             }
             EditorGUILayout.EndHorizontal();
         }
-        
+
         if (GUILayout.Button("Add to RoomDataHolder"))
         {
             SaveRoomData();
         }
-        
+
         _displayGridSize = EditorGUILayout.IntSlider("タイルの表示サイズ", _displayGridSize, _minDisplayGridSize, _maxDisplayGridSize);
     }
     #endregion
@@ -134,8 +137,8 @@ public class RoomMakingWindow : EditorWindow
     {
         _gridRoomData = new TileType[_width * _height];
         for (int i = 0; i < _width; i++)
-        for (int j = 0; j < _height; j++)
-            _gridRoomData[i + _width * j] = TileType.Ground;
+            for (int j = 0; j < _height; j++)
+                _gridRoomData[i + _width * j] = TileType.Ground;
         _isInit = true;
     }
     #endregion
@@ -157,15 +160,15 @@ public class RoomMakingWindow : EditorWindow
         newRoomData.SetWidth(_width);
         newRoomData.SetRoomWeight(_roomWeight);
         newRoomData.InitRoomData(_gridRoomData);
-        
+
         _roomDataHolder.AddRoomData(newRoomData);
         EditorUtility.SetDirty(_roomDataHolder);
         AssetDatabase.SaveAssets();
-        
+
         Debug.Log("RoomData added to " + _roomDataHolder.name);
     }
     #endregion
-	
+
     /// <summary>clickされた際にTileTypeを変える機能</summary>
     /// <param name="type"></param>
     /// <returns></returns>
@@ -187,17 +190,17 @@ public class RoomMakingWindow : EditorWindow
             default: return Color.magenta;
         }
     }
-    
+
     /// <summary>指定したタイルの情報を取得</summary>
     public TileType GetTile(int x, int y)
     {
-        return _gridRoomData[TilePos(x,y)];
+        return _gridRoomData[TilePos(x, y)];
     }
-    
+
     /// <summary>指定したタイルのタイプを変更</summary>
     public void SetTile(int tilePosX, int tilePosY, TileType tileType)
     {
-        _gridRoomData[TilePos(tilePosX,tilePosY)] = tileType;
+        _gridRoomData[TilePos(tilePosX, tilePosY)] = tileType;
     }
 
     private int TilePos(int x, int y)
@@ -205,3 +208,4 @@ public class RoomMakingWindow : EditorWindow
         return x + y * _width;
     }
 }
+

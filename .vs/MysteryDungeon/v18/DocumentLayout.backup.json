@@ -3,23 +3,53 @@
   "WorkspaceRootPath": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\view\\outgame\\fade\\fadescreenview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|solutionrelative:assets\\scripts\\view\\outgame\\fade\\fadescreenview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\view\\outgame\\playersettings\\nameinputview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|solutionrelative:assets\\scripts\\view\\outgame\\playersettings\\nameinputview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D83C32F9-735E-499F-CE33-126D067D1A39}|Application.csproj|C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\assets\\scripts\\application\\outgame\\fade\\fadescreenpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D83C32F9-735E-499F-CE33-126D067D1A39}|Application.csproj|solutionrelative:assets\\scripts\\application\\outgame\\fade\\fadescreenpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\view\\outgame\\playersettings\\playersettingsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|solutionrelative:assets\\scripts\\view\\outgame\\playersettings\\playersettingsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|c:\\windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\unity\\mysterydungeon\\assets\\scripts\\view\\outgame\\playersettings\\genderselectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA6265-8829-870C-7A48-561F28F42EFB}|View.csproj|solutionrelative:assets\\scripts\\view\\outgame\\playersettings\\genderselectview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 247,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NameInputView.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\NameInputView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\NameInputView.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\NameInputView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\NameInputView.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T19:18:17.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenderSelectView.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\GenderSelectView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\GenderSelectView.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\GenderSelectView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\GenderSelectView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T19:18:04.067Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
@@ -30,28 +60,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FadeScreenView.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\Fade\\FadeScreenView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\OutGame\\Fade\\FadeScreenView.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\Fade\\FadeScreenView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\View\\OutGame\\Fade\\FadeScreenView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T06:02:51.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FadeScreenPresenter.cs",
-              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Application\\OutGame\\Fade\\FadeScreenPresenter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Application\\OutGame\\Fade\\FadeScreenPresenter.cs",
-              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\Application\\OutGame\\Fade\\FadeScreenPresenter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Application\\OutGame\\Fade\\FadeScreenPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAFAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-05-28T06:02:51.238Z"
+              "Title": "PlayerSettingsView.cs",
+              "DocumentMoniker": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\PlayerSettingsView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\PlayerSettingsView.cs",
+              "ToolTip": "C:\\Windows\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\Unity\\MysteryDungeon\\Assets\\Scripts\\View\\OutGame\\PlayerSettings\\PlayerSettingsView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\View\\OutGame\\PlayerSettings\\PlayerSettingsView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T19:05:58.135Z",
+              "EditorCaption": ""
             }
           ]
         }

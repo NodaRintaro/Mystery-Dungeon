@@ -64,7 +64,6 @@
     <Compile Include="Assets\Editor\AddressableGroupDetectorWindow.cs" />
     <Compile Include="Assets\Editor\CSVDataCreater.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Editor\RendererEditPartDataEditor.cs" />
-    <Compile Include="Assets\Editor\ServiceLocatorRegisterServiceWindow.cs" />
     <Compile Include="Assets\Editor\RoomMakingWindow.cs" />
     <Compile Include="Assets\Editor\RoomDataEditer.cs" />
     <Compile Include="Assets\Editor\SubclassSelector.cs" />

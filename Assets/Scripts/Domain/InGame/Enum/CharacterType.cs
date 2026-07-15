@@ -1,7 +1,10 @@
-﻿using UnityEngine;
-
-public enum CharacterType
+using UnityEngine;
+namespace Domain.InGame
 {
-    Player,
-    Enemy
+    public enum CharacterType
+    {
+        Player,
+        Enemy
+    }
+
 }

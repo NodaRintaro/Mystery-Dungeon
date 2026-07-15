@@ -1,7 +1,7 @@
-﻿﻿using UnityEngine;
+using UnityEngine;
 
 
-namespace Layer.View
+namespace View.InGame.Item
 {
 public class ItemView : MonoBehaviour
 {

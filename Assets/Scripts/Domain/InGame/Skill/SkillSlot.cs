@@ -1,7 +1,4 @@
-﻿using Layer.Domain;
-using UnityEngine;
-
-namespace Layer.Domain
+namespace Domain.InGame.Skill
 {
     public class SkillSlot
     {
@@ -9,7 +6,5 @@ namespace Layer.Domain
         {
 
         }
-
-
     }
 }

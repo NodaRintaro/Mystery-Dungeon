@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Layer.View
+namespace View.InGame.Camera
 {
     /// <summary> ターゲット(主にPlayerを追従するカメラ) </summary>
     public class TargetFollowCamera : MonoBehaviour

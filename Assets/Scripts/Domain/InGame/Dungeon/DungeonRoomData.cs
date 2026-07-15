@@ -1,7 +1,7 @@
-﻿﻿using System;
+using System;
 using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Dungeon
 {
     [Serializable]
     public class DungeonRoomData

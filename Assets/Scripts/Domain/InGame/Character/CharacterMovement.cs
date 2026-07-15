@@ -1,8 +1,11 @@
-﻿using Layer.Domain;
 using UnityEngine;
 using System;
 
-namespace Layer.Domain
+using Domain.InGame;
+using Domain.Common.Interface;
+using Domain.InGame.Dungeon;
+
+namespace Domain.InGame.Character
 {
     public class CharacterMovement : IDisposable
     {

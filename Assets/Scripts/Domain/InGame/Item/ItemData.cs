@@ -1,6 +1,6 @@
-﻿﻿using UnityEngine;
+using UnityEngine;
 
-namespace Layer.Domain
+namespace Domain.InGame.Item
 {
     public class ItemData
     {

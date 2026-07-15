@@ -1,6 +1,9 @@
-﻿﻿using UnityEngine;
+using Domain.InGame.Character;
+using UnityEngine;
 
-namespace Layer.Domain
+
+
+namespace Domain.InGame.CommandBattle
 {
     public class DamageCalculator
     {
@@ -9,7 +12,7 @@ namespace Layer.Domain
         /// <param name="attackerStatus"></param>
         /// <param name="damageEffect"></param>
         /// <returns> TotalDamage </returns>
-        public int CalculateTotalDamage(CharacterStatus targetStatus, CharacterStatus attackerStatus, DamageEffect damageEffect)
+        public int CalculateTotalDamage(CharacterStatus targetStatus, CharacterStatus attackerStatus)
         {
             return 0;
         }

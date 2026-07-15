@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+using Domain.Common.Interface;
+using UnityEngine;
 
-namespace Layer.Domain.SkillData
+namespace Domain.InGame.Skill
 {
     /// <summary> スキルデータ </summary>
     public class SkillData : ISkillData

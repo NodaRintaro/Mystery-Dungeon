@@ -12,7 +12,7 @@ using UnityEngine;
 public class AddressableGroupDetectorWindow : EditorWindow
 {
     private AddressableAssetGroup _targetGroup;
-    private string _saveFolder;
+    private const string _saveFolder = "Assets/Scripts/Infrastructure/Common/AddressableAssetPath";
 
     [MenuItem("Tools/Detector/AddressableGroupDetectorWindow")]
     private static void Init()
@@ -23,7 +23,6 @@ public class AddressableGroupDetectorWindow : EditorWindow
     private void OnGUI()
     {
         _targetGroup = (AddressableAssetGroup)EditorGUILayout.ObjectField(_targetGroup, typeof(AddressableAssetGroup), false);
-        _saveFolder = EditorGUILayout.TextField("SavePath", _saveFolder);
 
         if (_targetGroup == null) return;
         var path = _saveFolder + $"/AAG{_targetGroup.name.Replace(" ", "")}.cs";
@@ -37,6 +36,7 @@ public class AddressableGroupDetectorWindow : EditorWindow
 
             List<string> content = new List<string>();
             content.Add("// 自動生成のソースコードです\n");
+            content.Add("namespace Infrastructure.Common.AddressableAssetPath" + "\n{\n");
             content.Add($"public class AAG{_targetGroup.name.Replace(" ", "")}" + "\n{\n");
             foreach (var obj in _targetGroup.entries)
             {
@@ -45,7 +45,7 @@ public class AddressableGroupDetectorWindow : EditorWindow
                 content.Add(line);
             }
 
-            content.Add("}\n");
+            content.Add("}\n}\n");
             WriteCode(path, content);
         }
     }

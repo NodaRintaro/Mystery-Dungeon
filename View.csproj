@@ -61,16 +61,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\View\OutGame\UI\OscillationAnimationUI.cs" />
     <Compile Include="Assets\Scripts\View\InGame\Player\PlayerCharacterView.cs" />
     <Compile Include="Assets\Scripts\View\InGame\Camera\TargetFollowCamera.cs" />
-    <Compile Include="Assets\Scripts\View\OutGame\Home\HomeMenuScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\Common\Fade\FadeScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\Screen\QuestSelectMenuScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\PlayerSettings\JobSelectView.cs" />
     <Compile Include="Assets\Scripts\View\OutGame\Screen\ScreenView.cs" />
-    <Compile Include="Assets\Scripts\View\OutGame\Title\TitleScreenView.cs" />
-    <Compile Include="Assets\Scripts\View\OutGame\Fade\FadeScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\QuestSelect\QuestSelectButtonUI.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\Screen\TitleScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\PlayerSettings\GenderSelectView.cs" />
     <Compile Include="Assets\Scripts\View\InGame\Item\ItemView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\Screen\PlayerSettingsScreenView.cs" />
     <Compile Include="Assets\Scripts\View\InGame\Character\CharacterAnimator.cs" />
-    <Compile Include="Assets\Scripts\View\OutGame\QuestSelect\QuestSelectMenuScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\PlayerSettings\NameInputView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\Screen\HomeMenuScreenView.cs" />
+    <Compile Include="Assets\Scripts\View\OutGame\PlayerSettings\PlayerSettingsView.cs" />
+    <Compile Include="Assets\Scripts\View\Common\UI\OscillationAnimationUI.cs" />
     <Compile Include="Assets\Scripts\View\InGame\Enemy\EnemyCharacterView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1095,6 +1101,14 @@
     </Reference>
     <Reference Include="UniTask.DOTween">
       <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">

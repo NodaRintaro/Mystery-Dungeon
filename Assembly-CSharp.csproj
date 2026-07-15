@@ -72,6 +72,7 @@
     <Compile Include="Assets\AssetStoreTools\AurynSky\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\IEditPartData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\AvatarEditData.cs" />
+    <Compile Include="Assets\AssetStoreTools\JTS_TheSamuraiSword\Demo\Scripts\DemoCameraController.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\EquipmentFrameIconView.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\Data\FaceEmotionData.cs" />
     <Compile Include="Assets\AssetStoreTools\P09_Modular_Humanoid\Scenes\DemoScene_Data\Scripts\WeaponsListView.cs" />
@@ -136,6 +137,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_vert_fur_thirdparty.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_replace_keywords.hlsl" />
+    <None Include="Assets\AssetStoreTools\JTS_TheSamuraiSword\_ReadMe.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltspass_tess_cutout.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_onetrans.shader" />
@@ -143,6 +145,7 @@
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fur_two.shader" />
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_AB_DissolveTex_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_overlay.shader" />
+    <None Include="Assets\AssetStoreTools\FREE Food Pack\Shaders\Food.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_fur.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_cutout.shader" />
@@ -213,6 +216,7 @@
     <None Include="Assets\AssetStoreTools\Vefects\Stylized VFX URP\Stylized VFX Shuriken\Shared\Shaders\SH_VFX_Vefects_Add_Dissolve_URP_New.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_oo.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_trans_oo.shader" />
+    <None Include="Assets\AssetStoreTools\JTS_TheSamuraiSword\Shaders\jts_custom_sword.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\ltsl_trans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_trans_o.shader" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_frag.hlsl" />
@@ -244,6 +248,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\AssetStoreTools\Forest Pack\READ ME.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\lts_ref_blur.shader" />
+    <None Include="Assets\AssetStoreTools\JTS_TheSamuraiSword\_SRP\_SRP_ReadMe.txt" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_depthnormals.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_pass_forward_normal.hlsl" />
     <None Include="Assets\AssetStoreTools\jp.lilxyzw.liltoon-2.3.2\Shader\Includes\lil_common_input_base.hlsl" />
